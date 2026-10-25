@@ -37,19 +37,24 @@ def public_url(url):
 
 def load_sources():
     merged={}
-    for filename,label in [('sports-latest.m3u','Sports'),('uk-latest.m3u','UK'),('extra-latest.m3u','Extra')]:
+    for filename,label in [('sports-latest.m3u','Sports'),('uk-latest.m3u','UK'),('extra-latest.m3u','Extra'),('retained-latest.m3u','Retained')]:
         path=CACHE/filename
         if not path.exists(): continue
         for entry in entries(path.read_text(encoding='utf-8-sig')):
             if not public_url(entry['url']): continue
             if not entry['id']: entry['id']='Unmapped'+hashlib.sha256(entry['url'].encode()).hexdigest()[:16]+'.invalid'
+            labels=[label]
+            if label=='Retained':
+                group=entry['attrs'].get('group-title','')
+                labels.append('UK' if group=='UK channels' else ('Extra' if group=='BBC and Sky' else 'Sports'))
             ident=(entry['id'],entry['url'])
             if ident in merged:
-                merged[ident]['sources'].append(label)
+                merged[ident]['sources']=list(dict.fromkeys(merged[ident]['sources']+labels))
             else:
-                entry['sources']=[label]
+                entry['sources']=labels
                 merged[ident]=entry
-    return list(merged.values())
+    allowed={e['id'] for e in merged.values() if 'Retained' in e['sources'] or 'Extra' in e['sources']}
+    return [e for e in merged.values() if not allowed or e['id'] in allowed]
 
 def fetch(url, headers, limit=262144):
     if not public_url(url): raise ValueError('Only public HTTP(S) media URLs are allowed')

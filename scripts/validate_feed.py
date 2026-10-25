@@ -15,7 +15,9 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  assert all(public_url(e['url']) for e in channels), 'Non-public or credential-bearing channel URL'
  assert '192.168.4.' not in text, 'Local network address must not be published'
  required={'SkySportsPremierLeague.uk@SD','SkySportsAction.uk@SD','BBCNews.uk@NorthAmerica'}
- assert required.issubset(ids), 'Requested BBC/Sky additions are missing'
+ retained=pathlib.Path(__file__).resolve().parents[1]/'config/retained-channels.m3u'
+ if retained.exists(): required.update(e['id'] for e in entries(retained.read_text(encoding='utf-8')))
+ assert required.issubset(ids), 'An existing curated or requested channel is missing'
  root=ET.parse(folder/guide_name).getroot()
  guide_ids={n.get('id') for n in root.findall('channel')}
  assert set(ids)==guide_ids, 'Guide and playlist channel IDs differ'

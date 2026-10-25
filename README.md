@@ -28,8 +28,12 @@ GitHub can disable schedules after prolonged repository inactivity.
 
 An HLS manifest and a small media sample are checked for source channels; this
 does not guarantee continuous video playback or availability at another location.
-Configured BBC/Sky additions stay in the list when a cloud probe fails, because
-cloud location/access results can differ from the TV. No guide data is invented.
+The curated channel IDs in `config/retained-channels.m3u` are preserved. Working
+replacement URLs for those IDs are preferred when available, while a failed
+cloud probe retains the previously checked TV link. Cloud location/access results
+can differ from the TV. Status separates playlist size from current cloud media
+responses. New channels can be added to the extra-channel configuration. No guide
+data is invented.
 The guide uses source times; a programme listing does not establish that the
 broadcast is live rather than a replay. The sources do not guarantee every
 Premier League or Liverpool match.

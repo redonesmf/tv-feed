@@ -4,12 +4,13 @@ from audit_sports import ROOT,CACHE,OUT
 from validate_feed import DATA,validate
 
 def refresh(reuse_audit=False):
+ shutil.copyfile(ROOT.parent/'config/extra-channels.m3u',CACHE/'extra-latest.m3u')
+ shutil.copyfile(ROOT.parent/'config/retained-channels.m3u',CACHE/'retained-latest.m3u')
  if not reuse_audit:
   for url,name in [('https://iptv-org.github.io/iptv/categories/sports.m3u','sports-latest.m3u'),('https://iptv-org.github.io/iptv/countries/uk.m3u','uk-latest.m3u')]:
    with urllib.request.urlopen(url,timeout=25) as response: body=response.read(2_000_000)
    if not body.lstrip().startswith(b'#EXTM3U'): raise RuntimeError('Upstream did not return an M3U playlist')
    (CACHE/name).write_bytes(body)
-  shutil.copyfile(ROOT.parent/'config/extra-channels.m3u',CACHE/'extra-latest.m3u')
   subprocess.run([sys.executable,str(ROOT/'audit_sports.py')],check=True)
  subprocess.run([sys.executable,str(ROOT/'build_sports_guide.py')],check=True)
  result=validate(OUT,'Sports-Checked.m3u','guide.xml')

@@ -32,11 +32,11 @@ def build():
     all_entries=load_sources()
     health=json.loads((OUT/'channel-health.json').read_text(encoding='utf-8'))
     status={(c['id'],c['url']):c for c in health['channels']}
-    candidates=[e for e in all_entries if (status.get((e['id'],e['url']),{}).get('status')=='media_responded' or 'Extra' in e['sources'])]
+    candidates=[e for e in all_entries if (status.get((e['id'],e['url']),{}).get('status')=='media_responded' or 'Extra' in e['sources'] or 'Retained' in e['sources'])]
     def rank(entry):
         result=status.get((entry['id'],entry['url']),{})
         quality=re.search(r'\((\d+)p\)',entry['name'])
-        return ('video_probe' in result,int(quality.group(1)) if quality else 0)
+        return (result.get('status')=='media_responded','video_probe' in result,int(quality.group(1)) if quality else 0)
     unique={}
     for entry in sorted(candidates,key=rank,reverse=True):
         identity=entry['id'] or entry['url']
@@ -112,7 +112,8 @@ def build():
         return '\n'.join(lines)+'\n'
     (OUT/'Sports-Checked.m3u.tmp').write_text(playlist(ordered),encoding='utf-8')
     (OUT/'Sports-Checked.m3u.tmp').replace(OUT/'Sports-Checked.m3u')
-    summary={'built_at':NOW.isoformat(),'original_channels':len(all_entries),'checked_media_channels':len(checked),'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':len(matched),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    cloud_verified=sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
+    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':len(matched),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 
