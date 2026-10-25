@@ -41,7 +41,7 @@ def snapshot_entries():
     return rows
 
 
-def build(snapshot=False):
+def build(snapshot=False,reuse_audit=False):
     all_entries=snapshot_entries() if snapshot else load_sources()
     health={'channels':[]} if snapshot else json.loads((OUT/'channel-health.json').read_text(encoding='utf-8'))
     status={(c['id'],c['url']):c for c in health['channels']}
@@ -156,12 +156,14 @@ def build(snapshot=False):
     (OUT/'coverage.json').write_text(json.dumps({'built_at':NOW.isoformat(),'channels':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
     cloud_verified=None if snapshot else sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
     previous=json.loads((ROOT.parent/'data/status.json').read_text(encoding='utf-8'))
-    last_check=previous.get('last_media_check_at',previous['built_at']) if snapshot else NOW.isoformat()
-    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not snapshot,'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    last_check=previous.get('last_media_check_at',previous['built_at']) if snapshot or reuse_audit else NOW.isoformat()
+    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not (snapshot or reuse_audit),'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--snapshot',action='store_true',help='Update guide only; preserve published stream URLs and source labels')
-    build(parser.parse_args().snapshot)
+    parser.add_argument('--reuse-audit',action='store_true',help='Do not mark a cached media audit as newly performed')
+    args=parser.parse_args()
+    build(args.snapshot,args.reuse_audit)

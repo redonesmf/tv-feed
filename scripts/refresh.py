@@ -13,7 +13,7 @@ def refresh(reuse_audit=False,guide_only=False):
    if not body.lstrip().startswith(b'#EXTM3U'): raise RuntimeError('Upstream did not return an M3U playlist')
    (CACHE/name).write_bytes(body)
   subprocess.run([sys.executable,str(ROOT/'audit_sports.py')],check=True)
- subprocess.run([sys.executable,str(ROOT/'build_sports_guide.py')]+(['--snapshot'] if guide_only else []),check=True)
+ subprocess.run([sys.executable,str(ROOT/'build_sports_guide.py')]+(['--snapshot'] if guide_only else (['--reuse-audit'] if reuse_audit else [])),check=True)
  result=validate(OUT,'Sports-Checked.m3u','guide.xml')
  summary=json.loads((OUT/'guide-summary.json').read_text(encoding='utf-8'))
  status={k:v for k,v in summary.items() if k!='guide_coverage'}
