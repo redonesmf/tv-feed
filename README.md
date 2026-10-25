@@ -19,7 +19,30 @@ logins, local device inventory, or private subscription credentials belong here.
 - Additional links: `config/extra-channels.m3u`, originally checked from
   [chingithub1/iptv](https://github.com/chingithub1/iptv/blob/main/Original) and
   iptv-org News. These are fixed links, not a provider subscription.
-- Guide: [IPTV-EPG.org](https://iptv-epg.org/guides), using matching channel IDs.
+- Guide: [IPTV-EPG.org](https://iptv-epg.org/guides), plus the
+  [MJH XMLTV mirror](https://github.com/matthuisman/i.mjh.nz) for Pluto TV,
+  Samsung TV Plus and Roku streams. Native stream IDs and reviewed aliases in
+  `config/guide-mappings.json` map listings to the existing playlist IDs.
+  Aliases have stream URL guards; similar names alone do not establish a match.
+- Coverage report: https://redonesmf.github.io/tv-feed/coverage.json
+- Optional guide-only playlist: https://redonesmf.github.io/tv-feed/guide.m3u
+  This uses the same streams but includes only channels with real listings in
+  the next 24 hours at build time. Listings can run out between refreshes.
+
+The full playlist keeps every curated channel. Channels with fresh listings
+appear first; unavailable schedules have separate, clearly labelled groups.
+The guide-only version is an alternative to the full playlist, not an extra
+playlist that must be added. Updating only `g.xml` does not update channel groups.
+
+Pluto guide matches use the precise native feed ID, preserving regional
+variants and upstream channel renames. Reviewed Samsung/Roku mappings use the
+platform and country identified in the stream URL, even when the M3U channel ID
+has a different country suffix. BBC News North America uses the corresponding
+US guide, not the domestic BBC News schedule. No placeholder schedules are made
+up. Duplicate and overlapping entries are removed. Publication validates all
+384 retained IDs, the guide-only subset, timestamps, overlaps and coverage.
+`status.json` distinguishes any listings, on-now listings and the next 24 hours.
+Some free channels publish no usable EPG; these remain playable without a guide.
 
 GitHub Actions refreshes at 05:23 and 17:23 UTC and can also be run manually from
 Actions. Schedules can be delayed. The last validated deployment stays online if

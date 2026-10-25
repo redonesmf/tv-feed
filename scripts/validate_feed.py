@@ -1,5 +1,6 @@
-import json,pathlib,sys,xml.etree.ElementTree as ET
+import collections,datetime as dt,json,pathlib,sys,xml.etree.ElementTree as ET
 from audit_sports import entries,public_url
+from supplement_guide import xmltime
 
 DATA=pathlib.Path(__file__).resolve().parents[1]/'data'
 
@@ -27,6 +28,25 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  assert all(p.findtext('title','').casefold() not in {'','no data','no information','tba'} for p in programmes), 'Guide contains placeholder programmes'
  covered={p.get('channel') for p in programmes}
  assert {'SkySportsPremierLeague.uk@SD','SkySportsAction.uk@SD'}.issubset(covered), 'Sky programme data is missing; preserving published feed'
+ assert len(covered)>=130, 'Guide coverage has regressed; preserving published feed'
+ by_channel=collections.defaultdict(list)
+ for p in programmes:
+  start,stop=xmltime(p.get('start')),xmltime(p.get('stop'))
+  assert start and stop and start<stop, 'Invalid programme time'
+  by_channel[p.get('channel')].append((start,stop))
+ for slots in by_channel.values():
+  slots.sort()
+  assert all(a[1]<=b[0] for a,b in zip(slots,slots[1:])), 'Duplicate or overlapping programme listings'
+ coverage=json.loads((folder/'coverage.json').read_text(encoding='utf-8'))
+ assert {c['id'] for c in coverage['channels']}==set(ids), 'Coverage report has different channels'
+ built=dt.datetime.fromisoformat(coverage['built_at'])
+ upcoming={ident for ident,slots in by_channel.items() if any(stop>built and start<built+dt.timedelta(hours=24) for start,stop in slots)}
+ assert upcoming=={c['id'] for c in coverage['channels'] if c['next_24h']}, 'Coverage report is incorrect'
+ guide_only='Guide-Only.m3u' if playlist_name=='Sports-Checked.m3u' else 'guide.m3u'
+ focused=entries((folder/guide_only).read_text(encoding='utf-8'))
+ assert {c['id'] for c in focused}==upcoming, 'Guide-only playlist includes missing listings'
+ original={c['id']:c['url'] for c in channels}
+ assert all(original[c['id']]==c['url'] for c in focused), 'Guide-only playlist changed a stream'
  result={'channels':len(channels),'channels_with_guide':len(covered),'programmes':len(programmes),'groups':sorted({e['attrs']['group-title'] for e in channels}),'validation':'passed'}
  return result
 

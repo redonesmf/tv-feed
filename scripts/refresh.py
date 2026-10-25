@@ -16,8 +16,8 @@ def refresh(reuse_audit=False):
  result=validate(OUT,'Sports-Checked.m3u','guide.xml')
  summary=json.loads((OUT/'guide-summary.json').read_text(encoding='utf-8'))
  status={k:v for k,v in summary.items() if k!='guide_coverage'}
- status.update(playlist_url='https://redonesmf.github.io/tv-feed/p.m3u',guide_url='https://redonesmf.github.io/tv-feed/g.xml',validation=result['validation'],source='iptv-org Sports and UK; manually checked BBC/Sky additions')
- for old,new in [('Sports-Checked.m3u','p.m3u'),('guide.xml','g.xml')]:
+ status.update(playlist_url='https://redonesmf.github.io/tv-feed/p.m3u',guide_url='https://redonesmf.github.io/tv-feed/g.xml',guide_only_playlist_url='https://redonesmf.github.io/tv-feed/guide.m3u',coverage_url='https://redonesmf.github.io/tv-feed/coverage.json',validation=result['validation'],source='iptv-org Sports and UK; manually checked BBC/Sky additions')
+ for old,new in [('Sports-Checked.m3u','p.m3u'),('guide.xml','g.xml'),('Guide-Only.m3u','guide.m3u'),('coverage.json','coverage.json')]:
   shutil.copyfile(OUT/old,DATA/(new+'.tmp'))
   (DATA/(new+'.tmp')).replace(DATA/new)
  (DATA/'status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')

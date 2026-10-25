@@ -1,0 +1,17 @@
+{
+  "BBCNews.uk@NorthAmerica": {"source":"primary", "country":"us", "id":"BBCNewsNorthAmerica.us", "stream_contains":"USA_BBC_NEWS", "reason":"BBC News North America stream; US North America listings"},
+  "CNBCUK.uk@SD": {"source":"primary", "country":"gb", "id":"CNBC.uk", "stream_contains":"nbcuuk-amg01079c2-samsung-gb", "reason":"CNBC UK stream and UK CNBC listings"},
+  "GODTV.uk@SD": {"source":"primary", "country":"gb", "id":"GodChannel.uk", "stream_contains":"chid_1/playlist.m3u8", "reason":"GOD TV is indexed as God Channel in the UK guide"},
+  "TBNUK.uk@SD": {"source":"primary", "country":"gb", "id":"TBN.uk", "stream_contains":"tbn-live/manifest.m3u8", "reason":"TBN UK uses TBN.uk in the UK guide"},
+  "StarBharat.uk@SD": {"source":"primary", "country":"gb", "id":"UtsavBharat.uk", "stream_contains":"streams/gb/YuppTV/UtsavBharat.m3u8", "reason":"Stream explicitly identifies UK Utsav Bharat"},
+  "FIFAPlusWomen.uk@English": {"source":"samsung", "id":"GB3800009F0", "stream_contains":"U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw", "reason":"Wurl path decodes to Samsung-gb_FIFAPluswomen_HLS"},
+  "FIFAPlus.uk@UnitedStates": {"source":"samsung", "id":"USBD12000255B", "stream_contains":"sysdata_s_p_a_fifa_7/samsungheadend_us", "reason":"FIFA+ Samsung US stream and US Samsung guide"},
+  "MostHaunted.uk@UK": {"source":"samsung", "id":"GB4300003ZT", "stream_contains":"amg00426c17-samsung-gb", "reason":"Most Haunted Samsung GB stream"},
+  "MrBeanLiveAction.uk@SD": {"source":"samsung", "id":"GB4000008O5", "stream_contains":"amg00627c39-samsung-gb", "reason":"Mr Bean live action Samsung GB stream"},
+  "NatureTime.ca@UK": {"source":"samsung", "id":"GB2100004H5", "stream_contains":"amg01515c43-samsung-gb", "reason":"NatureTime Samsung GB stream despite Canadian channel suffix"},
+  "SoReal.us@UK": {"source":"samsung", "id":"GBBD1100009M9", "stream_contains":"soreal-1-gb.samsung.wurl.tv", "reason":"So Real Samsung GB stream"},
+  "WaterBear.ch@SD": {"source":"samsung", "id":"GBBC300003UQ", "stream_contains":"waterbear-samsunguk", "reason":"WaterBear Samsung UK stream despite Swiss channel suffix"},
+  "Overtime.us@SD": {"source":"samsung", "id":"US33000154M", "stream_contains":"amc_overtime_1/samsungheadend_us", "reason":"Overtime Samsung US stream"},
+  "MoonbugKids.uk@SD": {"source":"roku", "id":"b5cde121f98257329346020e2a60295a", "stream_contains":"moonbug-rokuus", "reason":"Moonbug Kids Roku US stream despite UK channel suffix"},
+  "SparkTV.uk@SD": {"source":"roku", "id":"eb1dbd690001553eacdf32d7b155b933", "stream_contains":"sparklightlove-4-us.roku.wurl.tv", "reason":"SPARK TV Roku US stream despite UK channel suffix"}
+}

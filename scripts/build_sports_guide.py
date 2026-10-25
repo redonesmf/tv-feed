@@ -1,6 +1,7 @@
 import collections, copy, datetime as dt, gzip, json, pathlib, re, urllib.request, os
 import xml.etree.ElementTree as ET
 from audit_sports import ROOT, CACHE, OUT, entries,load_sources
+from supplement_guide import reviewed_mappings, mapping_for, add_supplements, normalize
 
 NOW=dt.datetime.now(dt.timezone.utc)
 START=NOW-dt.timedelta(hours=12)
@@ -47,15 +48,24 @@ def build():
     for entry in unique.values():
         if entry['url'] not in seen_urls:
             seen_urls.add(entry['url']); checked.append(entry)
+    mappings=reviewed_mappings()
     targets=collections.defaultdict(list)
-    for e in checked: targets[key(e['id'])].append(e['id'])
+    extra_countries=[]; provenance={}
+    for e in checked:
+        match=mapping_for(e,mappings)
+        source_id=match['id'] if match and match['source']=='primary' else e['id']
+        targets[key(source_id)].append(e['id'])
+        if match and match['source']=='primary':
+            extra_countries.append(match['country'])
+            provenance[e['id']]={'source':'IPTV-EPG.org','guide_id':source_id,'reason':match['reason']}
+
     country_counts=collections.Counter(key(e['id']).rsplit('.',1)[-1] for e in checked)
-    available={'al','ar','am','au','at','bs','by','be','bo','ba','br','bg','ca','cl','co','cr','hr','cw','cz','dk','do','ec','sv','fi','fr','ge','de','gh','gr','gt','hn','hk','hu','is','in','id','il','it','jm','jp','lv','lt','lu','my','mt','mx','nl','nz','ng','no','pk','pa','py','pe','ph','pl','pt','ro','ru','rs','sg','za','kr','es','se','ch','tw','th','tt','tr','ug','ua','gb','us','uy','ve','zw'}
+    available={'al','ar','am','au','at','bs','by','be','bo','ba','br','bg','ca','cl','co','cr','hr','cw','cz','dk','do','ec','sv','fi','fr','ge','de','gh','gr','gt','hn','hk','hu','is','in','id','il','it','jm','jp','lv','lt','lu','my','mt','mx','nl','nz','ng','no','pa','py','pe','ph','pl','pt','ro','ru','rs','sg','za','kr','es','se','ch','tw','th','tt','tr','ug','ua','gb','us','uy','ve','zw'}
     aliases={'uk':'gb'}
     countries=[aliases.get(c,c) for c,n in country_counts.most_common() if aliases.get(c,c) in available]
     # Only fetch countries represented by checked channels; omit unrelated guide data.
-    countries=list(dict.fromkeys(countries))
-    tree=ET.Element('tv',{'generator-info-name':'Sports TV matched guide','source-info-name':'IPTV-EPG.org'})
+    countries=list(dict.fromkeys(countries+extra_countries))
+    tree=ET.Element('tv',{'generator-info-name':'Sports TV matched guide','source-info-name':'IPTV-EPG.org; matthuisman/i.mjh.nz'})
     programmes=collections.Counter(); channel_nodes={}; errors=[]
     for country in countries:
         try:
@@ -76,7 +86,7 @@ def build():
                         matched=targets.get(key(node.get('channel','')),[])
                         title=' '.join(node.findtext('title','').split())
                         begin=xmltime(node.get('start','')); end=xmltime(node.get('stop',''))
-                        if matched and title.casefold() not in {'','no data','no information','tba','to be announced'} and begin and end and end>START and begin<END:
+                        if matched and title.casefold() not in {'','no data','no information','tba','to be announced'} and begin and end and begin<end and end>START and begin<END:
                             for target in matched:
                                 clone=copy.deepcopy(node); clone.set('channel',target)
                                 tree.append(clone); programmes[target]+=1; local_count+=1
@@ -85,6 +95,21 @@ def build():
         except Exception as exc:
             errors.append({'country':country,'error':str(exc)[:200]})
             print(f'{country}: guide unavailable: {exc}',flush=True)
+    provenance.update(add_supplements(tree,checked,mappings,NOW,START,END,errors))
+    # One non-overlapping schedule per stable playlist ID. Track fresh coverage,
+    # rather than calling a channel covered because it has only yesterday's data.
+    by_channel=collections.defaultdict(list)
+    for node in list(tree):
+        by_channel[node.get('channel')].append(node)
+        tree.remove(node)
+    programmes=collections.Counter(); current=set(); upcoming=set()
+    coverage=[]
+    for e in checked:
+        nodes=normalize(by_channel[e['id']])
+        tree.extend(nodes); programmes[e['id']]=len(nodes)
+        if any(xmltime(n.get('start'))<=NOW<xmltime(n.get('stop')) for n in nodes): current.add(e['id'])
+        if any(xmltime(n.get('stop'))>NOW and xmltime(n.get('start'))<NOW+dt.timedelta(hours=24) for n in nodes): upcoming.add(e['id'])
+        coverage.append({'id':e['id'],'name':e['name'],'programmes':len(nodes),'on_now':e['id'] in current,'next_24h':e['id'] in upcoming,**provenance.get(e['id'],{'source':'IPTV-EPG.org' if nodes else None})})
     # Add every checked channel before programme elements, so unmatched channels stay usable.
     for index,e in enumerate(checked):
         node=channel_nodes.get(e['id'])
@@ -98,22 +123,24 @@ def build():
     (OUT/'guide.xml.tmp').replace(OUT/'guide.xml')
     with gzip.open(OUT/'guide.xml.gz.tmp','wb') as dest: dest.write(xml)
     (OUT/'guide.xml.gz.tmp').replace(OUT/'guide.xml.gz')
-    matched=set(programmes)
+    matched=upcoming
     football_terms=('setanta','beinsports','premiersports','sporttv','football','futbol','futebol','fifa','golazo','mutv','lfctv','skysportspremierleague')
     def is_football(e): return any(term in e['id'].casefold() for term in football_terms)
-    ordered=sorted(checked,key=lambda e:(0 if is_football(e) else (1 if 'Extra' in e['sources'] else (2 if 'UK' in e['sources'] else 3)),e['id'] not in matched,e['name'].casefold()))
+    ordered=sorted(checked,key=lambda e:(e['id'] not in matched,0 if is_football(e) else (1 if 'Extra' in e['sources'] else (2 if 'UK' in e['sources'] else 3)),e['name'].casefold()))
     def playlist(items):
         lines=['#EXTM3U x-tvg-url="'+os.environ.get('PUBLIC_FEED_BASE_URL','https://redonesmf.github.io/tv-feed').rstrip('/')+'/g.xml"']
         for e in items:
-            group='Football channels' if is_football(e) else ('BBC and Sky' if 'Extra' in e['sources'] else ('UK channels' if 'UK' in e['sources'] else ('Sports with guide' if e['id'] in matched else 'More sports - guide unavailable')))
+            group=('Football with guide' if is_football(e) else ('BBC and Sky' if 'Extra' in e['sources'] else ('UK with guide' if 'UK' in e['sources'] else 'Sports with guide'))) if e['id'] in matched else ('Football - guide unavailable' if is_football(e) else ('UK - guide unavailable' if 'UK' in e['sources'] else 'More channels - guide unavailable'))
             lines.append(f'#EXTINF:-1 tvg-id="{e["id"]}" tvg-logo="{e["logo"]}" group-title="{group}",{e["name"]}')
             for opt,value in e['opts'].items(): lines.append(f'#EXTVLCOPT:{opt}={value}')
             lines.append(e['url'])
         return '\n'.join(lines)+'\n'
     (OUT/'Sports-Checked.m3u.tmp').write_text(playlist(ordered),encoding='utf-8')
     (OUT/'Sports-Checked.m3u.tmp').replace(OUT/'Sports-Checked.m3u')
+    (OUT/'Guide-Only.m3u').write_text(playlist([e for e in ordered if e['id'] in matched]),encoding='utf-8')
+    (OUT/'coverage.json').write_text(json.dumps({'built_at':NOW.isoformat(),'channels':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
     cloud_verified=sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
-    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':len(matched),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 
