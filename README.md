@@ -119,3 +119,34 @@ stay in ignored `.cache/`; only the `data/` directory is deployed.
 Official GitHub Actions are pinned to specific commit IDs. Checkouts do not retain Git
 credentials. The write token is supplied only to the commit step, after public
 data fetching and validation complete. No arbitrary playlist content is executed.
+
+
+## NFL watch list
+
+The optional https://redonesmf.github.io/tv-feed/nfl.m3u contains eight decoded
+streams: Channel 5 UK, Sky Sports Action/NFL, ESPN US, an alternate ESPN US
+endpoint, ESPN2 US, NFL Network, NFL Channel FAST and CBS Sports HQ. It uses the
+same g.xml guide. The first six are game broadcasters, which also carry other
+programming; the last two are explicitly news/scores/replays rather than live
+game substitutes. NFL Channel FAST is not NFL Network or RedZone.
+
+Seven channels were already in the combined feed and were rechecked. The one
+new endpoint is an alternate ESPN stream with 1920x1080 HEVC video; its M3U ID
+keeps it separate from the original ESPN stream and uses the same US ESPN guide.
+The alternate was sourced from the indexed public
+[AdeelWajid playlist](https://github.com/AdeelWajid/iptv_validated_list/blob/b16cf72c04d85bfc859d22ca98b7249ae1117442/playlists/categories/sports.m3u).
+FFprobe/FFmpeg decoded all eight; sample pictures were reviewed. This verifies
+sample playback from the US PC, not continuous availability or TV playback.
+
+In the full playlist, Channel 5 keeps its existing UK main-channel position.
+The other seven appear in NFL game broadcasters or NFL news and replays.
+The NFL-only alternative includes Channel 5 in the game-broadcaster group.
+No duplicate channel IDs or stream URLs are introduced in either playlist.
+`config/nfl-view.json` defines the order, labels and role of each feed.
+
+No tested public RedZone, full US CBS/FOX/ABC/NBC network or separate Sky Sports
+NFL endpoint was verified during this search. Local-news FAST channels carrying
+network branding were not added as game streams. No all-games or Sunday Ticket
+coverage is claimed. Sky/Channel 5 schedules and ESPN/NFL Network listings decide
+which full games are actually shown. Guides can contain source errors; public
+relays can stop working. Failed source links were not inserted as placeholders.

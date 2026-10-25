@@ -1,0 +1,17 @@
+#EXTM3U x-tvg-url="https://redonesmf.github.io/tv-feed/g.xml"
+#EXTINF:-1 tvg-id="Channel5.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4124_Channel5.uk.png" group-title="NFL game broadcasters",Channel 5 (HD)
+http://85.195.238.31:4022/udp/233.50.230.160:5000
+#EXTINF:-1 tvg-id="SkySportsAction.uk@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-action-icon-uk.png" group-title="NFL game broadcasters",Sky Sports Action/NFL (HD)
+http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" group-title="NFL game broadcasters",ESPN (United States) HD (720p)
+http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us@AlternateHD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" group-title="NFL game broadcasters",ESPN alternate (HD)
+http://212.5.144.156:8080/espn/index.m3u8
+#EXTINF:-1 tvg-id="ESPN2.us@HD" tvg-logo="https://i.imgur.com/00tsvjE.png" group-title="NFL game broadcasters",ESPN 2 (United States) HD (720p)
+http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="NFL game broadcasters",NFL Network (HD)
+http://198.58.104.90:8989/nfl/index.m3u8
+#EXTINF:-1 tvg-id="NFLChannel.us@SD" tvg-logo="https://i.imgur.com/mPGtwAP.png" group-title="NFL news and replays",NFL Channel - shows, scores and replays
+https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
+#EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="NFL news and replays",CBS Sports HQ - news and analysis
+https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8

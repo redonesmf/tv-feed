@@ -1,14 +1,14 @@
 {
-  "built_at": "2026-10-25T22:54:17.899326+00:00",
+  "built_at": "2026-10-25T23:18:26.900891+00:00",
   "channels": [
     {
       "id": "BBCNews.uk@NorthAmerica",
       "name": "BBC News North America (1080p)",
       "source_labels": [
-        "Retained",
-        "Extra"
+        "Extra",
+        "Retained"
       ],
-      "programmes": 317,
+      "programmes": 316,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
@@ -19,10 +19,10 @@
       "id": "SkySportsAction.uk@SD",
       "name": "Sky Sports Action (720p)",
       "source_labels": [
-        "Retained",
-        "Extra"
+        "Extra",
+        "Retained"
       ],
-      "programmes": 155,
+      "programmes": 154,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -31,10 +31,11 @@
       "id": "SkySportsPremierLeague.uk@SD",
       "name": "Sky Sports Premier League (576p)",
       "source_labels": [
+        "Extra",
         "Retained",
-        "Extra"
+        "Sports"
       ],
-      "programmes": 204,
+      "programmes": 202,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -43,7 +44,6 @@
       "id": "BBCOne.uk@SD",
       "name": "BBC One (SD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 175,
@@ -55,7 +55,6 @@
       "id": "BBCTwo.uk@HD",
       "name": "BBC Two (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 118,
@@ -67,7 +66,6 @@
       "id": "ITV1.uk@HD",
       "name": "ITV1 (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 107,
@@ -81,7 +79,6 @@
       "id": "Channel4.uk@HD",
       "name": "Channel 4 (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 146,
@@ -93,7 +90,6 @@
       "id": "Channel5.uk@HD",
       "name": "Channel 5 (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 190,
@@ -105,7 +101,6 @@
       "id": "ITV2.uk@HD",
       "name": "ITV 2 (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 133,
@@ -117,10 +112,9 @@
       "id": "ITV3.uk@HD",
       "name": "ITV 3 (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 97,
+      "programmes": 96,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -129,7 +123,6 @@
       "id": "ITV4.uk@HD",
       "name": "ITV 4 (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
       "programmes": 101,
@@ -141,10 +134,9 @@
       "id": "E4.uk@SD",
       "name": "E4 (SD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 162,
+      "programmes": 161,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -153,10 +145,9 @@
       "id": "Film4.uk@SD",
       "name": "Film4 (SD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 55,
+      "programmes": 54,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -165,10 +156,9 @@
       "id": "5STAR.uk@SD",
       "name": "5STAR (SD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 119,
+      "programmes": 118,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -177,10 +167,9 @@
       "id": "5USA.uk@SD",
       "name": "5USA (SD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 102,
+      "programmes": 101,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -189,10 +178,9 @@
       "id": "BBCNewsChannel.uk@HD",
       "name": "BBC News UK (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 219,
+      "programmes": 218,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -201,10 +189,9 @@
       "id": "BBCThree_CBBC.uk@HD",
       "name": "BBC Three / CBBC (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 263,
+      "programmes": 262,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -213,10 +200,9 @@
       "id": "BBCFour_CBeebies.uk@HD",
       "name": "BBC Four / CBeebies (HD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 401,
+      "programmes": 399,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -225,17 +211,27 @@
       "id": "More4+1.uk@SD",
       "name": "More4 +1 (SD)",
       "source_labels": [
-        "Retained",
         "Extra"
       ],
-      "programmes": 132,
+      "programmes": 131,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "RussianExtremeUltra.ru@SD",
-      "name": "Russian Extreme Ultra (1440p)",
+      "id": "ESPN.us@AlternateHD",
+      "name": "ESPN alternate (HD)",
+      "source_labels": [
+        "Extra"
+      ],
+      "programmes": 98,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "AS3SportTV.ve@SD",
+      "name": "AS3 Sport TV (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
@@ -252,292 +248,526 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 124,
+      "programmes": 123,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "BritAsiaTV.uk@HD",
-      "name": "Brit Asia TV (1080p)",
+      "id": "NBCSportsNOW.us@SD",
+      "name": "NBC Sports NOW (1080p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
-      "programmes": 79,
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "SetantaSports1Eurasia.ie@SD",
+      "name": "Setanta Sports 1 Eurasia (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "SetantaSports2Eurasia.ie@SD",
+      "name": "Setanta Sports 2 Eurasia (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "SportTV.by@SD",
+      "name": "Sport TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CBSSportsHQ.us@SD",
+      "name": "CBS Sports HQ (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 6,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5e9f2c05172a0f0007db4786",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "Eurosport.in@SD",
+      "name": "Eurosport (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 10,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "CNBCUK.uk@SD",
-      "name": "CNBC UK (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 195,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org",
-      "guide_id": "CNBC.uk",
-      "reason": "CNBC UK stream and UK CNBC listings"
-    },
-    {
-      "id": "DogWhisperer.us@UK",
-      "name": "Dog Whisperer (1080p) [Geo-blocked]",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 141,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "DuckDynasty.us@UK",
-      "name": "Duck Dynasty (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 255,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FaithWorldTV.uk@SD",
-      "name": "Faith World TV (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 177,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "GBNews.uk@SD",
-      "name": "GB News (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 56,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "MoonbugKids.uk@SD",
-      "name": "Moonbug Kids (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 132,
-      "on_now": true,
-      "next_24h": true,
-      "source": "roku",
-      "guide_id": "b5cde121f98257329346020e2a60295a",
-      "reason": "Moonbug Kids Roku US stream despite UK channel suffix"
-    },
-    {
-      "id": "MostHaunted.uk@UK",
-      "name": "Most Haunted (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 9,
-      "on_now": true,
-      "next_24h": true,
-      "source": "samsung",
-      "guide_id": "GB4300003ZT",
-      "reason": "Most Haunted Samsung GB stream"
-    },
-    {
-      "id": "MovieSphere.us@UK",
-      "name": "MovieSphere UK (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 65,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "MrBeanLiveAction.uk@SD",
-      "name": "Mr Bean Live Action (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 13,
-      "on_now": true,
-      "next_24h": true,
-      "source": "samsung",
-      "guide_id": "GB4000008O5",
-      "reason": "Mr Bean live action Samsung GB stream"
-    },
-    {
-      "id": "NatureTime.ca@UK",
-      "name": "NatureTime UK (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 9,
-      "on_now": true,
-      "next_24h": true,
-      "source": "samsung",
-      "guide_id": "GB2100004H5",
-      "reason": "NatureTime Samsung GB stream despite Canadian channel suffix"
-    },
-    {
-      "id": "NBCNewsNOW.us@SD",
-      "name": "NBC News NOW (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 130,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Now80s.uk@SD",
-      "name": "Now 80s (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 65,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "NOWRock.uk@SD",
-      "name": "NOW Rock (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 80,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "SparkTV.uk@SD",
-      "name": "Spark TV (1080p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 41,
-      "on_now": true,
-      "next_24h": true,
-      "source": "roku",
-      "guide_id": "eb1dbd690001553eacdf32d7b155b933",
-      "reason": "SPARK TV Roku US stream despite UK channel suffix"
-    },
-    {
-      "id": "talkSPORT.uk@SD",
-      "name": "talkSPORT (1080p)",
+      "id": "FIFAPlus.uk@English",
+      "name": "FIFA+ (720p)",
       "source_labels": [
         "Sports",
         "UK",
         "Retained"
       ],
-      "programmes": 38,
+      "programmes": 10,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "source": "pluto",
+      "guide_id": "660c29b5aec9680008f5b4a4",
+      "reason": "Native Pluto stream ID"
     },
     {
-      "id": "Tastemade.us@UK",
-      "name": "Tastemade UK (1080p)",
+      "id": "MLB.us@SD",
+      "name": "MLB (720p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
-      "programmes": 231,
+      "programmes": 10,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "source": "pluto",
+      "guide_id": "5e66968a70f34c0007d050be",
+      "reason": "Native Pluto stream ID"
     },
     {
-      "id": "TBNUK.uk@SD",
-      "name": "TBN UK (1080p)",
+      "id": "MonsterJam.us@SD",
+      "name": "Monster Jam (720p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
-      "programmes": 198,
+      "programmes": 22,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org",
-      "guide_id": "TBN.uk",
-      "reason": "TBN UK uses TBN.uk in the UK guide"
+      "source": "pluto",
+      "guide_id": "65bcc9c8d77d450008b34c6b",
+      "reason": "Native Pluto stream ID"
     },
     {
-      "id": "TJC.uk@SD",
-      "name": "TJC (1080p)",
+      "id": "PBRRidePass.us@SD",
+      "name": "PBR RidePass (720p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
-      "programmes": 110,
+      "programmes": 9,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "source": "pluto",
+      "guide_id": "60d39387706fe50007fda8e8",
+      "reason": "Native Pluto stream ID"
     },
     {
-      "id": "TrueCrime.uk@SD",
-      "name": "True Crime (1080p)",
+      "id": "PFLMMA.us@SD",
+      "name": "PFL MMA (720p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
-      "programmes": 168,
+      "programmes": 12,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "source": "pluto",
+      "guide_id": "64f6180130ab3300083d896b",
+      "reason": "Native Pluto stream ID"
     },
     {
-      "id": "WaterBear.ch@SD",
-      "name": "WaterBear (1080p)",
+      "id": "PlutoTVSnooker900.se@SE",
+      "name": "Pluto TV Snooker 900 (Sweden) (720p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
       "programmes": 8,
       "on_now": true,
       "next_24h": true,
-      "source": "samsung",
-      "guide_id": "GBBC300003UQ",
-      "reason": "WaterBear Samsung UK stream despite Swiss channel suffix"
+      "source": "pluto",
+      "guide_id": "68ac56363efb41cd979a8005",
+      "reason": "Native Pluto stream ID"
     },
     {
-      "id": "WorldPokerTour.us@UK",
-      "name": "World Poker Tour UK (1080p)",
+      "id": "PlutoTVSnooker900.se@DK",
+      "name": "Pluto TV Snooker 900 (Sweden) DK (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 8,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "68ac55bb3efb41cd979a65ec",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "SlopesTV.us@SD",
+      "name": "Slopes TV (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "TennisChannel.us@Plus2",
+      "name": "Tennis Channel +2 (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 6,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "681109b688b9d85d0938c6ba",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "XFCTV.us@SD",
+      "name": "XFC TV (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "DAZNCombat.uk@SD",
+      "name": "DAZN Combat (684p)",
       "source_labels": [
         "Sports",
         "UK",
         "Retained"
       ],
-      "programmes": 91,
+      "programmes": 17,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "source": "pluto",
+      "guide_id": "64d626ac9b414d000820e2fc",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "BellatorMMA.us@SD",
+      "name": "Bellator MMA",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 13,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5ebc8688f3697d00072f7cf8",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "BrondbyTV.se@DK",
+      "name": "Brondby TV",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 30,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "685029cda1e091e16ff57fc8",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "DAZNDartsxPlutoTV.de@DACH",
+      "name": "DAZN Darts x Pluto TV",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 7,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "64b67f0424ade50008a3be17",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "DAZNHeldinnenxPlutoTV.de@DACH",
+      "name": "DAZN Heldinnen x Pluto TV",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 18,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "64afe50c5dc16600087f3227",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "FCKLovinderne.se@DK",
+      "name": "FCK Lovinderne",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 17,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "68ac5403de4a734954b5ab75",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "FightBox.nl@SD",
+      "name": "FightBox",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "PlutoTVCompetition.us@SD",
+      "name": "Pluto TV Competition",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 23,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "603fde9026ecbf0007752c2c",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVDeportes.us@LatAm",
+      "name": "Pluto TV Deportes",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 9,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5dcde07af1c85b0009b18651",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVESports.us@LatAm",
+      "name": "Pluto TV E-Sports",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 53,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5ff3934600d4c7000733ff49",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVEsportes.us@BR",
+      "name": "Pluto TV Esportes",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 30,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5f32d2db0af67400077f29c4",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVHandboldHighlights.se@DK",
+      "name": "Pluto TV Handbold Highlights",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 9,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "68dfa431cc3c6cd904053100",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVHandboldLive.se@DK",
+      "name": "Pluto TV Handbold Live",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 33,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "6618f54baec96800081525ec",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVHandbollHighlights.se@SE",
+      "name": "Pluto TV Handboll Highlights",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 10,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "68dfa3e2cc3c6cd904052c41",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVHandbollLive.se@SE",
+      "name": "Pluto TV Handboll Live",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 33,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "686faf533ffa5e0c912688e7",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVSnooker900.us@CA",
+      "name": "Pluto TV Snooker 900 (United States)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 8,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "639b4f75d3d35c0007d37b30",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVSport.se@SE",
+      "name": "Pluto TV Sport (Sweden)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 17,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "62cd74e38f6f0d000798cd93",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVSport.se@DK",
+      "name": "Pluto TV Sport (Sweden) DK",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 20,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "6357f3de3643ba0007bc0b50",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVSport.se@NO",
+      "name": "Pluto TV Sport (Sweden) NO",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 22,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "6357f33cb51d2d00077927c6",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PokerGo.us@US",
+      "name": "PokerGo",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 6,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5fc54366b04b2300072e31af",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "WorldPokerTour.us@Germany",
+      "name": "World Poker Tour Germany",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 19,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5ad9b7aae738977e2c312132",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "RussianExtremeUltra.ru@SD",
+      "name": "Russian Extreme Ultra (1440p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "ASpor.tr@SD",
@@ -546,7 +776,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 67,
+      "programmes": 66,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -564,6 +794,42 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "ACISportTV.it@SD",
+      "name": "ACI Sport TV SD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Africa24Sport.fr@SD",
+      "name": "Africa 24 Sport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "AmericanNinjaWarrior.us@SD",
+      "name": "American Ninja Warrior (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "AyMSports.mx@SD",
       "name": "AyM Sports (1080p)",
       "source_labels": [
@@ -576,6 +842,30 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "Belarus5.by@SD",
+      "name": "Belarus-5 (1080p) [Not 24/7]",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Belarus5.by@HD",
+      "name": "Belarus-5 HD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "BilliardTV.us@SD",
       "name": "Billiard TV (1080p) [Geo-blocked]",
       "source_labels": [
@@ -586,6 +876,66 @@
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "CCTVBilliards.cn@HD",
+      "name": "CCTV-Billiards (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CCTVGolfTennis.cn@HD",
+      "name": "CCTV-Golf & Tennis (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CCTVStormFootball.cn@HD",
+      "name": "CCTV-Storm Football (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ClaroSports.mx@SD",
+      "name": "Claro Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CricketGold.au@SD",
+      "name": "Cricket Gold (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "DDSports.in@SD",
@@ -612,13 +962,37 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "DeporTV.ar@SD",
+      "name": "DeporTV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "DiviSport.ua@SD",
+      "name": "DiviSport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "DraftKingsNetwork.us@SD",
       "name": "DraftKings Network (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 94,
+      "programmes": 93,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -642,7 +1016,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 84,
+      "programmes": 83,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -654,7 +1028,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 105,
+      "programmes": 104,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -666,7 +1040,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 100,
+      "programmes": 99,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -696,16 +1070,28 @@
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "ESPN.br@SD",
-      "name": "ESPN (Brazil) (1080p)",
+      "id": "ESPN2LatinAmerica.us@South",
+      "name": "ESPN 2 Latin America (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 73,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ESPN2LatinAmerica.us@Colombia",
+      "name": "ESPN 2 Latin America Colombia (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "ESPN4.br@SD",
@@ -720,6 +1106,66 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "ESPN6LatinAmerica.us@SD",
+      "name": "ESPN 6 Latin America (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ESPN8TheOcho.us@ESPN8TheOchoHD",
+      "name": "ESPN8: The Ocho (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 142,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "ESPN.br@SD",
+      "name": "ESPN (Brazil) (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 73,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "ESPNLatinAmerica.us@Colombia",
+      "name": "ESPN Latin America Colombia (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ESPNLatinAmerica.us@Mexico",
+      "name": "ESPN Latin America Mexico (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "ESPNPremium.ar@HD",
       "name": "ESPN Premium (Argentina) HD (1080p)",
       "source_labels": [
@@ -732,15 +1178,27 @@
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "ESPN8TheOcho.us@ESPN8TheOchoHD",
-      "name": "ESPN8: The Ocho (1080p)",
+      "id": "F1Channel.ie@US",
+      "name": "F1 Channel (1080p) [Geo-blocked]",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 143,
-      "on_now": true,
-      "next_24h": true,
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "FITE247.us@SD",
+      "name": "FITE 24/7 (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 4,
+      "on_now": false,
+      "next_24h": false,
       "source": "IPTV-EPG.org"
     },
     {
@@ -762,10 +1220,34 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 126,
+      "programmes": 125,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "FoxSports.ar@SD",
+      "name": "Fox Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "FoxSportsNews.au@SD",
+      "name": "Fox Sports News (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "FuboSportsNetwork.us@SD",
@@ -774,7 +1256,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 101,
+      "programmes": 100,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -816,6 +1298,54 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "FutbolTV.uz@HD",
+      "name": "Futbol TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Go3Sport1.ee@SD",
+      "name": "Go3 Sport 1 (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "GolfChannelLatinAmerica.us@SD",
+      "name": "Golf Channel Latin America (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "HTSporTV.tr@SD",
+      "name": "HTSpor TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "InterTV.it@SD",
       "name": "Inter TV (Italy) (1080p)",
       "source_labels": [
@@ -828,13 +1358,205 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "InTrouble.nl@SD",
+      "name": "InTrouble (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "JordanSport.jo@SD",
+      "name": "Jordan Sport (1080p) [Geo-blocked]",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "KozoomTV.fr@SD",
+      "name": "Kozoom TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "KTVSport.kw@SD",
+      "name": "KTV Sport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "KTVSportPlus.kw@SD",
+      "name": "KTV Sport Plus (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "L1Max.pe@SD",
+      "name": "L1 Max (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "LEquipe.fr@SD",
+      "name": "L'Equipe (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "LRTPlius.lt@SD",
+      "name": "LRT Plius (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MSports.pk@SD",
+      "name": "M Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MadeinBOTV.it@SD",
+      "name": "MadeinBO TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MaincastCybersport.ua@SD",
+      "name": "Maincast Cybersport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MaincastSport.ua@SD",
+      "name": "Maincast Sport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Match4.hu@SD",
+      "name": "Match4 (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MatchUltra.ru@4K",
+      "name": "Match! Ultra (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MMATVcom.ru@SD",
+      "name": "MMA-TV.com (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "MNBSport.mn@SD",
+      "name": "MNB Sport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "MoreThanSportsTV.de@SD",
       "name": "More Than Sports TV (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 109,
+      "programmes": 108,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -846,7 +1568,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 142,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -862,6 +1584,18 @@
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "OmanSportsTV.om@SD",
+      "name": "Oman Sports TV (1080p) [Not 24/7]",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "Overtime.us@SD",
@@ -884,206 +1618,14 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 128,
+      "programmes": 127,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "RacerNetwork.us@SD",
-      "name": "Racer Network (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 189,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Sportitalia.it@SD",
-      "name": "Sportitalia (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 44,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "SportsGrid.us@SD",
-      "name": "SportsGrid (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 90,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "StarSportsSelect1.in@HD",
-      "name": "Star Sports Select 1 HD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 11,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "SwerveCombat.us@SD",
-      "name": "Swerve Combat (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 88,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TennisChannel.us@SD",
-      "name": "Tennis Channel (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 30,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TennisChannel2.us@SD",
-      "name": "Tennis Channel 2 (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 56,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TSNTheOcho.ca@SD",
-      "name": "TSN The Ocho (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 75,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TyCSports.ar@SD",
-      "name": "TyC Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 41,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "WillowSports.us@SD",
-      "name": "Willow Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 128,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "WorldPokerTour.us@US",
-      "name": "World Poker Tour (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 91,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "WorldPokerTour.us@Poland",
-      "name": "World Poker Tour Poland (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 91,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "ACISportTV.it@SD",
-      "name": "ACI Sport TV SD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "AS3SportTV.ve@SD",
-      "name": "AS3 Sport TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "CCTVStormFootball.cn@HD",
-      "name": "CCTV-Storm Football (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "FutbolTV.uz@HD",
-      "name": "Futbol TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "PremierSports.ph@SD",
-      "name": "Premier Sports (1080p)",
+      "id": "PGATour.us@SD",
+      "name": "PGA Tour (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
@@ -1106,8 +1648,8 @@
       "source": null
     },
     {
-      "id": "SetantaSports1Eurasia.ie@SD",
-      "name": "Setanta Sports 1 Eurasia (1080p)",
+      "id": "PremierSports.ph@SD",
+      "name": "Premier Sports (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
@@ -1118,8 +1660,8 @@
       "source": null
     },
     {
-      "id": "SetantaSports2Eurasia.ie@SD",
-      "name": "Setanta Sports 2 Eurasia (1080p)",
+      "id": "Prime.sy@HD",
+      "name": "Prime (Syria) (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
@@ -1130,8 +1672,455 @@
       "source": null
     },
     {
-      "id": "SportTV.by@SD",
-      "name": "Sport TV (1080p)",
+      "id": "RACERInternational.pl@FAST",
+      "name": "RACER International (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RacerNetwork.us@SD",
+      "name": "Racer Network (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 188,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "RacerSelect.us@SD",
+      "name": "Racer Select (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RallyTV.us@SD",
+      "name": "Rally TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@EUMENA",
+      "name": "Red Bull TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@AU",
+      "name": "Red Bull TV AU (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@BR",
+      "name": "Red Bull TV BR (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@DE",
+      "name": "Red Bull TV DE (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@ES",
+      "name": "Red Bull TV ES (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@SD",
+      "name": "Red Bull TV SD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@UK",
+      "name": "Red Bull TV UK (1080p)",
+      "source_labels": [
+        "Sports",
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "RedBullTV.at@US",
+      "name": "Red Bull TV US (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Sport1Baltic.ua@SD",
+      "name": "Sport 1 Baltic (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 16,
+      "on_now": false,
+      "next_24h": false,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Sport2.ua@SD",
+      "name": "Sport 2 (Ukraine) (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 7,
+      "on_now": false,
+      "next_24h": false,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Sport3.ua@SD",
+      "name": "Sport 3 (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Sport5.ua@SD",
+      "name": "Sport 5 (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Sportitalia.it@SD",
+      "name": "Sportitalia (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 44,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "SportsGrid.us@SD",
+      "name": "SportsGrid (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 89,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "StarSportsSelect1.in@HD",
+      "name": "Star Sports Select 1 HD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 11,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "SuspilneSport.ua@SD",
+      "name": "Suspilne. Sport (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "SwerveCombat.us@SD",
+      "name": "Swerve Combat (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 88,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "talkSPORT.uk@SD",
+      "name": "talkSPORT (1080p)",
+      "source_labels": [
+        "Sports",
+        "UK",
+        "Retained"
+      ],
+      "programmes": 37,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TennisChannel2.us@SD",
+      "name": "Tennis Channel 2 (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 55,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TennisChannel.us@SD",
+      "name": "Tennis Channel (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 30,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TigoSports.hn@SD",
+      "name": "Tigo Sports (Honduras) (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "TJKTV.tr@SD",
+      "name": "TJK TV (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "TraceSportStars.fr@HD",
+      "name": "Trace Sport Stars (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "TSNTheOcho.ca@SD",
+      "name": "TSN The Ocho (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 74,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TyCSports.ar@SD",
+      "name": "TyC Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 40,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Unbeaten.us@SD",
+      "name": "Unbeaten (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "vijuPlusSport.ru@HD",
+      "name": "viju+ Sport HD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "WillowSports.us@SD",
+      "name": "Willow Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 128,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "WinSports.co@SD",
+      "name": "Win Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "WorldofFreesports.de@SD",
+      "name": "World of Freesports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "WorldPokerTour.us@US",
+      "name": "World Poker Tour (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 90,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "WorldPokerTour.us@Poland",
+      "name": "World Poker Tour Poland (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 90,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "WorldPokerTour.us@UK",
+      "name": "World Poker Tour UK (1080p)",
+      "source_labels": [
+        "Sports",
+        "UK",
+        "Retained"
+      ],
+      "programmes": 90,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "WWENetwork.us@SD",
+      "name": "WWE Network (1080p)",
       "source_labels": [
         "Sports",
         "Retained"
@@ -1226,6 +2215,32 @@
       "source": null
     },
     {
+      "id": "BritAsiaTV.uk@HD",
+      "name": "Brit Asia TV (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 78,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "CNBCUK.uk@SD",
+      "name": "CNBC UK (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 194,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org",
+      "guide_id": "CNBC.uk",
+      "reason": "CNBC UK stream and UK CNBC listings"
+    },
+    {
       "id": "DeadlyWomen.us@UK",
       "name": "Deadly Women (1080p)",
       "source_labels": [
@@ -1250,6 +2265,30 @@
       "source": null
     },
     {
+      "id": "DogWhisperer.us@UK",
+      "name": "Dog Whisperer (1080p) [Geo-blocked]",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 140,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "DuckDynasty.us@UK",
+      "name": "Duck Dynasty (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 255,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "FaithUK.uk@SD",
       "name": "Faith UK (1080p)",
       "source_labels": [
@@ -1262,6 +2301,18 @@
       "source": null
     },
     {
+      "id": "FaithWorldTV.uk@SD",
+      "name": "Faith World TV (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 176,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "Foodxp.uk@SD",
       "name": "Foodxp (1080p)",
       "source_labels": [
@@ -1272,6 +2323,18 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "GBNews.uk@SD",
+      "name": "GB News (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 55,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "GhostHunters.us@UK",
@@ -1394,6 +2457,46 @@
       "source": null
     },
     {
+      "id": "MoonbugKids.uk@SD",
+      "name": "Moonbug Kids (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 132,
+      "on_now": true,
+      "next_24h": true,
+      "source": "roku",
+      "guide_id": "b5cde121f98257329346020e2a60295a",
+      "reason": "Moonbug Kids Roku US stream despite UK channel suffix"
+    },
+    {
+      "id": "MostHaunted.uk@UK",
+      "name": "Most Haunted (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 9,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "GB4300003ZT",
+      "reason": "Most Haunted Samsung GB stream"
+    },
+    {
+      "id": "MovieSphere.us@UK",
+      "name": "MovieSphere UK (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 65,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "MrBeanAnimated.uk@English",
       "name": "Mr Bean Animated (1080p)",
       "source_labels": [
@@ -1404,6 +2507,20 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "MrBeanLiveAction.uk@SD",
+      "name": "Mr Bean Live Action (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 13,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "GB4000008O5",
+      "reason": "Mr Bean live action Samsung GB stream"
     },
     {
       "id": "MTA3AlArabia.uk@SD",
@@ -1490,6 +2607,32 @@
       "source": null
     },
     {
+      "id": "NatureTime.ca@UK",
+      "name": "NatureTime UK (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 9,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "GB2100004H5",
+      "reason": "NatureTime Samsung GB stream despite Canadian channel suffix"
+    },
+    {
+      "id": "NBCNewsNOW.us@SD",
+      "name": "NBC News NOW (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 130,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "NollyAfrica.uk@SD",
       "name": "Nolly Africa (1080p)",
       "source_labels": [
@@ -1500,6 +2643,30 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "Now80s.uk@SD",
+      "name": "Now 80s (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 64,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "NOWRock.uk@SD",
+      "name": "NOW Rock (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 80,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "NTDTVEnglish.us@UK",
@@ -1538,19 +2705,6 @@
       "source": null
     },
     {
-      "id": "RedBullTV.at@UK",
-      "name": "Red Bull TV UK (1080p)",
-      "source_labels": [
-        "Sports",
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
       "id": "SafeerTV.uk@SD",
       "name": "Safeer TV (1080p)",
       "source_labels": [
@@ -1575,6 +2729,20 @@
       "source": null
     },
     {
+      "id": "SparkTV.uk@SD",
+      "name": "Spark TV (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 41,
+      "on_now": true,
+      "next_24h": true,
+      "source": "roku",
+      "guide_id": "eb1dbd690001553eacdf32d7b155b933",
+      "reason": "SPARK TV Roku US stream despite UK channel suffix"
+    },
+    {
       "id": "TalkTV.uk@SD",
       "name": "TalkTV (1080p)",
       "source_labels": [
@@ -1585,6 +2753,32 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "Tastemade.us@UK",
+      "name": "Tastemade UK (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 230,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TBNUK.uk@SD",
+      "name": "TBN UK (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 197,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org",
+      "guide_id": "TBN.uk",
+      "reason": "TBN UK uses TBN.uk in the UK guide"
     },
     {
       "id": "TheChatShowChannel.uk@SD",
@@ -1623,6 +2817,18 @@
       "source": null
     },
     {
+      "id": "TJC.uk@SD",
+      "name": "TJC (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 109,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "Totalmusic.uk@HD",
       "name": "Totalmusic (1080p)",
       "source_labels": [
@@ -1659,6 +2865,18 @@
       "source": null
     },
     {
+      "id": "TrueCrime.uk@SD",
+      "name": "True Crime (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 167,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "VantageMusic.ee@UK",
       "name": "Vantage Music UK (1080p) [Geo-blocked]",
       "source_labels": [
@@ -1669,6 +2887,20 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "WaterBear.ch@SD",
+      "name": "WaterBear (1080p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 8,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "GBBC300003UQ",
+      "reason": "WaterBear Samsung UK stream despite Swiss channel suffix"
     },
     {
       "id": "Wonder.uk@SD",
@@ -1707,786 +2939,6 @@
       "source": null
     },
     {
-      "id": "Africa24Sport.fr@SD",
-      "name": "Africa 24 Sport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "AmericanNinjaWarrior.us@SD",
-      "name": "American Ninja Warrior (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Belarus5.by@SD",
-      "name": "Belarus-5 (1080p) [Not 24/7]",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Belarus5.by@HD",
-      "name": "Belarus-5 HD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "CCTVBilliards.cn@HD",
-      "name": "CCTV-Billiards (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "CCTVGolfTennis.cn@HD",
-      "name": "CCTV-Golf & Tennis (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ClaroSports.mx@SD",
-      "name": "Claro Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "CricketGold.au@SD",
-      "name": "Cricket Gold (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "DeporTV.ar@SD",
-      "name": "DeporTV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "DiviSport.ua@SD",
-      "name": "DiviSport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ESPN2LatinAmerica.us@South",
-      "name": "ESPN 2 Latin America (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ESPN2LatinAmerica.us@Colombia",
-      "name": "ESPN 2 Latin America Colombia (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ESPN6LatinAmerica.us@SD",
-      "name": "ESPN 6 Latin America (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ESPNLatinAmerica.us@Colombia",
-      "name": "ESPN Latin America Colombia (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ESPNLatinAmerica.us@Mexico",
-      "name": "ESPN Latin America Mexico (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "F1Channel.ie@US",
-      "name": "F1 Channel (1080p) [Geo-blocked]",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "FITE247.us@SD",
-      "name": "FITE 24/7 (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 4,
-      "on_now": false,
-      "next_24h": false,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FoxSports.ar@SD",
-      "name": "Fox Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "FoxSportsNews.au@SD",
-      "name": "Fox Sports News (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Go3Sport1.ee@SD",
-      "name": "Go3 Sport 1 (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "GolfChannelLatinAmerica.us@SD",
-      "name": "Golf Channel Latin America (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "HTSporTV.tr@SD",
-      "name": "HTSpor TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "InTrouble.nl@SD",
-      "name": "InTrouble (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "JordanSport.jo@SD",
-      "name": "Jordan Sport (1080p) [Geo-blocked]",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "KozoomTV.fr@SD",
-      "name": "Kozoom TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "KTVSport.kw@SD",
-      "name": "KTV Sport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "KTVSportPlus.kw@SD",
-      "name": "KTV Sport Plus (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "LEquipe.fr@SD",
-      "name": "L'Equipe (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "L1Max.pe@SD",
-      "name": "L1 Max (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "LRTPlius.lt@SD",
-      "name": "LRT Plius (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MSports.pk@SD",
-      "name": "M Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MadeinBOTV.it@SD",
-      "name": "MadeinBO TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MaincastCybersport.ua@SD",
-      "name": "Maincast Cybersport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MaincastSport.ua@SD",
-      "name": "Maincast Sport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MatchUltra.ru@4K",
-      "name": "Match! Ultra (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Match4.hu@SD",
-      "name": "Match4 (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MMATVcom.ru@SD",
-      "name": "MMA-TV.com (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MNBSport.mn@SD",
-      "name": "MNB Sport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "NBCSportsNOW.us@SD",
-      "name": "NBC Sports NOW (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "OmanSportsTV.om@SD",
-      "name": "Oman Sports TV (1080p) [Not 24/7]",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "PGATour.us@SD",
-      "name": "PGA Tour (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Prime.sy@HD",
-      "name": "Prime (Syria) (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RACERInternational.pl@FAST",
-      "name": "RACER International (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RacerSelect.us@SD",
-      "name": "Racer Select (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RallyTV.us@SD",
-      "name": "Rally TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@EUMENA",
-      "name": "Red Bull TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@AU",
-      "name": "Red Bull TV AU (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@BR",
-      "name": "Red Bull TV BR (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@DE",
-      "name": "Red Bull TV DE (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@ES",
-      "name": "Red Bull TV ES (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@SD",
-      "name": "Red Bull TV SD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "RedBullTV.at@US",
-      "name": "Red Bull TV US (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Sport1Baltic.ua@SD",
-      "name": "Sport 1 Baltic (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 17,
-      "on_now": false,
-      "next_24h": false,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Sport2.ua@SD",
-      "name": "Sport 2 (Ukraine) (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 8,
-      "on_now": false,
-      "next_24h": false,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Sport3.ua@SD",
-      "name": "Sport 3 (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Sport5.ua@SD",
-      "name": "Sport 5 (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "SuspilneSport.ua@SD",
-      "name": "Suspilne. Sport (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "TigoSports.hn@SD",
-      "name": "Tigo Sports (Honduras) (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "TJKTV.tr@SD",
-      "name": "TJK TV (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "TraceSportStars.fr@HD",
-      "name": "Trace Sport Stars (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Unbeaten.us@SD",
-      "name": "Unbeaten (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "vijuPlusSport.ru@HD",
-      "name": "viju+ Sport HD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "WinSports.co@SD",
-      "name": "Win Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "WorldofFreesports.de@SD",
-      "name": "World of Freesports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "WWENetwork.us@SD",
-      "name": "WWE Network (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
       "id": "RealMadridTV.es@SD",
       "name": "Real Madrid TV (726p)",
       "source_labels": [
@@ -2499,219 +2951,16 @@
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "CBSSportsGolazoNetwork.us@SD",
-      "name": "CBS Sports Golazo Network (720p)",
+      "id": "30AGolfKingdom.us@SD",
+      "name": "30A Golf Kingdom (720p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 101,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FIFAPlus.uk@English",
-      "name": "FIFA+ (720p)",
-      "source_labels": [
-        "Sports",
-        "UK",
-        "Retained"
-      ],
-      "programmes": 10,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "660c29b5aec9680008f5b4a4",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "FIFAPlus.uk@UnitedStates",
-      "name": "FIFA+ United States (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 5,
-      "on_now": true,
-      "next_24h": true,
-      "source": "samsung",
-      "guide_id": "USBD12000255B",
-      "reason": "FIFA+ Samsung US stream and US Samsung guide"
-    },
-    {
-      "id": "FIFAPlusWomen.uk@English",
-      "name": "FIFA+ Women (720p)",
-      "source_labels": [
-        "Sports",
-        "UK",
-        "Retained"
-      ],
-      "programmes": 4,
-      "on_now": true,
-      "next_24h": true,
-      "source": "samsung",
-      "guide_id": "GB3800009F0",
-      "reason": "Wurl path decodes to Samsung-gb_FIFAPluswomen_HLS"
-    },
-    {
-      "id": "MUTV.uk@SD",
-      "name": "MUTV (720p)",
-      "source_labels": [
-        "Sports",
-        "UK",
-        "Retained"
-      ],
-      "programmes": 195,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FailArmy.us@UK",
-      "name": "FailArmy UK (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 244,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "GemsTV.uk@SD",
-      "name": "Gems TV (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 110,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Getfactual.us@UK",
-      "name": "Get.factual (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 97,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "HobbyMaker.uk@SD",
-      "name": "Hobby Maker (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 109,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "KanshiTV.uk@SD",
-      "name": "Kanshi TV (720p) [Not 24/7]",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 86,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "NoorTV.uk@SD",
-      "name": "Noor TV (United Kingdom) (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 107,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Now70s.uk@SD",
-      "name": "Now 70s (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 54,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "SoReal.us@UK",
-      "name": "So... Real UK (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 8,
-      "on_now": true,
-      "next_24h": true,
-      "source": "samsung",
-      "guide_id": "GBBD1100009M9",
-      "reason": "So Real Samsung GB stream"
-    },
-    {
-      "id": "TakbeerTV.uk@SD",
-      "name": "Takbeer TV (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 110,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "ThePetCollective.us@UK",
-      "name": "The Pet Collective UK (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 212,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "UtsavBharat.uk@SD",
-      "name": "Utsav Bharat (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 165,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "UtsavPlus.uk@SD",
-      "name": "Utsav Plus (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 211,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "ACCNetwork.us@SD",
@@ -2726,42 +2975,148 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "ADOTV.bj@SD",
+      "name": "ADO TV (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "AlIraqiaSport.iq@SD",
+      "name": "Al Iraqia Sport (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Arryadia.ma@SD",
+      "name": "Arryadia (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "AstrahanRuSport.ru@SD",
+      "name": "Astrahan.Ru Sport (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
       "id": "ATGLive.se@SD",
       "name": "ATG Live (720p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 150,
+      "programmes": 149,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "CBSSportsHQ.us@SD",
-      "name": "CBS Sports HQ (720p)",
+      "id": "BahrainSports1.bh@SD",
+      "name": "Bahrain Sports 1 (720p) [Not 24/7]",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 6,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5e9f2c05172a0f0007db4786",
-      "reason": "Native Pluto stream ID"
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
-      "id": "ESPN.us@HD",
-      "name": "ESPN (United States) HD (720p)",
+      "id": "BahrainSports2.bh@SD",
+      "name": "Bahrain Sports 2 (720p) [Not 24/7]",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 99,
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "BEKSports.us@West",
+      "name": "BEK Sports West (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CanalShowsport.ar@SD",
+      "name": "Canal Showsport (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CBSSportsGolazoNetwork.us@SD",
+      "name": "CBS Sports Golazo Network (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 100,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "ColimdoTV.do@SD",
+      "name": "Colimdo TV (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "CRTV.cl@SD",
+      "name": "CRTV (Chile) (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "ESPN2.us@HD",
@@ -2770,7 +3125,19 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 105,
+      "programmes": 104,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "ESPN.us@HD",
+      "name": "ESPN (United States) HD (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 98,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2782,242 +3149,10 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 82,
+      "programmes": 81,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Eurosport.in@SD",
-      "name": "Eurosport (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 10,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FoxSports1.us@HD",
-      "name": "Fox Sports 1 (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 80,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "GamePlus.ca@SD",
-      "name": "Game+ (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 181,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "GloryKickboxing.us@Poland",
-      "name": "Glory Kickboxing Poland (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 30,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "HorseTV.it@SD",
-      "name": "Horse TV (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 125,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "MLB.us@SD",
-      "name": "MLB (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 10,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5e66968a70f34c0007d050be",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "MLBStrikeZone.us@SD",
-      "name": "MLB Strike Zone (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 35,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "MonsterJam.us@SD",
-      "name": "Monster Jam (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 22,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "65bcc9c8d77d450008b34c6b",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "NBATV.us@SD",
-      "name": "NBA TV (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 169,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "NFLChannel.us@SD",
-      "name": "NFL Channel (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 6,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5ced7d5df64be98e07ed47b6",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "NFLNetwork.us@SD",
-      "name": "NFL Network (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 80,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "PBRRidePass.us@SD",
-      "name": "PBR RidePass (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 9,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "60d39387706fe50007fda8e8",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PFLMMA.us@SD",
-      "name": "PFL MMA (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 12,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "64f6180130ab3300083d896b",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSnooker900.se@SE",
-      "name": "Pluto TV Snooker 900 (Sweden) (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 8,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "68ac56363efb41cd979a8005",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSnooker900.se@DK",
-      "name": "Pluto TV Snooker 900 (Sweden) DK (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 8,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "68ac55bb3efb41cd979a65ec",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "SkyRacing1.au@SD",
-      "name": "Sky Racing 1 (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 42,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Stadium.us@SD",
-      "name": "Stadium (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 65,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TennisChannel.us@Plus2",
-      "name": "Tennis Channel +2 (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 6,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "681109b688b9d85d0938c6ba",
-      "reason": "Native Pluto stream ID"
     },
     {
       "id": "FIFAPlus.uk@French",
@@ -3092,341 +3227,45 @@
       "source": null
     },
     {
-      "id": "AnandTV.uk@SD",
-      "name": "Anand TV (United Kingdom) (720p) [Not 24/7]",
+      "id": "FIFAPlus.uk@UnitedStates",
+      "name": "FIFA+ United States (720p)",
       "source_labels": [
-        "UK",
+        "Sports",
         "Retained"
       ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
+      "programmes": 5,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "USBD12000255B",
+      "reason": "FIFA+ Samsung US stream and US Samsung guide"
     },
     {
-      "id": "ClubbingTV.us@UK",
-      "name": "Clubbing TV UK (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "DunyaNewsUK.uk@SD",
-      "name": "Dunya News UK (720p) [Not 24/7]",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ENTChannel.uk@HD",
-      "name": "ENT Channel (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ENTFamily.uk@HD",
-      "name": "ENT Family (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "HellenicTV.uk@SD",
-      "name": "Hellenic TV (720p) [Not 24/7]",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "HomesUnderHammer.us@UK",
-      "name": "Homes Under Hammer (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "MagnavisionTV.uk@SD",
-      "name": "Magnavision TV (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "SkyNewsWeather.uk@SD",
-      "name": "Sky News Weather (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Strongman.us@UK",
-      "name": "Strongman UK (720p)",
+      "id": "FIFAPlusWomen.uk@English",
+      "name": "FIFA+ Women (720p)",
       "source_labels": [
         "Sports",
         "UK",
         "Retained"
       ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
+      "programmes": 4,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "GB3800009F0",
+      "reason": "Wurl path decodes to Samsung-gb_FIFAPluswomen_HLS"
     },
     {
-      "id": "Teletubbies.uk@SD",
-      "name": "Teletubbies (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Totalmusic2000s.uk@HD",
-      "name": "Totalmusic 2000s (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Totalmusic80s.uk@HD",
-      "name": "Totalmusic 80s (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "TotalmusicConcerts.uk@HD",
-      "name": "Totalmusic Concerts (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "TotalmusicDance.uk@HD",
-      "name": "Totalmusic Dance (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "UndercoverBossGlobal.us@UK",
-      "name": "Undercover Boss Global (720p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "V2BEATTV.uk@SD",
-      "name": "V2BEAT TV (720p) [Not 24/7]",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "30AGolfKingdom.us@SD",
-      "name": "30A Golf Kingdom (720p)",
+      "id": "FoxSports1.us@HD",
+      "name": "Fox Sports 1 (720p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ADOTV.bj@SD",
-      "name": "ADO TV (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "AlIraqiaSport.iq@SD",
-      "name": "Al Iraqia Sport (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "Arryadia.ma@SD",
-      "name": "Arryadia (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "AstrahanRuSport.ru@SD",
-      "name": "Astrahan.Ru Sport (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "BahrainSports1.bh@SD",
-      "name": "Bahrain Sports 1 (720p) [Not 24/7]",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "BahrainSports2.bh@SD",
-      "name": "Bahrain Sports 2 (720p) [Not 24/7]",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "BEKSports.us@West",
-      "name": "BEK Sports West (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "CanalShowsport.ar@SD",
-      "name": "Canal Showsport (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ColimdoTV.do@SD",
-      "name": "Colimdo TV (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "CRTV.cl@SD",
-      "name": "CRTV (Chile) (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
+      "programmes": 80,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "FTFSports.us@SD",
@@ -3451,6 +3290,42 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "GamePlus.ca@SD",
+      "name": "Game+ (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 180,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "GloryKickboxing.us@Poland",
+      "name": "Glory Kickboxing Poland (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 30,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "HorseTV.it@SD",
+      "name": "Horse TV (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 124,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "ITVDeportes.mx@SD",
@@ -3489,6 +3364,31 @@
       "source": null
     },
     {
+      "id": "MLBStrikeZone.us@SD",
+      "name": "MLB Strike Zone (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 35,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "MUTV.uk@SD",
+      "name": "MUTV (720p)",
+      "source_labels": [
+        "Sports",
+        "UK",
+        "Retained"
+      ],
+      "programmes": 193,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "NauticalChannel.it@SD",
       "name": "Nautical Channel (720p)",
       "source_labels": [
@@ -3499,6 +3399,44 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "NBATV.us@SD",
+      "name": "NBA TV (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 168,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "NFLChannel.us@SD",
+      "name": "NFL Channel (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 6,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "5ced7d5df64be98e07ed47b6",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "NFLNetwork.us@SD",
+      "name": "NFL Network (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 79,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "OvacionTV.pe@SD",
@@ -3549,16 +3487,16 @@
       "source": null
     },
     {
-      "id": "SlopesTV.us@SD",
-      "name": "Slopes TV (720p)",
+      "id": "SkyRacing1.au@SD",
+      "name": "Sky Racing 1 (720p)",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
+      "programmes": 41,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "SportsTelevision.kp@HD",
@@ -3573,10 +3511,35 @@
       "source": null
     },
     {
+      "id": "Stadium.us@SD",
+      "name": "Stadium (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 64,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "Strongman.us@Germany",
       "name": "Strongman (720p)",
       "source_labels": [
         "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "Strongman.us@UK",
+      "name": "Strongman UK (720p)",
+      "source_labels": [
+        "Sports",
+        "UK",
         "Retained"
       ],
       "programmes": 0,
@@ -3705,10 +3668,10 @@
       "source": null
     },
     {
-      "id": "XFCTV.us@SD",
-      "name": "XFC TV (720p)",
+      "id": "AnandTV.uk@SD",
+      "name": "Anand TV (United Kingdom) (720p) [Not 24/7]",
       "source_labels": [
-        "Sports",
+        "UK",
         "Retained"
       ],
       "programmes": 0,
@@ -3717,123 +3680,140 @@
       "source": null
     },
     {
-      "id": "DAZNCombat.uk@SD",
-      "name": "DAZN Combat (684p)",
+      "id": "ClubbingTV.us@UK",
+      "name": "Clubbing TV UK (720p)",
       "source_labels": [
-        "Sports",
         "UK",
         "Retained"
       ],
-      "programmes": 17,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "64d626ac9b414d000820e2fc",
-      "reason": "Native Pluto stream ID"
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
-      "id": "DeenTV.uk@SD",
-      "name": "Deen TV (576p)",
+      "id": "DunyaNewsUK.uk@SD",
+      "name": "Dunya News UK (720p) [Not 24/7]",
       "source_labels": [
         "UK",
         "Retained"
       ],
-      "programmes": 149,
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ENTChannel.uk@HD",
+      "name": "ENT Channel (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ENTFamily.uk@HD",
+      "name": "ENT Family (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "FailArmy.us@UK",
+      "name": "FailArmy UK (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 243,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "GODTV.uk@SD",
-      "name": "GOD TV (576p)",
+      "id": "GemsTV.uk@SD",
+      "name": "Gems TV (720p)",
       "source_labels": [
         "UK",
         "Retained"
       ],
-      "programmes": 219,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org",
-      "guide_id": "GodChannel.uk",
-      "reason": "GOD TV is indexed as God Channel in the UK guide"
-    },
-    {
-      "id": "IqraBangla.uk@SD",
-      "name": "Iqra Bangla (576p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 152,
+      "programmes": 109,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "StarBharat.uk@SD",
-      "name": "Star Bharat (576p)",
+      "id": "Getfactual.us@UK",
+      "name": "Get.factual (720p)",
       "source_labels": [
         "UK",
         "Retained"
       ],
-      "programmes": 165,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org",
-      "guide_id": "UtsavBharat.uk",
-      "reason": "Stream explicitly identifies UK Utsav Bharat"
-    },
-    {
-      "id": "SonySportsTen1.in@SD",
-      "name": "Sony Sports Ten 1 (576p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 43,
+      "programmes": 96,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "SonySportsTen2.in@SD",
-      "name": "Sony Sports Ten 2 (576p)",
+      "id": "HellenicTV.uk@SD",
+      "name": "Hellenic TV (720p) [Not 24/7]",
       "source_labels": [
-        "Sports",
+        "UK",
         "Retained"
       ],
-      "programmes": 34,
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "HobbyMaker.uk@SD",
+      "name": "Hobby Maker (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 109,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "StarSports2.in@SD",
-      "name": "Star Sports 2 (576p)",
+      "id": "HomesUnderHammer.us@UK",
+      "name": "Homes Under Hammer (720p)",
       "source_labels": [
-        "Sports",
+        "UK",
         "Retained"
       ],
-      "programmes": 16,
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "KanshiTV.uk@SD",
+      "name": "Kanshi TV (720p) [Not 24/7]",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 86,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "OkkoFutbol.ru@SD",
-      "name": "Okko Futbol (576p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "ATNBanglaUK.uk@SD",
-      "name": "ATN Bangla UK (576p)",
+      "id": "MagnavisionTV.uk@SD",
+      "name": "Magnavision TV (720p)",
       "source_labels": [
         "UK",
         "Retained"
@@ -3844,8 +3824,32 @@
       "source": null
     },
     {
-      "id": "ChannelS.uk@SD",
-      "name": "Channel S (United Kingdom) (576p)",
+      "id": "NoorTV.uk@SD",
+      "name": "Noor TV (United Kingdom) (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 106,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Now70s.uk@SD",
+      "name": "Now 70s (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 54,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "SkyNewsWeather.uk@SD",
+      "name": "Sky News Weather (720p)",
       "source_labels": [
         "UK",
         "Retained"
@@ -3856,8 +3860,34 @@
       "source": null
     },
     {
-      "id": "PanjabTV.uk@SD",
-      "name": "Panjab TV (576p)",
+      "id": "SoReal.us@UK",
+      "name": "So... Real UK (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 8,
+      "on_now": true,
+      "next_24h": true,
+      "source": "samsung",
+      "guide_id": "GBBD1100009M9",
+      "reason": "So Real Samsung GB stream"
+    },
+    {
+      "id": "TakbeerTV.uk@SD",
+      "name": "Takbeer TV (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 109,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Teletubbies.uk@SD",
+      "name": "Teletubbies (720p)",
       "source_labels": [
         "UK",
         "Retained"
@@ -3868,8 +3898,20 @@
       "source": null
     },
     {
-      "id": "SangatTV.uk@SD",
-      "name": "Sangat TV (576p)",
+      "id": "ThePetCollective.us@UK",
+      "name": "The Pet Collective UK (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 211,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Totalmusic80s.uk@HD",
+      "name": "Totalmusic 80s (720p)",
       "source_labels": [
         "UK",
         "Retained"
@@ -3880,8 +3922,80 @@
       "source": null
     },
     {
-      "id": "StarPlus.uk@SD",
-      "name": "StarPlus (United Kingdom) (576p)",
+      "id": "Totalmusic2000s.uk@HD",
+      "name": "Totalmusic 2000s (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "TotalmusicConcerts.uk@HD",
+      "name": "Totalmusic Concerts (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "TotalmusicDance.uk@HD",
+      "name": "Totalmusic Dance (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "UndercoverBossGlobal.us@UK",
+      "name": "Undercover Boss Global (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "UtsavBharat.uk@SD",
+      "name": "Utsav Bharat (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 164,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "UtsavPlus.uk@SD",
+      "name": "Utsav Plus (720p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 211,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "V2BEATTV.uk@SD",
+      "name": "V2BEAT TV (720p) [Not 24/7]",
       "source_labels": [
         "UK",
         "Retained"
@@ -3928,6 +4042,42 @@
       "source": null
     },
     {
+      "id": "OkkoFutbol.ru@SD",
+      "name": "Okko Futbol (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "SonySportsTen1.in@SD",
+      "name": "Sony Sports Ten 1 (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 42,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "SonySportsTen2.in@SD",
+      "name": "Sony Sports Ten 2 (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 34,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "SonySportsTen3Hindi.in@SD",
       "name": "Sony Sports Ten 3 Hindi (576p)",
       "source_labels": [
@@ -3964,10 +4114,134 @@
       "source": null
     },
     {
+      "id": "StarSports2.in@SD",
+      "name": "Star Sports 2 (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 16,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "vijuPlusSport.ru@SD",
       "name": "viju+ Sport (576p)",
       "source_labels": [
         "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ATNBanglaUK.uk@SD",
+      "name": "ATN Bangla UK (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "ChannelS.uk@SD",
+      "name": "Channel S (United Kingdom) (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "DeenTV.uk@SD",
+      "name": "Deen TV (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 148,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "GODTV.uk@SD",
+      "name": "GOD TV (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 218,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org",
+      "guide_id": "GodChannel.uk",
+      "reason": "GOD TV is indexed as God Channel in the UK guide"
+    },
+    {
+      "id": "IqraBangla.uk@SD",
+      "name": "Iqra Bangla (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 151,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "PanjabTV.uk@SD",
+      "name": "Panjab TV (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "SangatTV.uk@SD",
+      "name": "Sangat TV (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "StarBharat.uk@SD",
+      "name": "Star Bharat (576p)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 164,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org",
+      "guide_id": "UtsavBharat.uk",
+      "reason": "Stream explicitly identifies UK Utsav Bharat"
+    },
+    {
+      "id": "StarPlus.uk@SD",
+      "name": "StarPlus (United Kingdom) (576p)",
+      "source_labels": [
+        "UK",
         "Retained"
       ],
       "programmes": 0,
@@ -3982,7 +4256,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 105,
+      "programmes": 104,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3994,7 +4268,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 110,
+      "programmes": 109,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4006,7 +4280,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 110,
+      "programmes": 109,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4018,10 +4292,22 @@
         "UK",
         "Retained"
       ],
-      "programmes": 110,
+      "programmes": 109,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TRSport.it@SD",
+      "name": "TR Sport (480p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
     },
     {
       "id": "LatestTV.uk@SD",
@@ -4048,25 +4334,13 @@
       "source": null
     },
     {
-      "id": "TRSport.it@SD",
-      "name": "TR Sport (480p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
       "id": "AkaalChannel.uk@SD",
       "name": "Akaal Channel (396p) [Geo-blocked]",
       "source_labels": [
         "UK",
         "Retained"
       ],
-      "programmes": 127,
+      "programmes": 126,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4074,18 +4348,6 @@
     {
       "id": "StarVijay.in@UK",
       "name": "Star Vijay UK (396p)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "SheffieldLiveTV.uk@SD",
-      "name": "Sheffield Live TV (360p) [Not 24/7]",
       "source_labels": [
         "UK",
         "Retained"
@@ -4156,532 +4418,8 @@
       "source": null
     },
     {
-      "id": "AuctionHunters.de@GB",
-      "name": "Auction Hunters (Germany) GB",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 40,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "62ac50e92c48f900071444c9",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "BeyondBeliefFactorFiction.us@UK",
-      "name": "Beyond Belief: Fact or Fiction",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 19,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "611f85396abc84000738417b",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "CagneyLacey.de@GB",
-      "name": "Cagney & Lacey",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 18,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "6960c5a906d76f50db2816dc",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "GeordieShore.de@GB",
-      "name": "Geordie Shore (Germany) GB",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 21,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "65c4960d11ced7000812c433",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVAlienInvasion.de@GB",
-      "name": "Pluto TV Alien Invasion (Germany)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 16,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "6462190b7cb4b1000862dd60",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVBritainatWar.de@GB",
-      "name": "Pluto TV Britain at War",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 22,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "625e8cb585ef320007806caf",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "TheNanny.us@UK",
-      "name": "The Nanny",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 36,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "6391cef9edb23c0008598cee",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "BellatorMMA.us@SD",
-      "name": "Bellator MMA",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 13,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5ebc8688f3697d00072f7cf8",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "BrondbyTV.se@DK",
-      "name": "Brondby TV",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 30,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "685029cda1e091e16ff57fc8",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "DAZNDartsxPlutoTV.de@DACH",
-      "name": "DAZN Darts x Pluto TV",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 7,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "64b67f0424ade50008a3be17",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "DAZNHeldinnenxPlutoTV.de@DACH",
-      "name": "DAZN Heldinnen x Pluto TV",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 18,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "64afe50c5dc16600087f3227",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "ElevenSports1.pl@SD",
-      "name": "Eleven Sports 1",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 99,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FBTV.tr@SD",
-      "name": "FB TV",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 156,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "FCKLovinderne.se@DK",
-      "name": "FCK Lovinderne",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 17,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "68ac5403de4a734954b5ab75",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "FUTV.cr@SD",
-      "name": "FUTV",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 10,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "GolfChannel.cz@SD",
-      "name": "Golf Channel",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 49,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "PlutoTVCompetition.us@SD",
-      "name": "Pluto TV Competition",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 23,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "603fde9026ecbf0007752c2c",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVDeportes.us@LatAm",
-      "name": "Pluto TV Deportes",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 9,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5dcde07af1c85b0009b18651",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVESports.us@LatAm",
-      "name": "Pluto TV E-Sports",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 53,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5ff3934600d4c7000733ff49",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVEsportes.us@BR",
-      "name": "Pluto TV Esportes",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 30,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5f32d2db0af67400077f29c4",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVFishing.se@DK",
-      "name": "Pluto TV Fishing",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 31,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "619e1874e0d3a7000729a036",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVHandboldHighlights.se@DK",
-      "name": "Pluto TV Handbold Highlights",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 9,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "68dfa431cc3c6cd904053100",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVHandboldLive.se@DK",
-      "name": "Pluto TV Handbold Live",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 33,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "6618f54baec96800081525ec",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVHandbollHighlights.se@SE",
-      "name": "Pluto TV Handboll Highlights",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 10,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "68dfa3e2cc3c6cd904052c41",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVHandbollLive.se@SE",
-      "name": "Pluto TV Handboll Live",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 33,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "686faf533ffa5e0c912688e7",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSnooker900.us@CA",
-      "name": "Pluto TV Snooker 900 (United States)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 8,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "639b4f75d3d35c0007d37b30",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSport.de@IT",
-      "name": "Pluto TV Sport (Germany)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 13,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "608030eff4b6f70007e1684c",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSport.se@SE",
-      "name": "Pluto TV Sport (Sweden)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 17,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "62cd74e38f6f0d000798cd93",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSport.se@DK",
-      "name": "Pluto TV Sport (Sweden) DK",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 20,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "6357f3de3643ba0007bc0b50",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PlutoTVSport.se@NO",
-      "name": "Pluto TV Sport (Sweden) NO",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 22,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "6357f33cb51d2d00077927c6",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "PokerGo.us@US",
-      "name": "PokerGo",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 6,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5fc54366b04b2300072e31af",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "Teledeporte.es@SD",
-      "name": "Teledeporte",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 89,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TigoSports.py@SD",
-      "name": "Tigo Sports (Paraguay)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 20,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "TVRSport.ro@SD",
-      "name": "TVR Sport",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 122,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "WorldPokerTour.us@Germany",
-      "name": "World Poker Tour Germany",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 19,
-      "on_now": true,
-      "next_24h": true,
-      "source": "pluto",
-      "guide_id": "5ad9b7aae738977e2c312132",
-      "reason": "Native Pluto stream ID"
-    },
-    {
-      "id": "Canaf54TV.uk@SD",
-      "name": "Canaf54 TV",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "DerTV.uk@SD",
-      "name": "Der TV",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "EnglishClubTV.uk@SD",
-      "name": "English Club TV (576i)",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "KanalJadid.uk@SD",
-      "name": "Kanal Jadid",
-      "source_labels": [
-        "UK",
-        "Retained"
-      ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
-    },
-    {
-      "id": "KNMusicTV.az@SD",
-      "name": "KN Music TV",
+      "id": "SheffieldLiveTV.uk@SD",
+      "name": "Sheffield Live TV (360p) [Not 24/7]",
       "source_labels": [
         "UK",
         "Retained"
@@ -4752,6 +4490,18 @@
       "source": null
     },
     {
+      "id": "ElevenSports1.pl@SD",
+      "name": "Eleven Sports 1",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 99,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "FastFunBox.nl@SD",
       "name": "Fast&FunBox",
       "source_labels": [
@@ -4764,16 +4514,16 @@
       "source": null
     },
     {
-      "id": "FightBox.nl@SD",
-      "name": "FightBox",
+      "id": "FBTV.tr@SD",
+      "name": "FB TV",
       "source_labels": [
         "Sports",
         "Retained"
       ],
-      "programmes": 0,
-      "on_now": false,
-      "next_24h": false,
-      "source": null
+      "programmes": 156,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "FightBox.nl@HD",
@@ -4798,6 +4548,30 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "FUTV.cr@SD",
+      "name": "FUTV",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 9,
+      "on_now": false,
+      "next_24h": false,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "GolfChannel.cz@SD",
+      "name": "Golf Channel",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 49,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "MonterricoTV.pe@SD",
@@ -4848,6 +4622,34 @@
       "source": null
     },
     {
+      "id": "PlutoTVFishing.se@DK",
+      "name": "Pluto TV Fishing",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 31,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "619e1874e0d3a7000729a036",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVSport.de@IT",
+      "name": "Pluto TV Sport (Germany)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 13,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "608030eff4b6f70007e1684c",
+      "reason": "Native Pluto stream ID"
+    },
+    {
       "id": "PrimaSportCzechia.cz@SD",
       "name": "Prima Sport Czechia",
       "source_labels": [
@@ -4896,6 +4698,30 @@
       "source": null
     },
     {
+      "id": "Teledeporte.es@SD",
+      "name": "Teledeporte",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 89,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "TigoSports.py@SD",
+      "name": "Tigo Sports (Paraguay)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 20,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "TraceSportStars.fr@SD",
       "name": "Trace Sport Stars SD",
       "source_labels": [
@@ -4908,6 +4734,18 @@
       "source": null
     },
     {
+      "id": "TVRSport.ro@SD",
+      "name": "TVR Sport",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 120,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "TyCSportsUSA.ar@SD",
       "name": "TyC Sports USA",
       "source_labels": [
@@ -4918,6 +4756,164 @@
       "on_now": false,
       "next_24h": false,
       "source": null
+    },
+    {
+      "id": "AuctionHunters.de@GB",
+      "name": "Auction Hunters (Germany) GB",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 40,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "62ac50e92c48f900071444c9",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "BeyondBeliefFactorFiction.us@UK",
+      "name": "Beyond Belief: Fact or Fiction",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 19,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "611f85396abc84000738417b",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "CagneyLacey.de@GB",
+      "name": "Cagney & Lacey",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 18,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "6960c5a906d76f50db2816dc",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "Canaf54TV.uk@SD",
+      "name": "Canaf54 TV",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "DerTV.uk@SD",
+      "name": "Der TV",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "EnglishClubTV.uk@SD",
+      "name": "English Club TV (576i)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "GeordieShore.de@GB",
+      "name": "Geordie Shore (Germany) GB",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 21,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "65c4960d11ced7000812c433",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "KanalJadid.uk@SD",
+      "name": "Kanal Jadid",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "KNMusicTV.az@SD",
+      "name": "KN Music TV",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 0,
+      "on_now": false,
+      "next_24h": false,
+      "source": null
+    },
+    {
+      "id": "PlutoTVAlienInvasion.de@GB",
+      "name": "Pluto TV Alien Invasion (Germany)",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 16,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "6462190b7cb4b1000862dd60",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "PlutoTVBritainatWar.de@GB",
+      "name": "Pluto TV Britain at War",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 22,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "625e8cb585ef320007806caf",
+      "reason": "Native Pluto stream ID"
+    },
+    {
+      "id": "TheNanny.us@UK",
+      "name": "The Nanny",
+      "source_labels": [
+        "UK",
+        "Retained"
+      ],
+      "programmes": 36,
+      "on_now": true,
+      "next_24h": true,
+      "source": "pluto",
+      "guide_id": "6391cef9edb23c0008598cee",
+      "reason": "Native Pluto stream ID"
     }
   ]
 }

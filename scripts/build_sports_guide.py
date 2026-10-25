@@ -18,9 +18,15 @@ def is_football(entry):
     terms=('setanta','beinsports','premiersports','sporttv','football','futbol','futebol','fifa','golazo','mutv','lfctv','skysportspremierleague')
     return any(term in entry['id'].casefold() for term in terms)
 
-def group_for(entry, matched, uk_main):
+def nfl_group_for(spec, has_guide):
+    group='NFL game broadcasters' if spec['role']=='game broadcaster' else 'NFL news and replays'
+    return group if has_guide else group+' - guide unavailable'
+
+def group_for(entry, matched, uk_main, nfl_view=None):
     if entry['id'] in uk_main:
         return 'UK main channels' if entry['id'] in matched else 'UK main - guide unavailable'
+    if nfl_view and entry['id'] in nfl_view:
+        return nfl_group_for(nfl_view[entry['id']],entry['id'] in matched)
     if entry['id'] in matched:
         if is_football(entry): return 'Football with guide'
         if 'Extra' in entry['sources']: return 'BBC and Sky'
@@ -64,6 +70,9 @@ def build(snapshot=False,reuse_audit=False):
     curated={(e['id'],e['url']) for e in configured}
     uk_main={e['id'] for e in configured if e['attrs'].get('group-title')=='UK main channels'}
     uk_order={e['id']:i for i,e in enumerate(configured) if e['id'] in uk_main}
+    nfl_rows=json.loads((ROOT.parent/'config/nfl-view.json').read_text(encoding='utf-8'))
+    nfl_view={e['id']:e for e in nfl_rows}
+    nfl_order={e['id']:i for i,e in enumerate(nfl_rows)}
     def rank(entry):
         result=status.get((entry['id'],entry['url']),{})
         quality=re.search(r'\((\d+)p\)',entry['name'])
@@ -159,12 +168,18 @@ def build(snapshot=False,reuse_audit=False):
     with gzip.open(OUT/'guide.xml.gz.tmp','wb') as dest: dest.write(xml)
     (OUT/'guide.xml.gz.tmp').replace(OUT/'guide.xml.gz')
     matched=upcoming
-    ordered=sorted(checked,key=lambda e:(e['id'] not in matched,0 if e['id'] in uk_main else (1 if is_football(e) else (2 if 'Extra' in e['sources'] else (3 if 'UK' in e['sources'] else 4))),uk_order.get(e['id'],999),e['name'].casefold()))
-    def playlist(items):
+    def topic_rank(entry):
+        if entry['id'] in uk_main: return 0
+        if entry['id'] in nfl_view: return 1 if nfl_view[entry['id']]['role']=='game broadcaster' else 2
+        return 3 if is_football(entry) else (4 if 'Extra' in entry['sources'] else (5 if 'UK' in entry['sources'] else 6))
+    ordered=sorted(checked,key=lambda e:(e['id'] not in matched,topic_rank(e),uk_order.get(e['id'],999),nfl_order.get(e['id'],999),e['name'].casefold()))
+    def playlist(items,nfl_only=False):
         lines=['#EXTM3U x-tvg-url="'+os.environ.get('PUBLIC_FEED_BASE_URL','https://redonesmf.github.io/tv-feed').rstrip('/')+'/g.xml"']
         for e in items:
-            group=group_for(e,matched,uk_main)
-            lines.append(f'#EXTINF:-1 tvg-id="{e["id"]}" tvg-logo="{e["logo"]}" group-title="{group}",{e["name"]}')
+            spec=nfl_view.get(e['id'])
+            group=nfl_group_for(spec,e['id'] in matched) if nfl_only else group_for(e,matched,uk_main,nfl_view)
+            label=spec.get('label',e['name']) if spec else e['name']
+            lines.append(f'#EXTINF:-1 tvg-id="{e["id"]}" tvg-logo="{e["logo"]}" group-title="{group}",{label}')
             for opt,value in e['opts'].items(): lines.append(f'#EXTVLCOPT:{opt}={value}')
             lines.append(e['url'])
         return '\n'.join(lines)+'\n'
@@ -172,11 +187,13 @@ def build(snapshot=False,reuse_audit=False):
     (OUT/'Sports-Checked.m3u.tmp').replace(OUT/'Sports-Checked.m3u')
     (OUT/'Guide-Only.m3u').write_text(playlist([e for e in ordered if e['id'] in matched]),encoding='utf-8')
     (OUT/'UK-Main.m3u').write_text(playlist([e for e in ordered if e['id'] in uk_main]),encoding='utf-8')
+    by_id={e['id']:e for e in checked}
+    (OUT/'NFL-Watch.m3u').write_text(playlist([by_id[e['id']] for e in nfl_rows if e['id'] in by_id],nfl_only=True),encoding='utf-8')
     (OUT/'coverage.json').write_text(json.dumps({'built_at':NOW.isoformat(),'channels':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
     cloud_verified=None if snapshot or reuse_audit else sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
     previous=json.loads((ROOT.parent/'data/status.json').read_text(encoding='utf-8'))
     last_check=previous.get('last_media_check_at',previous['built_at']) if snapshot or reuse_audit else NOW.isoformat()
-    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not (snapshot or reuse_audit),'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot or reuse_audit else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] or e['id'] in uk_main for e in checked),'uk_main_channels':len(uk_main),'uk_main_with_upcoming_listings':len(uk_main & upcoming),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not (snapshot or reuse_audit),'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot or reuse_audit else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] or e['id'] in uk_main for e in checked),'nfl_watchlist_channels':len(nfl_view),'nfl_watchlist_with_upcoming_listings':len(set(nfl_view)&upcoming),'uk_main_channels':len(uk_main),'uk_main_with_upcoming_listings':len(uk_main & upcoming),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 

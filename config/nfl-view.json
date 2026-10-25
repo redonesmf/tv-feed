@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Channel5.uk@HD",
+    "role": "game broadcaster",
+    "keep_original_group": true,
+    "label": "Channel 5 (HD)"
+  },
+  {
+    "id": "SkySportsAction.uk@SD",
+    "role": "game broadcaster",
+    "keep_original_group": false,
+    "label": "Sky Sports Action/NFL (HD)"
+  },
+  {
+    "id": "ESPN.us@HD",
+    "role": "game broadcaster",
+    "keep_original_group": false,
+    "label": "ESPN (United States) HD (720p)"
+  },
+  {
+    "id": "ESPN.us@AlternateHD",
+    "role": "game broadcaster",
+    "keep_original_group": false,
+    "label": "ESPN alternate (HD)"
+  },
+  {
+    "id": "ESPN2.us@HD",
+    "role": "game broadcaster",
+    "keep_original_group": false,
+    "label": "ESPN 2 (United States) HD (720p)"
+  },
+  {
+    "id": "NFLNetwork.us@SD",
+    "role": "game broadcaster",
+    "keep_original_group": false,
+    "label": "NFL Network (HD)"
+  },
+  {
+    "id": "NFLChannel.us@SD",
+    "role": "news/replays",
+    "keep_original_group": false,
+    "label": "NFL Channel - shows, scores and replays"
+  },
+  {
+    "id": "CBSSportsHQ.us@SD",
+    "role": "news/replays",
+    "keep_original_group": false,
+    "label": "CBS Sports HQ - news and analysis"
+  }
+]

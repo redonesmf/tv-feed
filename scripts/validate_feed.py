@@ -60,6 +60,15 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  assert {c['id'] for c in focused}==upcoming, 'Guide-only playlist includes missing listings'
  original={c['id']:c['url'] for c in channels}
  assert all(original[c['id']]==c['url'] for c in focused), 'Guide-only playlist changed a stream'
+ nfl_config=json.loads((DATA.parent/'config/nfl-view.json').read_text(encoding='utf-8'))
+ nfl_name='NFL-Watch.m3u' if playlist_name=='Sports-Checked.m3u' else 'nfl.m3u'
+ nfl_rows=entries((folder/nfl_name).read_text(encoding='utf-8'))
+ assert [c['id'] for c in nfl_rows]==[c['id'] for c in nfl_config], 'NFL watch list is missing or reordering channels'
+ assert {c['id'] for c in nfl_config}.issubset(upcoming), 'NFL watch-list schedules missing'
+ assert all(original[c['id']]==c['url'] for c in nfl_rows), 'NFL view changed a stream'
+ for spec,channel in zip(nfl_config,nfl_rows):
+  expected='NFL game broadcasters' if spec['role']=='game broadcaster' else 'NFL news and replays'
+  assert channel['attrs'].get('group-title')==expected, 'NFL news/replays incorrectly labelled as game coverage'
  result={'channels':len(channels),'channels_with_guide':len(covered),'programmes':len(programmes),'groups':sorted({e['attrs']['group-title'] for e in channels}),'validation':'passed'}
  return result
 

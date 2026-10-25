@@ -9,10 +9,17 @@ import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'scripts'))
 from supplement_guide import mapping_for, normalize, read_programmes, reviewed_mappings
-from build_sports_guide import snapshot_entries, group_for
+from build_sports_guide import snapshot_entries, group_for, nfl_group_for
 
 
 class GuideMatchingTests(unittest.TestCase):
+    def test_nfl_fast_channels_are_separate_from_game_broadcasters(self):
+        view={'NFLChannel.us@SD':{'role':'news/replays'},'Channel5.uk@HD':{'role':'game broadcaster'}}
+        self.assertEqual(group_for({'id':'NFLChannel.us@SD','sources':['Sports']},{'NFLChannel.us@SD'},set(),view),'NFL news and replays')
+        self.assertEqual(group_for({'id':'Channel5.uk@HD','sources':['Extra']},{'Channel5.uk@HD'},{'Channel5.uk@HD'},view),'UK main channels')
+        self.assertEqual(nfl_group_for(view['Channel5.uk@HD'],True),'NFL game broadcasters')
+        self.assertEqual(nfl_group_for(view['NFLChannel.us@SD'],False),'NFL news and replays - guide unavailable')
+
     def test_uk_main_channels_remain_separate_from_sports_and_bbc_news_na(self):
         entry={'id':'ITV1.uk@HD','sources':['Extra','Retained']}
         self.assertEqual(group_for(entry,{'ITV1.uk@HD'},{'ITV1.uk@HD'}),'UK main channels')
