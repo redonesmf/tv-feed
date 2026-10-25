@@ -41,6 +41,8 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  assert {c['id'] for c in coverage['channels']}==set(ids), 'Coverage report has different channels'
  built=dt.datetime.fromisoformat(coverage['built_at'])
  upcoming={ident for ident,slots in by_channel.items() if any(stop>built and start<built+dt.timedelta(hours=24) for start,stop in slots)}
+ assert len(upcoming)>=130, 'Too few channels have fresh listings; preserving published feed'
+ assert {'SkySportsPremierLeague.uk@SD','SkySportsAction.uk@SD','BBCNews.uk@NorthAmerica'}.issubset(upcoming), 'BBC/Sky current or upcoming listings missing'
  assert upcoming=={c['id'] for c in coverage['channels'] if c['next_24h']}, 'Coverage report is incorrect'
  guide_only='Guide-Only.m3u' if playlist_name=='Sports-Checked.m3u' else 'guide.m3u'
  focused=entries((folder/guide_only).read_text(encoding='utf-8'))

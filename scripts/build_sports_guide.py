@@ -1,4 +1,4 @@
-import collections, copy, datetime as dt, gzip, json, pathlib, re, urllib.request, os
+import argparse, collections, copy, datetime as dt, gzip, json, pathlib, re, urllib.request, os
 import xml.etree.ElementTree as ET
 from audit_sports import ROOT, CACHE, OUT, entries,load_sources
 from supplement_guide import reviewed_mappings, mapping_for, add_supplements, normalize
@@ -29,9 +29,21 @@ def cached_guide(country):
             while chunk:=response.read(262144): dest.write(chunk)
     return compressed
 
-def build():
-    all_entries=load_sources()
-    health=json.loads((OUT/'channel-health.json').read_text(encoding='utf-8'))
+def snapshot_entries():
+    data=ROOT.parent/'data'
+    rows=entries((data/'p.m3u').read_text(encoding='utf-8'))
+    report={c['id']:c for c in json.loads((data/'coverage.json').read_text(encoding='utf-8'))['channels']}
+    originals={e['id']:e for name in ['retained-channels.m3u','extra-channels.m3u'] for e in entries((ROOT.parent/'config'/name).read_text(encoding='utf-8'))}
+    extra_ids={e['id'] for e in entries((ROOT.parent/'config/extra-channels.m3u').read_text(encoding='utf-8'))}
+    for e in rows:
+        group=originals.get(e['id'],e)['attrs'].get('group-title','')
+        e['sources']=['Retained','Extra'] if e['id'] in extra_ids else (report.get(e['id'],{}).get('source_labels') or ['Retained','UK' if group=='UK channels' else ('Extra' if group.startswith('BBC and Sky') else 'Sports')])
+    return rows
+
+
+def build(snapshot=False):
+    all_entries=snapshot_entries() if snapshot else load_sources()
+    health={'channels':[]} if snapshot else json.loads((OUT/'channel-health.json').read_text(encoding='utf-8'))
     status={(c['id'],c['url']):c for c in health['channels']}
     candidates=[e for e in all_entries if (status.get((e['id'],e['url']),{}).get('status')=='media_responded' or 'Extra' in e['sources'] or 'Retained' in e['sources'])]
     def rank(entry):
@@ -84,6 +96,9 @@ def build():
                         root.remove(node)
                     elif node.tag=='programme':
                         matched=targets.get(key(node.get('channel','')),[])
+                        if not matched:
+                            root.remove(node)
+                            continue
                         title=' '.join(node.findtext('title','').split())
                         begin=xmltime(node.get('start','')); end=xmltime(node.get('stop',''))
                         if matched and title.casefold() not in {'','no data','no information','tba','to be announced'} and begin and end and begin<end and end>START and begin<END:
@@ -109,7 +124,7 @@ def build():
         tree.extend(nodes); programmes[e['id']]=len(nodes)
         if any(xmltime(n.get('start'))<=NOW<xmltime(n.get('stop')) for n in nodes): current.add(e['id'])
         if any(xmltime(n.get('stop'))>NOW and xmltime(n.get('start'))<NOW+dt.timedelta(hours=24) for n in nodes): upcoming.add(e['id'])
-        coverage.append({'id':e['id'],'name':e['name'],'programmes':len(nodes),'on_now':e['id'] in current,'next_24h':e['id'] in upcoming,**provenance.get(e['id'],{'source':'IPTV-EPG.org' if nodes else None})})
+        coverage.append({'id':e['id'],'name':e['name'],'source_labels':e['sources'],'programmes':len(nodes),'on_now':e['id'] in current,'next_24h':e['id'] in upcoming,**provenance.get(e['id'],{'source':'IPTV-EPG.org' if nodes else None})})
     # Add every checked channel before programme elements, so unmatched channels stay usable.
     for index,e in enumerate(checked):
         node=channel_nodes.get(e['id'])
@@ -139,9 +154,14 @@ def build():
     (OUT/'Sports-Checked.m3u.tmp').replace(OUT/'Sports-Checked.m3u')
     (OUT/'Guide-Only.m3u').write_text(playlist([e for e in ordered if e['id'] in matched]),encoding='utf-8')
     (OUT/'coverage.json').write_text(json.dumps({'built_at':NOW.isoformat(),'channels':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
-    cloud_verified=sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
-    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    cloud_verified=None if snapshot else sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
+    previous=json.loads((ROOT.parent/'data/status.json').read_text(encoding='utf-8'))
+    last_check=previous.get('last_media_check_at',previous['built_at']) if snapshot else NOW.isoformat()
+    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not snapshot,'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 
-if __name__=='__main__': build()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--snapshot',action='store_true',help='Update guide only; preserve published stream URLs and source labels')
+    build(parser.parse_args().snapshot)

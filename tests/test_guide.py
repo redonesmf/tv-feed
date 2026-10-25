@@ -4,10 +4,12 @@ import pathlib
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'scripts'))
 from supplement_guide import mapping_for, normalize, read_programmes, reviewed_mappings
+from build_sports_guide import snapshot_entries
 
 
 class GuideMatchingTests(unittest.TestCase):
@@ -45,6 +47,20 @@ class GuideMatchingTests(unittest.TestCase):
         overlap = node('20261025103000 +0000', '20261025120000 +0000')
         next_show = node('20261025070000 -0400', '20261025080000 -0400')
         self.assertEqual(normalize([next_show, first, first, overlap]), [first, next_show])
+
+    def test_hourly_guide_update_preserves_published_stream_and_source(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = pathlib.Path(temp)
+            for name in ['data', 'config', 'scripts']:
+                (root / name).mkdir()
+            (root / 'data/p.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="Station.uk@GB" group-title="UK with guide",Station\nhttps://example.org/new-stream.m3u8\n', encoding='utf-8')
+            (root / 'data/coverage.json').write_text('{"channels":[{"id":"Station.uk@GB","source_labels":["Retained","UK"]}]}', encoding='utf-8')
+            (root / 'config/retained-channels.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="Station.uk@GB" group-title="UK channels",Station\nhttps://example.org/old-stream.m3u8\n', encoding='utf-8')
+            (root / 'config/extra-channels.m3u').write_text('#EXTM3U\n', encoding='utf-8')
+            with patch('build_sports_guide.ROOT', root / 'scripts'):
+                rows = snapshot_entries()
+        self.assertEqual(rows[0]['url'], 'https://example.org/new-stream.m3u8')
+        self.assertEqual(rows[0]['sources'], ['Retained', 'UK'])
 
 
 if __name__ == '__main__':

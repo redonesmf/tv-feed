@@ -42,10 +42,14 @@ US guide, not the domestic BBC News schedule. No placeholder schedules are made
 up. Duplicate and overlapping entries are removed. Publication validates all
 384 retained IDs, the guide-only subset, timestamps, overlaps and coverage.
 `status.json` distinguishes any listings, on-now listings and the next 24 hours.
+Guide-only runs explicitly report that no media audit was performed and retain
+the timestamp of the last channel-link check.
 Some free channels publish no usable EPG; these remain playable without a guide.
 
-GitHub Actions refreshes at 05:23 and 17:23 UTC and can also be run manually from
-Actions. Schedules can be delayed. The last validated deployment stays online if
+GitHub Actions refreshes listings hourly at minute 23. At 05:23 and 17:23 UTC
+it also rechecks channel links. Other runs keep the published stream URLs and
+source groups without probing video streams. Full refreshes can be run manually
+from Actions. Schedules can be delayed. The last validated deployment stays online if
 a refresh fails. Check `status.json` and Actions when the guide appears stale.
 GitHub can disable schedules after prolonged repository inactivity.
 

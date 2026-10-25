@@ -3,16 +3,17 @@ import argparse,json,pathlib,shutil,subprocess,sys,urllib.request
 from audit_sports import ROOT,CACHE,OUT
 from validate_feed import DATA,validate
 
-def refresh(reuse_audit=False):
- shutil.copyfile(ROOT.parent/'config/extra-channels.m3u',CACHE/'extra-latest.m3u')
- shutil.copyfile(ROOT.parent/'config/retained-channels.m3u',CACHE/'retained-latest.m3u')
- if not reuse_audit:
+def refresh(reuse_audit=False,guide_only=False):
+ if not guide_only:
+  shutil.copyfile(ROOT.parent/'config/extra-channels.m3u',CACHE/'extra-latest.m3u')
+  shutil.copyfile(ROOT.parent/'config/retained-channels.m3u',CACHE/'retained-latest.m3u')
+ if not reuse_audit and not guide_only:
   for url,name in [('https://iptv-org.github.io/iptv/categories/sports.m3u','sports-latest.m3u'),('https://iptv-org.github.io/iptv/countries/uk.m3u','uk-latest.m3u')]:
    with urllib.request.urlopen(url,timeout=25) as response: body=response.read(2_000_000)
    if not body.lstrip().startswith(b'#EXTM3U'): raise RuntimeError('Upstream did not return an M3U playlist')
    (CACHE/name).write_bytes(body)
   subprocess.run([sys.executable,str(ROOT/'audit_sports.py')],check=True)
- subprocess.run([sys.executable,str(ROOT/'build_sports_guide.py')],check=True)
+ subprocess.run([sys.executable,str(ROOT/'build_sports_guide.py')]+(['--snapshot'] if guide_only else []),check=True)
  result=validate(OUT,'Sports-Checked.m3u','guide.xml')
  summary=json.loads((OUT/'guide-summary.json').read_text(encoding='utf-8'))
  status={k:v for k,v in summary.items() if k!='guide_coverage'}
@@ -25,5 +26,8 @@ def refresh(reuse_audit=False):
 
 if __name__=='__main__':
  parser=argparse.ArgumentParser()
- parser.add_argument('--reuse-audit',action='store_true',help='For local verification with an already checked source snapshot')
- refresh(parser.parse_args().reuse_audit)
+ modes=parser.add_mutually_exclusive_group()
+ modes.add_argument('--reuse-audit',action='store_true',help='For local verification with an already checked source snapshot')
+ modes.add_argument('--guide-only',action='store_true',help='Refresh listings, preserving published channels without probing streams')
+ args=parser.parse_args()
+ refresh(args.reuse_audit,args.guide_only)

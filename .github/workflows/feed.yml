@@ -7,8 +7,12 @@ on:
         description: Recheck sources and rebuild the programme guide
         type: boolean
         default: true
+      guide_only:
+        description: Update listings without checking or changing stream URLs
+        type: boolean
+        default: false
   schedule:
-    - cron: '23 5,17 * * *'
+    - cron: '23 * * * *'
 
 permissions:
   contents: read
@@ -41,7 +45,13 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Refresh public sources
         if: github.event_name == 'schedule' || inputs.refresh
-        run: python scripts/refresh.py
+        run: |
+          hour=$(date -u +%H)
+          if [ "${{ inputs.guide_only }}" = "true" ] || { [ "${{ github.event_name }}" = "schedule" ] && [ "$hour" != "05" ] && [ "$hour" != "17" ]; }; then
+            python scripts/refresh.py --guide-only
+          else
+            python scripts/refresh.py
+          fi
       - name: Validate files before publication
         run: python scripts/validate_feed.py
       - name: Save refreshed data

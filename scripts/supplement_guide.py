@@ -42,7 +42,7 @@ def mapping_for(entry, mappings):
 
 def cached_supplement(source, now):
     path = CACHE / f'supplement-{source}.xml.gz'
-    if path.exists() and now.timestamp() - path.stat().st_mtime < 43200:
+    if path.exists() and now.timestamp() - path.stat().st_mtime < 1800:
         return path
     url = f'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/{SOURCES[source]}/all.xml.gz'
     temporary = path.with_suffix('.gz.tmp')
