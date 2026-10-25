@@ -40,7 +40,7 @@ platform and country identified in the stream URL, even when the M3U channel ID
 has a different country suffix. BBC News North America uses the corresponding
 US guide, not the domestic BBC News schedule. No placeholder schedules are made
 up. Duplicate and overlapping entries are removed. Publication validates all
-384 retained IDs, the guide-only subset, timestamps, overlaps and coverage.
+retained and explicitly added IDs, the guide-only subset, timestamps, overlaps and coverage.
 `status.json` distinguishes any listings, on-now listings and the next 24 hours.
 Guide-only runs explicitly report that no media audit was performed and retain
 the timestamp of the last channel-link check.
@@ -74,8 +74,36 @@ reimports the channel list; it does not uninstall the app. A Premium upgrade is
 not required for this reimport. Keep the TV on guest Wi-Fi and ADB disabled.
 
 After importing, open Sky Sports Premier League and check the preview and guide.
-Also test Sky Sports Action and BBC News North America. BBC One and BBC Two have
-not been added because their candidate links could not be verified.
+Also test Sky Sports Action and BBC News North America. The UK main-channel
+additions are grouped separately from BBC News North America and sports.
+
+## UK main-channel additions
+
+Sixteen additional streams were decoded from a public HTTP MPEG-TS relay on
+25 October 2026, after ordinary BBC/ITV/Channel 4/5 M3U candidates failed from
+the US connection. Collection source:
+[public playlist](https://github.com/badboys88888/IPTV/blob/94ce9db3dad99113d1e4954633f94941565ac8d5/iptv.m3u).
+Decoded video, DVB service names and channel logos were inspected; original
+384 channels are preserved. This is third-party relay availability evidence,
+not a guarantee of continuous service or TV-device playback. No new TV app,
+account login, private credentials or network-isolation changes are involved.
+
+The group includes BBC One, BBC Two, ITV1-4, Channel 4, Channel 5, E4, Film4,
+5STAR, 5USA, More4 +1, BBC News UK and two shared BBC Three/CBBC and BBC
+Four/CBeebies feeds. The shared feeds showed BBC Three/Four at night despite
+their legacy CBBC/CBeebies service names; their guide uses the corresponding
+combined UK listings. More4 is explicitly the +1 feed. BBC One, E4, Film4,
+5STAR, 5USA and More4 +1 are SD; the other ten additions are 1080-line HD.
+The player must respect the MPEG-TS aspect ratio, especially for SD channels.
+
+ITV1 uses a clearly recorded London/national guide reference because the relay
+does not identify its regional edition. Regional-news listings may differ.
+Explicit configured additions keep their verified URLs during future refreshes.
+
+All sixteen appear in the full and guide-only playlists. An optional UK-only
+playlist is available at https://redonesmf.github.io/tv-feed/uk.m3u and uses
+the same g.xml EPG. It is an alternative import, not a required second playlist.
+Channel additions and group changes require a playlist reimport in free TiviMate.
 
 ## Maintenance
 

@@ -18,6 +18,10 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  required={'SkySportsPremierLeague.uk@SD','SkySportsAction.uk@SD','BBCNews.uk@NorthAmerica'}
  retained=pathlib.Path(__file__).resolve().parents[1]/'config/retained-channels.m3u'
  if retained.exists(): required.update(e['id'] for e in entries(retained.read_text(encoding='utf-8')))
+ extra=pathlib.Path(__file__).resolve().parents[1]/'config/extra-channels.m3u'
+ additions=entries(extra.read_text(encoding='utf-8'))
+ required.update(e['id'] for e in additions)
+ uk_main={e['id'] for e in additions if e['attrs'].get('group-title')=='UK main channels'}
  assert required.issubset(ids), 'An existing curated or requested channel is missing'
  root=ET.parse(folder/guide_name).getroot()
  guide_ids={n.get('id') for n in root.findall('channel')}
@@ -43,6 +47,13 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  upcoming={ident for ident,slots in by_channel.items() if any(stop>built and start<built+dt.timedelta(hours=24) for start,stop in slots)}
  assert len(upcoming)>=130, 'Too few channels have fresh listings; preserving published feed'
  assert {'SkySportsPremierLeague.uk@SD','SkySportsAction.uk@SD','BBCNews.uk@NorthAmerica'}.issubset(upcoming), 'BBC/Sky current or upcoming listings missing'
+ assert uk_main.issubset(upcoming), 'New UK main-channel listings missing'
+ uk_name='UK-Main.m3u' if playlist_name=='Sports-Checked.m3u' else 'uk.m3u'
+ uk_rows=entries((folder/uk_name).read_text(encoding='utf-8'))
+ assert {e['id'] for e in uk_rows}==uk_main, 'UK-only playlist has incorrect channels'
+ expected_urls={e['id']:e['url'] for e in additions}
+ assert all(e['url']==expected_urls[e['id']] for e in uk_rows), 'UK-only playlist changed a verified stream'
+ assert all(e['url']==expected_urls[e['id']] for e in channels if e['id'] in expected_urls), 'An explicit addition was replaced by an unverified URL'
  assert upcoming=={c['id'] for c in coverage['channels'] if c['next_24h']}, 'Coverage report is incorrect'
  guide_only='Guide-Only.m3u' if playlist_name=='Sports-Checked.m3u' else 'guide.m3u'
  focused=entries((folder/guide_only).read_text(encoding='utf-8'))

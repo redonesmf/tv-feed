@@ -9,10 +9,16 @@ import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'scripts'))
 from supplement_guide import mapping_for, normalize, read_programmes, reviewed_mappings
-from build_sports_guide import snapshot_entries
+from build_sports_guide import snapshot_entries, group_for
 
 
 class GuideMatchingTests(unittest.TestCase):
+    def test_uk_main_channels_remain_separate_from_sports_and_bbc_news_na(self):
+        entry={'id':'ITV1.uk@HD','sources':['Extra','Retained']}
+        self.assertEqual(group_for(entry,{'ITV1.uk@HD'},{'ITV1.uk@HD'}),'UK main channels')
+        self.assertEqual(group_for(entry,set(),{'ITV1.uk@HD'}),'UK main - guide unavailable')
+        self.assertEqual(group_for({'id':'BBCNews.uk@NorthAmerica','sources':['Extra']},{'BBCNews.uk@NorthAmerica'},{'ITV1.uk@HD'}),'BBC and Sky')
+
     def test_native_ids_keep_regional_sports_feeds_separate(self):
         ids = ['62cd74e38f6f0d000798cd93', '6357f3de3643ba0007bc0b50']
         matches = [mapping_for({'id': 'PlutoTVSport.se', 'url': f'https://jmp2.uk/plu-{ident}.m3u8'}, {}) for ident in ids]

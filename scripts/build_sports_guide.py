@@ -14,6 +14,20 @@ def xmltime(value):
     try: return dt.datetime.strptime(value[:20],'%Y%m%d%H%M%S %z')
     except ValueError: return None
 
+def is_football(entry):
+    terms=('setanta','beinsports','premiersports','sporttv','football','futbol','futebol','fifa','golazo','mutv','lfctv','skysportspremierleague')
+    return any(term in entry['id'].casefold() for term in terms)
+
+def group_for(entry, matched, uk_main):
+    if entry['id'] in uk_main:
+        return 'UK main channels' if entry['id'] in matched else 'UK main - guide unavailable'
+    if entry['id'] in matched:
+        if is_football(entry): return 'Football with guide'
+        if 'Extra' in entry['sources']: return 'BBC and Sky'
+        return 'UK with guide' if 'UK' in entry['sources'] else 'Sports with guide'
+    if is_football(entry): return 'Football - guide unavailable'
+    return 'UK - guide unavailable' if 'UK' in entry['sources'] else 'More channels - guide unavailable'
+
 def cached_guide(country):
     local=CACHE/f'epg-{country}.xml'
     compressed=CACHE/f'epg-{country}.xml.gz'
@@ -46,10 +60,16 @@ def build(snapshot=False,reuse_audit=False):
     health={'channels':[]} if snapshot else json.loads((OUT/'channel-health.json').read_text(encoding='utf-8'))
     status={(c['id'],c['url']):c for c in health['channels']}
     candidates=[e for e in all_entries if (status.get((e['id'],e['url']),{}).get('status')=='media_responded' or 'Extra' in e['sources'] or 'Retained' in e['sources'])]
+    configured=entries((ROOT.parent/'config/extra-channels.m3u').read_text(encoding='utf-8'))
+    curated={(e['id'],e['url']) for e in configured}
+    uk_main={e['id'] for e in configured if e['attrs'].get('group-title')=='UK main channels'}
+    uk_order={e['id']:i for i,e in enumerate(configured) if e['id'] in uk_main}
     def rank(entry):
         result=status.get((entry['id'],entry['url']),{})
         quality=re.search(r'\((\d+)p\)',entry['name'])
-        return (result.get('status')=='media_responded','video_probe' in result,int(quality.group(1)) if quality else 0)
+        # Explicit additions keep their decoded/identity-checked URL, rather than
+        # switching to another regional stream that happens to pass a cloud probe.
+        return ((entry['id'],entry['url']) in curated,result.get('status')=='media_responded','video_probe' in result,int(quality.group(1)) if quality else 0)
     unique={}
     for entry in sorted(candidates,key=rank,reverse=True):
         identity=entry['id'] or entry['url']
@@ -139,13 +159,11 @@ def build(snapshot=False,reuse_audit=False):
     with gzip.open(OUT/'guide.xml.gz.tmp','wb') as dest: dest.write(xml)
     (OUT/'guide.xml.gz.tmp').replace(OUT/'guide.xml.gz')
     matched=upcoming
-    football_terms=('setanta','beinsports','premiersports','sporttv','football','futbol','futebol','fifa','golazo','mutv','lfctv','skysportspremierleague')
-    def is_football(e): return any(term in e['id'].casefold() for term in football_terms)
-    ordered=sorted(checked,key=lambda e:(e['id'] not in matched,0 if is_football(e) else (1 if 'Extra' in e['sources'] else (2 if 'UK' in e['sources'] else 3)),e['name'].casefold()))
+    ordered=sorted(checked,key=lambda e:(e['id'] not in matched,0 if e['id'] in uk_main else (1 if is_football(e) else (2 if 'Extra' in e['sources'] else (3 if 'UK' in e['sources'] else 4))),uk_order.get(e['id'],999),e['name'].casefold()))
     def playlist(items):
         lines=['#EXTM3U x-tvg-url="'+os.environ.get('PUBLIC_FEED_BASE_URL','https://redonesmf.github.io/tv-feed').rstrip('/')+'/g.xml"']
         for e in items:
-            group=('Football with guide' if is_football(e) else ('BBC and Sky' if 'Extra' in e['sources'] else ('UK with guide' if 'UK' in e['sources'] else 'Sports with guide'))) if e['id'] in matched else ('Football - guide unavailable' if is_football(e) else ('UK - guide unavailable' if 'UK' in e['sources'] else 'More channels - guide unavailable'))
+            group=group_for(e,matched,uk_main)
             lines.append(f'#EXTINF:-1 tvg-id="{e["id"]}" tvg-logo="{e["logo"]}" group-title="{group}",{e["name"]}')
             for opt,value in e['opts'].items(): lines.append(f'#EXTVLCOPT:{opt}={value}')
             lines.append(e['url'])
@@ -153,11 +171,12 @@ def build(snapshot=False,reuse_audit=False):
     (OUT/'Sports-Checked.m3u.tmp').write_text(playlist(ordered),encoding='utf-8')
     (OUT/'Sports-Checked.m3u.tmp').replace(OUT/'Sports-Checked.m3u')
     (OUT/'Guide-Only.m3u').write_text(playlist([e for e in ordered if e['id'] in matched]),encoding='utf-8')
+    (OUT/'UK-Main.m3u').write_text(playlist([e for e in ordered if e['id'] in uk_main]),encoding='utf-8')
     (OUT/'coverage.json').write_text(json.dumps({'built_at':NOW.isoformat(),'channels':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
-    cloud_verified=None if snapshot else sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
+    cloud_verified=None if snapshot or reuse_audit else sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
     previous=json.loads((ROOT.parent/'data/status.json').read_text(encoding='utf-8'))
     last_check=previous.get('last_media_check_at',previous['built_at']) if snapshot or reuse_audit else NOW.isoformat()
-    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not (snapshot or reuse_audit),'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] for e in checked),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not (snapshot or reuse_audit),'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot or reuse_audit else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] or e['id'] in uk_main for e in checked),'uk_main_channels':len(uk_main),'uk_main_with_upcoming_listings':len(uk_main & upcoming),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 

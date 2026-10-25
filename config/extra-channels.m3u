@@ -5,3 +5,35 @@ http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8
 http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="BBC and Sky - checked",BBC News North America (1080p)
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="BBCOne.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4104_BBCOne.uk.png" group-title="UK main channels",BBC One (SD)
+http://85.195.238.31:4022/udp/233.50.230.155:5000
+#EXTINF:-1 tvg-id="BBCTwo.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4108_BBCTwo.uk.png" group-title="UK main channels",BBC Two (HD)
+http://85.195.238.31:4022/udp/233.50.230.156:5000
+#EXTINF:-1 tvg-id="ITV1.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4116_ITV1.uk.png" group-title="UK main channels",ITV1 (HD)
+http://85.195.238.31:4022/udp/233.50.230.158:5000
+#EXTINF:-1 tvg-id="Channel4.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4120_Channel4.uk.png" group-title="UK main channels",Channel 4 (HD)
+http://85.195.238.31:4022/udp/233.50.230.159:5000
+#EXTINF:-1 tvg-id="Channel5.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4124_Channel5.uk.png" group-title="UK main channels",Channel 5 (HD)
+http://85.195.238.31:4022/udp/233.50.230.160:5000
+#EXTINF:-1 tvg-id="ITV2.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4132_ITV2.uk.png" group-title="UK main channels",ITV 2 (HD)
+http://85.195.238.31:4022/udp/233.50.230.162:5000
+#EXTINF:-1 tvg-id="ITV3.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4136_ITV3.uk.png" group-title="UK main channels",ITV 3 (HD)
+http://85.195.238.31:4022/udp/233.50.230.163:5000
+#EXTINF:-1 tvg-id="ITV4.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4140_ITV4.uk.png" group-title="UK main channels",ITV 4 (HD)
+http://85.195.238.31:4022/udp/233.50.230.164:5000
+#EXTINF:-1 tvg-id="E4.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4148_E4.uk.png" group-title="UK main channels",E4 (SD)
+http://85.195.238.31:4022/udp/233.50.230.166:5000
+#EXTINF:-1 tvg-id="Film4.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4152_Film4.uk.png" group-title="UK main channels",Film4 (SD)
+http://85.195.238.31:4022/udp/233.50.230.167:5000
+#EXTINF:-1 tvg-id="5STAR.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4156_5STAR.uk.png" group-title="UK main channels",5STAR (SD)
+http://85.195.238.31:4022/udp/233.50.230.179:5000
+#EXTINF:-1 tvg-id="5USA.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4160_5USA.uk.png" group-title="UK main channels",5USA (SD)
+http://85.195.238.31:4022/udp/233.50.230.178:5000
+#EXTINF:-1 tvg-id="BBCNewsChannel.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4308_BBCNews.uk.png" group-title="UK main channels",BBC News UK (HD)
+http://85.195.238.31:4022/udp/233.50.230.169:5000
+#EXTINF:-1 tvg-id="BBCThree_CBBC.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4504_CBBC.uk.png" group-title="UK main channels",BBC Three / CBBC (HD)
+http://85.195.238.31:4022/udp/233.50.230.180:5000
+#EXTINF:-1 tvg-id="BBCFour_CBeebies.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4508_CBeebies.uk.png" group-title="UK main channels",BBC Four / CBeebies (HD)
+http://85.195.238.31:4022/udp/233.50.230.181:5000
+#EXTINF:-1 tvg-id="More4+1.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4608_More4.uk.png" group-title="UK main channels",More4 +1 (SD)
+http://85.195.238.31:4022/udp/233.50.230.184:5000
