@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-25T21:53:25.299755+00:00",
+  "built_at": "2026-10-25T21:54:45.062744+00:00",
   "channels": [
     {
       "id": "RussianExtremeUltra.ru@SD",
@@ -24,6 +24,20 @@
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "BBCNews.uk@NorthAmerica",
+      "name": "BBC News North America (1080p)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 319,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org",
+      "guide_id": "BBCNewsNorthAmerica.us",
+      "reason": "BBC News North America stream; US North America listings"
     },
     {
       "id": "BritAsiaTV.uk@HD",
@@ -340,20 +354,6 @@
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "BBCNews.uk@NorthAmerica",
-      "name": "BBC News North America (1080p)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 319,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org",
-      "guide_id": "BBCNewsNorthAmerica.us",
-      "reason": "BBC News North America stream; US North America listings"
     },
     {
       "id": "BilliardTV.us@SD",
@@ -2344,6 +2344,18 @@
       "source": "IPTV-EPG.org"
     },
     {
+      "id": "SkySportsAction.uk@SD",
+      "name": "Sky Sports Action (720p)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 156,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
       "id": "FailArmy.us@UK",
       "name": "FailArmy UK (720p)",
       "source_labels": [
@@ -2765,18 +2777,6 @@
         "Sports"
       ],
       "programmes": 42,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "SkySportsAction.uk@SD",
-      "name": "Sky Sports Action (720p)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 156,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
