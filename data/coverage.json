@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-25T22:51:59.219235+00:00",
+  "built_at": "2026-10-25T22:54:17.899326+00:00",
   "channels": [
     {
       "id": "BBCNews.uk@NorthAmerica",
@@ -40,54 +40,6 @@
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "5STAR.uk@SD",
-      "name": "5STAR (SD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 119,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "5USA.uk@SD",
-      "name": "5USA (SD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 102,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "BBCFour_CBeebies.uk@HD",
-      "name": "BBC Four / CBeebies (HD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 401,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "BBCNewsChannel.uk@HD",
-      "name": "BBC News UK (HD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 219,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
       "id": "BBCOne.uk@SD",
       "name": "BBC One (SD)",
       "source_labels": [
@@ -95,18 +47,6 @@
         "Extra"
       ],
       "programmes": 175,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "BBCThree_CBBC.uk@HD",
-      "name": "BBC Three / CBBC (HD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 263,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -122,6 +62,20 @@
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "ITV1.uk@HD",
+      "name": "ITV1 (HD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 107,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org",
+      "guide_id": "ITV1London.uk",
+      "reason": "ITV1 national schedule reference (London). Relay identifies ITV1 HD but does not label its regional edition; regional news may differ."
     },
     {
       "id": "Channel4.uk@HD",
@@ -143,30 +97,6 @@
         "Extra"
       ],
       "programmes": 190,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "E4.uk@SD",
-      "name": "E4 (SD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 162,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "Film4.uk@SD",
-      "name": "Film4 (SD)",
-      "source_labels": [
-        "Retained",
-        "Extra"
-      ],
-      "programmes": 55,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -208,18 +138,88 @@
       "source": "IPTV-EPG.org"
     },
     {
-      "id": "ITV1.uk@HD",
-      "name": "ITV1 (HD)",
+      "id": "E4.uk@SD",
+      "name": "E4 (SD)",
       "source_labels": [
         "Retained",
         "Extra"
       ],
-      "programmes": 107,
+      "programmes": 162,
       "on_now": true,
       "next_24h": true,
-      "source": "IPTV-EPG.org",
-      "guide_id": "ITV1London.uk",
-      "reason": "ITV1 national schedule reference (London). Relay identifies ITV1 HD but does not label its regional edition; regional news may differ."
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Film4.uk@SD",
+      "name": "Film4 (SD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 55,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "5STAR.uk@SD",
+      "name": "5STAR (SD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 119,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "5USA.uk@SD",
+      "name": "5USA (SD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 102,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "BBCNewsChannel.uk@HD",
+      "name": "BBC News UK (HD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 219,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "BBCThree_CBBC.uk@HD",
+      "name": "BBC Three / CBBC (HD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 263,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "BBCFour_CBeebies.uk@HD",
+      "name": "BBC Four / CBeebies (HD)",
+      "source_labels": [
+        "Retained",
+        "Extra"
+      ],
+      "programmes": 401,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "More4+1.uk@SD",
@@ -750,7 +750,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 70,
+      "programmes": 69,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -944,7 +944,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 89,
+      "programmes": 88,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
