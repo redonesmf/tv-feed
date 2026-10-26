@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-25T23:21:19.886800+00:00",
+  "built_at": "2026-10-26T00:01:30.497663+00:00",
   "source_candidates": 401,
   "playlist_channels": 401,
   "media_audit_performed": false,
@@ -13,10 +13,10 @@
   "uk_main_with_upcoming_listings": 16,
   "duplicates_removed": 0,
   "channels_with_programmes": 178,
-  "channels_with_current_programme": 173,
-  "channels_with_listings_next_24h": 173,
+  "channels_with_current_programme": 174,
+  "channels_with_listings_next_24h": 174,
   "supplemented_channels": 49,
-  "programme_count": 14806,
+  "programme_count": 17031,
   "guide_countries": [
     "gb",
     "us",
@@ -59,6 +59,8 @@
     "th"
   ],
   "guide_errors": [],
+  "daily_channels": 30,
+  "daily_omitted_without_upcoming_guide": [],
   "playlist_url": "https://redonesmf.github.io/tv-feed/p.m3u",
   "guide_url": "https://redonesmf.github.io/tv-feed/g.xml",
   "guide_only_playlist_url": "https://redonesmf.github.io/tv-feed/guide.m3u",
@@ -67,7 +69,5 @@
   "nfl_playlist_url": "https://redonesmf.github.io/tv-feed/nfl.m3u",
   "validation": "passed",
   "source": "iptv-org Sports and UK; manually decoded BBC/Sky and UK main-channel additions",
-  "daily_channels": 30,
-  "daily_omitted_without_upcoming_guide": [],
   "daily_playlist_url": "https://redonesmf.github.io/tv-feed/daily.m3u"
 }
