@@ -215,6 +215,10 @@
     <display-name>US - ESPN8: The Ocho</display-name>
     <icon src="https://iptv-epg.org/images/eNR81pEBbfKxKtzWJ3hzTSY6VIHvLZz0L05Gm3IcPMMMeoskp4TF-RHoIcSmpJms3_mDDONheHq3LCKpLBl_Lx7WZKgYN_tYcfTfj_n-Z51AXQ" />
   </channel>
+  <channel id="FITE247.us@SD">
+    <display-name>US - FITE 24/7</display-name>
+    <icon src="https://iptv-epg.org/images/C8Z5hPxe9TmmUZ4atIli2_H_TCNqdgUQVvJEhIBXQeFAJm1nxtJcRmlNBJrgOK_ES7RTDZtOWho612vOsXVHs8IGUvnDQFA41H0hGS8" />
+  </channel>
   <channel id="FloHockey.us@HD">
     <display-name>US - FloHockey</display-name>
     <icon src="https://iptv-epg.org/images/VocYFrVKO0WvoOv0I5WGu62kx3ariGATgI5UW2ITo1IzD134UhcNgHp64STZFtt_2zgBXiaMO04u4ID0nbFUo9TJi3FruCwqropaiD6b0g" />
@@ -335,11 +339,7 @@
     <display-name>UK - Tiny Pop</display-name>
     <icon src="https://iptv-epg.org/images/QcQMaPpAUwYHpDNdWaGISr7jLrYlredPqpwVnL1lbx3Qf6Jm01tALq-_Vcss0Pc356h9s-mVpAd_r4CYZ1u3yKiZxqlH1m0sNew7Hw" />
   </channel>
-  <channel id="Totalmusic.uk@HD"><display-name>Totalmusic (1080p)</display-name><icon src="https://static.elektamedia.com/ch/tmc_main.png" /></channel><channel id="TraceUK.uk@HD"><display-name>Trace UK (1080p)</display-name><icon src="https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png" /></channel><channel id="Trailers.es@UK"><display-name>Trailers UK (1080p)</display-name><icon src="https://i.imgur.com/RwZ1hCN.png" /></channel><channel id="VantageMusic.ee@UK"><display-name>Vantage Music UK (1080p) [Geo-blocked]</display-name><icon src="https://vantagetv.ee/vantage_music.png" /></channel><channel id="Wonder.uk@SD"><display-name>Wonder (1080p)</display-name><icon src="https://i.imgur.com/LquGNbh.png" /></channel><channel id="XITEHits.nl@UK"><display-name>XITE Hits UK (1080p)</display-name><icon src="https://i.imgur.com/N51Rp7E.png" /></channel><channel id="ZeeOne.uk@UK"><display-name>Zee One (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" /></channel><channel id="Africa24Sport.fr@SD"><display-name>Africa 24 Sport (1080p)</display-name><icon src="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&amp;ssl=1" /></channel><channel id="AmericanNinjaWarrior.us@SD"><display-name>American Ninja Warrior (1080p)</display-name><icon src="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png" /></channel><channel id="Belarus5.by@SD"><display-name>Belarus-5 (1080p) [Not 24/7]</display-name><icon src="https://i.imgur.com/NJsRFud.png" /></channel><channel id="Belarus5.by@HD"><display-name>Belarus-5 HD (1080p)</display-name><icon src="https://i.imgur.com/NJsRFud.png" /></channel><channel id="CCTVBilliards.cn@HD"><display-name>CCTV-Billiards (1080p)</display-name><icon src="https://i.imgur.com/WK3keM9.png" /></channel><channel id="CCTVGolfTennis.cn@HD"><display-name>CCTV-Golf &amp; Tennis (1080p)</display-name><icon src="https://i.imgur.com/iqJJTmH.png" /></channel><channel id="ClaroSports.mx@SD"><display-name>Claro Sports (1080p)</display-name><icon src="https://i.imgur.com/n0kd17r.png" /></channel><channel id="CricketGold.au@SD"><display-name>Cricket Gold (1080p)</display-name><icon src="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" /></channel><channel id="DeporTV.ar@SD"><display-name>DeporTV (1080p)</display-name><icon src="https://i.imgur.com/THk9ARS.png" /></channel><channel id="DiviSport.ua@SD"><display-name>DiviSport (1080p)</display-name><icon src="https://i.logos-download.com/114030/29915-s5120-904df224e4c030fefcc45adda448b6e8.png/DiviSport_Logo_2023-s5120.png" /></channel><channel id="ESPN2LatinAmerica.us@South"><display-name>ESPN 2 Latin America (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" /></channel><channel id="ESPN2LatinAmerica.us@Colombia"><display-name>ESPN 2 Latin America Colombia (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" /></channel><channel id="ESPN6LatinAmerica.us@SD"><display-name>ESPN 6 Latin America (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" /></channel><channel id="ESPNLatinAmerica.us@Colombia"><display-name>ESPN Latin America Colombia (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" /></channel><channel id="ESPNLatinAmerica.us@Mexico"><display-name>ESPN Latin America Mexico (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" /></channel><channel id="F1Channel.ie@US"><display-name>F1 Channel (1080p) [Geo-blocked]</display-name><icon src="https://i.imgur.com/cjXzWsI.png" /></channel><channel id="FITE247.us@SD">
-    <display-name>US - FITE 24/7</display-name>
-    <icon src="https://iptv-epg.org/images/C8Z5hPxe9TmmUZ4atIli2_H_TCNqdgUQVvJEhIBXQeFAJm1nxtJcRmlNBJrgOK_ES7RTDZtOWho612vOsXVHs8IGUvnDQFA41H0hGS8" />
-  </channel>
-  <channel id="FoxSports.ar@SD"><display-name>Fox Sports (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" /></channel><channel id="FoxSportsNews.au@SD"><display-name>Fox Sports News (1080p)</display-name><icon src="https://i.imgur.com/FhMQrJk.png" /></channel><channel id="Go3Sport1.ee@SD"><display-name>Go3 Sport 1 (1080p)</display-name><icon src="https://i.imgur.com/0eZa0qh.png" /></channel><channel id="GolfChannelLatinAmerica.us@SD"><display-name>Golf Channel Latin America (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" /></channel><channel id="HTSporTV.tr@SD"><display-name>HTSpor TV (1080p)</display-name><icon src="https://www.htspor.com/images/manifest/social-share-logo.png" /></channel><channel id="InTrouble.nl@SD"><display-name>InTrouble (1080p)</display-name><icon src="https://i.imgur.com/a40chFI.png" /></channel><channel id="JordanSport.jo@SD"><display-name>Jordan Sport (1080p) [Geo-blocked]</display-name><icon src="https://i.imgur.com/2EmrZPQ.png" /></channel><channel id="KozoomTV.fr@SD"><display-name>Kozoom TV (1080p)</display-name><icon src="https://i.imgur.com/M1Ee79b.png" /></channel><channel id="KTVSport.kw@SD"><display-name>KTV Sport (1080p)</display-name><icon src="https://i.imgur.com/R1hGX1d.png" /></channel><channel id="KTVSportPlus.kw@SD"><display-name>KTV Sport Plus (1080p)</display-name><icon src="https://i.imgur.com/l4oX0gf.png" /></channel><channel id="LEquipe.fr@SD"><display-name>L'Equipe (1080p)</display-name><icon src="https://i.imgur.com/t35zhM9.png" /></channel><channel id="L1Max.pe@SD"><display-name>L1 Max (1080p)</display-name><icon src="https://i.imgur.com/2fziU2B.png" /></channel><channel id="LRTPlius.lt@SD">
+  <channel id="Totalmusic.uk@HD"><display-name>Totalmusic (1080p)</display-name><icon src="https://static.elektamedia.com/ch/tmc_main.png" /></channel><channel id="TraceUK.uk@HD"><display-name>Trace UK (1080p)</display-name><icon src="https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png" /></channel><channel id="Trailers.es@UK"><display-name>Trailers UK (1080p)</display-name><icon src="https://i.imgur.com/RwZ1hCN.png" /></channel><channel id="VantageMusic.ee@UK"><display-name>Vantage Music UK (1080p) [Geo-blocked]</display-name><icon src="https://vantagetv.ee/vantage_music.png" /></channel><channel id="Wonder.uk@SD"><display-name>Wonder (1080p)</display-name><icon src="https://i.imgur.com/LquGNbh.png" /></channel><channel id="XITEHits.nl@UK"><display-name>XITE Hits UK (1080p)</display-name><icon src="https://i.imgur.com/N51Rp7E.png" /></channel><channel id="ZeeOne.uk@UK"><display-name>Zee One (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" /></channel><channel id="Africa24Sport.fr@SD"><display-name>Africa 24 Sport (1080p)</display-name><icon src="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&amp;ssl=1" /></channel><channel id="AmericanNinjaWarrior.us@SD"><display-name>American Ninja Warrior (1080p)</display-name><icon src="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png" /></channel><channel id="Belarus5.by@SD"><display-name>Belarus-5 (1080p) [Not 24/7]</display-name><icon src="https://i.imgur.com/NJsRFud.png" /></channel><channel id="Belarus5.by@HD"><display-name>Belarus-5 HD (1080p)</display-name><icon src="https://i.imgur.com/NJsRFud.png" /></channel><channel id="CCTVBilliards.cn@HD"><display-name>CCTV-Billiards (1080p)</display-name><icon src="https://i.imgur.com/WK3keM9.png" /></channel><channel id="CCTVGolfTennis.cn@HD"><display-name>CCTV-Golf &amp; Tennis (1080p)</display-name><icon src="https://i.imgur.com/iqJJTmH.png" /></channel><channel id="ClaroSports.mx@SD"><display-name>Claro Sports (1080p)</display-name><icon src="https://i.imgur.com/n0kd17r.png" /></channel><channel id="CricketGold.au@SD"><display-name>Cricket Gold (1080p)</display-name><icon src="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" /></channel><channel id="DeporTV.ar@SD"><display-name>DeporTV (1080p)</display-name><icon src="https://i.imgur.com/THk9ARS.png" /></channel><channel id="DiviSport.ua@SD"><display-name>DiviSport (1080p)</display-name><icon src="https://i.logos-download.com/114030/29915-s5120-904df224e4c030fefcc45adda448b6e8.png/DiviSport_Logo_2023-s5120.png" /></channel><channel id="ESPN2LatinAmerica.us@South"><display-name>ESPN 2 Latin America (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" /></channel><channel id="ESPN2LatinAmerica.us@Colombia"><display-name>ESPN 2 Latin America Colombia (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" /></channel><channel id="ESPN6LatinAmerica.us@SD"><display-name>ESPN 6 Latin America (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" /></channel><channel id="ESPNLatinAmerica.us@Colombia"><display-name>ESPN Latin America Colombia (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" /></channel><channel id="ESPNLatinAmerica.us@Mexico"><display-name>ESPN Latin America Mexico (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" /></channel><channel id="F1Channel.ie@US"><display-name>F1 Channel (1080p) [Geo-blocked]</display-name><icon src="https://i.imgur.com/cjXzWsI.png" /></channel><channel id="FoxSports.ar@SD"><display-name>Fox Sports (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" /></channel><channel id="FoxSportsNews.au@SD"><display-name>Fox Sports News (1080p)</display-name><icon src="https://i.imgur.com/FhMQrJk.png" /></channel><channel id="Go3Sport1.ee@SD"><display-name>Go3 Sport 1 (1080p)</display-name><icon src="https://i.imgur.com/0eZa0qh.png" /></channel><channel id="GolfChannelLatinAmerica.us@SD"><display-name>Golf Channel Latin America (1080p)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" /></channel><channel id="HTSporTV.tr@SD"><display-name>HTSpor TV (1080p)</display-name><icon src="https://www.htspor.com/images/manifest/social-share-logo.png" /></channel><channel id="InTrouble.nl@SD"><display-name>InTrouble (1080p)</display-name><icon src="https://i.imgur.com/a40chFI.png" /></channel><channel id="JordanSport.jo@SD"><display-name>Jordan Sport (1080p) [Geo-blocked]</display-name><icon src="https://i.imgur.com/2EmrZPQ.png" /></channel><channel id="KozoomTV.fr@SD"><display-name>Kozoom TV (1080p)</display-name><icon src="https://i.imgur.com/M1Ee79b.png" /></channel><channel id="KTVSport.kw@SD"><display-name>KTV Sport (1080p)</display-name><icon src="https://i.imgur.com/R1hGX1d.png" /></channel><channel id="KTVSportPlus.kw@SD"><display-name>KTV Sport Plus (1080p)</display-name><icon src="https://i.imgur.com/l4oX0gf.png" /></channel><channel id="LEquipe.fr@SD"><display-name>L'Equipe (1080p)</display-name><icon src="https://i.imgur.com/t35zhM9.png" /></channel><channel id="L1Max.pe@SD"><display-name>L1 Max (1080p)</display-name><icon src="https://i.imgur.com/2fziU2B.png" /></channel><channel id="LRTPlius.lt@SD">
     <display-name>LT - LRT PLIUS</display-name>
     <icon src="https://iptv-epg.org/images/bbl_b6Bu7MayhcfiVMEWueIC1J9wA8zI0h0fK7HnFgkhfIxoCQIw6F4SV4EhzoSZm5fjOZekcBQTt19S-d-LkAj2Cy-9OU5PIvzuXTPeCRfy95cQ" />
   </channel>
@@ -9085,22 +9085,6 @@ RuPaul makes the trip across the pond in search of the queen with the most chari
     <episode-num>S8 E9</episode-num>
     <icon src="https://iptv-epg.org/images/EmdNeqg87TAhZ7WIXoAUazd93uAi1ybpbs8S97joZJ-drAClE6CG69Ue0btP06ZEQcU8FGT0y4pM1NJljmOXV8M5tAtiZtQcW8BeqhP58h9YFg9LtP410mz5ymtJ719HwaWnyAToULIE_wwMtgY08gqy4qQxPxEG8BfWBlHwcq1gksBDcbFCdfWx2tyEoJsorYQ9xjObjdVTzXxcJlXvNhSpCEaZU4FBDa-u1uod8LXZdl47Rgk7ypnQWHpyt4xbUpkq05gCr9tLFM-ooO3L7_erQrqp2emZwATVD_c5Anp6gZs8ihTuKv-Br9u-U2CmrESvn4bx" />
     <title lang="en">RuPaul's Drag Race UK</title>
-  </programme>
-  <programme start="20261025113000 +0000" stop="20261025121000 +0000" channel="BBCTwo.uk@HD">
-    <category lang="en">Documentary</category>
-    <category lang="en">Travel</category>
-    <credits>
-      <actor>Eva Longoria</actor>
-      <producer>Eva Longoria</producer>
-      <producer>Cris Abrego</producer>
-      <producer>Rachelle Mendez</producer>
-    </credits>
-    <date>2026</date>
-    <desc lang="en">S1 E4 — Bordeaux
-Eva enjoys Bordeaux's world-famous wines and its fresh produce and masterful Bordelaise sauces.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/NqmUnGKXrb2keBdp1ECwLab_uACZZD9S8EoDXyoYtNecAdys9c_0fsNszObfl8u1GFT-3d0XgArYKtjTECaZbfWP7ToHaWoBwf1U5LQN69R7lb75jcUC1ZV_rICqrTkpFGD6mTJ7li3lnK89I3Ai2EWHM1HhbZoS61ILTuYUcjXrRVHivovnZGx-vokFfUiZ2sQ3H5gNe3i3zV5MhYUqYwMHTNuVHCk-leXOi3ec3-EgpnCckqBdx1p4PgsJdrzCDWnRyqrkng8sj1rVt9xUw9ugSKaEIj0ylvzN3Mig9BobOQnAE2ilhW04SI-zGBuCyXUx1ZcF" />
-    <title lang="en">Eva Longoria: Searching for France</title>
   </programme>
   <programme start="20261025121000 +0000" stop="20261025130000 +0000" channel="BBCTwo.uk@HD">
     <category lang="en">Anthology</category>
@@ -28490,23 +28474,6 @@ Live coverage of the 2026 Breeders' Cup live from Keeneland, Kentucky. Day one o
     <icon src="https://iptv-epg.org/images/qSllV1qfULDDGwbZQ77c9lgXjQgQCtfU7iNPhTl84qSBhoPAjNofsRFMrj58ArPTOJ72mtwKnziyRvI4taEbn62PyXx9eXXp2JmzszguQC5xfUoNVgfdbgoigS7GjGDbdB7fCwTlfBFmmDNqoBtae5SRXGF4xkssvhm9LK9zMXg0RJHcZ4V31EbRUQ7vllq3mQjoQVe7Cnqut-X7-flFOIdt99eJBuqFMA8pPCEzBC9xVpt-2XIY8IeKbKnvniBZW-heQBJYP4xIgth--KcquUAWtpbamrKWhyUTee3bLQ_KXYluae1m8EPkiw0CifjGFv_wYOuu" />
     <title lang="en">All Elite Wrestling: Dynamite</title>
   </programme>
-  <programme start="20261025110500 +0000" stop="20261025122500 +0000" channel="E4.uk@SD">
-    <category lang="en">Competition reality</category>
-    <category lang="en">Cookery</category>
-    <credits>
-      <director>Jeanette Goulbourn</director>
-      <actor>Noel Fielding</actor>
-      <actor>Alison Hammond</actor>
-      <producer>Ralph Lee</producer>
-      <producer>Jenna Mansfield</producer>
-    </credits>
-    <date>2026</date>
-    <desc lang="en">S17 E5 — Dessert Week
-It's Dessert Week! Bakers tackle a staggered-start Signature with self-saucing puddings. Nigella sets a British classic for the Technical. And for the Showstopper, they'll serve retro puddings from dessert trolleys.</desc>
-    <episode-num>S17 E5</episode-num>
-    <icon src="https://iptv-epg.org/images/T3Mxyhv02yc2c4DLqHG-yOh2pL5BWT3KErgd0-_FFXsKbwIL-gMYH2_f0ZKnf7OsCANSB_vhq6Vl0kacwj_31XTrp7J23PNKVYsplKl2JY2eaN4RGL-Fk8-2AI2qxLpAiubRm8AY8gnSP19C7kOOR0nTW_sCofXcZT3IbPw6jsc8oZoeLx41Cu0l1U133BWnVGVKqUnWi_gJ3FT9Ddt-KOq8emTgx3oU-wxlpz7mGHicFeiWLyjSby6oVJIdoc4Src1dnD5OF88ruKNGXOSKhECNBFauILd9qibvAgy25vlDmUORv-28gV1zm9H2jot5PCKYkcs6" />
-    <title lang="en">The Great British Bake Off</title>
-  </programme>
   <programme start="20261025122500 +0000" stop="20261025125500 +0000" channel="E4.uk@SD">
     <category lang="en">Animation</category>
     <category lang="en">Sitcom</category>
@@ -41479,22 +41446,6 @@ Sumi Somaskanda and Caitríona Perry travel across the United States to find out
     <icon src="https://iptv-epg.org/images/QQczBCKGQkK_5cKyJA1KqXm6z1RWOfeH_nyG9ibfIE0ZnxJcctclxioPpTS9MzyG2_6rgOE1hqIUC2tNJwKoNGQ3scvE2mYaIL3eN8F3WSVjBomtaMsclorWPv9LBUuPzb0f9s9TPan2Hh0HAfi18Z08hZpBuFFgjnDO0UkQyVdB71cq7Wq2eQRk-SJJNYtTwDsfHDFQqEeGxcpLMbiEmPtbAHpnSOZOENdTMseLFsiQ7w_ClqiuvO9kA5FlOIDBLXlWRkBkJ63esXKdJv3Hx5c4elmaeo0deJGYjhr6s-CJZ9jcEqJj5Ii1Egm57VvvKPRktPdowPDjAtgyBQMm1FwE" />
     <title lang="en">BBC News</title>
   </programme>
-  <programme start="20261025114500 +0000" stop="20261025120500 +0000" channel="BBCThree_CBBC.uk@HD">
-    <category lang="en">Children's</category>
-    <category lang="en">Gameshow</category>
-    <credits>
-      <director>James Clampin</director>
-      <actor>Jules Hardy</actor>
-      <producer>Kevin Batchelor</producer>
-      <producer>Ross Brandon</producer>
-    </credits>
-    <date>2025</date>
-    <desc lang="en">S3 E2 — Overcooked 2
-The teams demonstrate their culinary prowess in Overcooked. Guided by pro gamer Slogo, which team will serve up the most orders and claim victory?</desc>
-    <episode-num>S3 E2</episode-num>
-    <icon src="https://iptv-epg.org/images/avfphNTJxLSmMjsbH_h9hlFohW-kfUnwqH-vS4r27LP31zEK8yBr8hpcFnNyMe2KKhv4SccwL8NbaDEeLwXU6CSoZ2sc6P6VPshme-DcAh2TzOPYhFk2wJA-CxSoyINzywJivacMBcCYfbQh5ZKxQQzilxLIvcHVc84c2v_hUEXfkg3DqfMV3QmSKMM6nc4gTxIt03JfVs3CX5hfu9N8wGDF_3oUYgDsDF-oowQxhZY2Xkhs7LleVmqUrKAr8bU-t9P_Jf0IW01as9m17b-8-kies6p1pSIfTUARwr_gGscyVoW6uAtEORgq5A13CnNWkFZ-PtfG" />
-    <title lang="en">Game on Grandparents</title>
-  </programme>
   <programme start="20261025120500 +0000" stop="20261025123500 +0000" channel="BBCThree_CBBC.uk@HD">
     <category lang="en">Children's</category>
     <category lang="en">Science</category>
@@ -46757,37 +46708,6 @@ The ultimate game of lies and detection continues as ripples from the Traitor's 
     <episode-num>S2 E2</episode-num>
     <icon src="https://iptv-epg.org/images/bWQqcBs17XQttaKICJCr0Coj3W44cdiJRNesGS5EgnUp54QoxOWhDRg4pK2mZKIb40dLftqvbxYxCUx4KHu2A4J6xNwtSiMqaJPbxtRR65Qe9LIR-zKcOhoPHXWhVUVmXgfEIEAuPzNsTabszSQ3tAQPhT8AVSUagoP1yDEkSkoRVhrSpt1IPBYrkBYkOIN-Z2D2OziRf0CiQtzV5RjACKXC8l2YEfg0Aat2V3UwPVo5tPX2Gr5tNcD2IGKBaSeleydON_z3OzWTQjqZlIcap_pZZMdPEUnDz41oM7_h7gugjFbyfoKgQrVD0TR-VykTDhOqtLfR" />
     <title lang="en">The Traitors Ireland</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025121500 +0000" channel="BBCFour_CBeebies.uk@HD">
-    <category lang="en">Children's</category>
-    <category lang="en">Cookery</category>
-    <credits>
-      <director>Lotte Elwell</director>
-      <producer>Driana Jones</producer>
-      <producer>Nic Ayling</producer>
-    </credits>
-    <date>2019</date>
-    <desc lang="en">S3 E8 — Jake's Australian Meat Pie
-Jake is making traditional Australian meat pies using a recipe that his dad has shown him. Jake makes two sets of different sized pastry circles and fills them with a mixture made from lamb mince. One of Jake's ingredients is black pepper, but his friends are not too sure about the taste when they try it before the meal. Let's hope they enjoy it in the cooked pies!</desc>
-    <episode-num>S3 E8</episode-num>
-    <icon src="https://iptv-epg.org/images/K0YdQh8m0-96B1IUKq_10SET9WUF2VvcGmV0yMJU7Ajdup9GDiQCLVZJDZMlXX2VIzbHS20YF9Zainm09aLfDe9VFSJLzsAvpRtrHt39AQs_GwKxFOqL7jg_UeJdVQSMTiAS-5qcn8AvI5Sh758lNvVo0TBkKqC-50j0DGCvtS1d2lXnU34QfGavssPb-uBjuP3fdyjva9vRm3232l5BQZusen8n7AX2s7mlyvPRY95Iok_EijvoRI1RGiBAs-lsUthgkJKuAlQyXtVFqvJsPDpgoEpy6mNvGKRs6RSdxFSJwTtujyJzAWA-3Je2rfatAo75rQG7" />
-    <title lang="en">My World Kitchen</title>
-  </programme>
-  <programme start="20261025121500 +0000" stop="20261025122500 +0000" channel="BBCFour_CBeebies.uk@HD">
-    <category lang="en">Children's</category>
-    <category lang="en">Natural World</category>
-    <credits>
-      <actor>Aaron Roach Bridgeman</actor>
-      <producer>Tim Wagg</producer>
-      <producer>Beth Newell</producer>
-      <producer>Dominic Sant</producer>
-    </credits>
-    <date>2026</date>
-    <desc lang="en">S1 E7 — Minibeasts
-It is a busy day down in the garden, as Aaron, Adrian and Nelly are looking for some minibeasts! Their journey starts when they lift some logs and stones to see what is underneath, uncovering a family of woodlice scuttling around.</desc>
-    <episode-num>S1 E7</episode-num>
-    <icon src="https://iptv-epg.org/images/4f8B2THnTNohWh0X1xV5hnKaPU2y-HdNyIVn7EQpUD5ZWPHWiR3n6qvG4Q6CkkZm9GgxAtG759_Cz3T4RtMBMIGqvPE-D3D5PJj4MPIlK9CBWMwLkyLmEHyjRR708awYi4B16plRRfsXrOU3Etj3OavNUDUTv4GHyv6F8M-p9g1bMoIrwvAH_LbNSvHzsuyc1ojg7SrJrcFUlTjCtIMd6blsvwk0D-WF1SOVWLZotfkA7XA73LUOGnUIid84iW2U3d8HVFM19suYc4lYOwfNqJYBoajWpQAd0UvmYou8lc-o_lAvjAWAjoGsWE83P4oNVtz9YiKX" />
-    <title lang="en">I Can Grow It</title>
   </programme>
   <programme start="20261025122500 +0000" stop="20261025123500 +0000" channel="BBCFour_CBeebies.uk@HD">
     <category lang="en">Children's</category>
@@ -67042,17 +66962,6 @@ A Doberman mix instigates fights at the dog park; a Pomeranian charges other dog
     <previously-shown />
     <title lang="en">Dog Whisperer</title>
   </programme>
-  <programme start="20261025114900 +0000" stop="20261025121800 +0000" channel="DuckDynasty.us@UK">
-    <category lang="en">Documentary</category>
-    <category lang="en">Reality</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S06 E02 — Quack and Gown
-Jase takes Reed frog hunting the night before his graduation; Korie, Jep, Jessica and Kay pull a prank on Missy and Jase.</desc>
-    <episode-num>S06 E02</episode-num>
-    <icon src="https://iptv-epg.org/images/P4f_Z093SJEvAHBd9MiBLJgXM0COaIrLHQrQkPFCD1_VU1R8s2YAG-KKUWbTPgK5P5pxuL-WWRCUzL54qLtMigcACFqVvHlKQikOuZh6aqg" />
-    <previously-shown />
-    <title lang="en">Duck Dynasty</title>
-  </programme>
   <programme start="20261025121800 +0000" stop="20261025124600 +0000" channel="DuckDynasty.us@UK">
     <category lang="en">Documentary</category>
     <category lang="en">Reality</category>
@@ -72965,12 +72874,6 @@ Don't just live, inherit life! Discover your amazing inheritance in Jesus and li
     <episode-num system="onscreen">S02E10</episode-num>
     <rating system="USA Parental Rating">TVY7</rating>
   </programme>
-  <programme channel="MostHaunted.uk@UK" start="20261025224912 +0000" stop="20261025233931 +0000">
-    <title>Bate Hall</title>
-    <sub-title>Part 1</sub-title>
-    <desc>Yvette and team investigate a Macclesfield pub haunted by a grey lady and a violent poltergeist.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1286190585_0_20251028T083511500Z_136_imageprocessorclient-tvplus-linear-5db7c6bc99-t7nzf.jpeg" />
-  </programme>
   <programme channel="MostHaunted.uk@UK" start="20261025233931 +0000" stop="20261026002730 +0000">
     <title>Bate Hall</title>
     <sub-title>Part 2</sub-title>
@@ -73008,32 +72911,10 @@ Don't just live, inherit life! Discover your amazing inheritance in Jesus and li
     <desc>Karl braves the church's back rooms, where a playful spirit leaves its mark.</desc>
     <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1286196204_1_20251028T083514709Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg" />
   </programme>
-  <programme start="20261025095300 +0000" stop="20261025120200 +0000" channel="MovieSphere.us@UK">
-    <category lang="en">Action</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Science fiction</category>
-    <category lang="en">Movie</category>
-    <credits>
-      <director>Robert Schwentke</director>
-      <producer>Douglas Wick</producer>
-      <producer>Lucy Fisher</producer>
-      <actor>Shailene Woodley</actor>
-      <actor>Theo James</actor>
-      <actor>Octavia Spencer</actor>
-      <actor>Jai Courtney</actor>
-      <actor>Ray Stevenson</actor>
-      <actor>Zoë Kravitz</actor>
-      <actor>Miles Teller</actor>
-      <actor>Ansel Elgort</actor>
-      <actor>Maggie Q</actor>
-      <actor>Naomi Watts</actor>
-      <actor>Kate Winslet</actor>
-      <actor>Mekhi Phifer</actor>
-    </credits>
-    <date>2015</date>
-    <desc lang="en">Fugitives Tris and Four search for allies and answers among the ruins of Chicago while arduously trying to evade Jeanine, leader of the Erudite.</desc>
-    <icon src="https://iptv-epg.org/images/248o2CyGNYP2bpZTmRKAUTiOQwcaMV3kQGIoj91BpnJunEsGWJPmXiEhymzort4lVlz8Z2TV2DVs0jZ17pHt2z3VSbULNfBj1BTQILr61fg" />
-    <title lang="en">The Divergent Series: Insurgent</title>
+  <programme channel="MostHaunted.uk@UK" start="20261026054924 +0000" stop="20261026062701 +0000">
+    <title>Coat's Memorial Church Part 2</title>
+    <desc>Stuart explores the vast church hall, its shadows swallowing him whole.</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1286191094_1_20251028T083514703Z_122_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg" />
   </programme>
   <programme start="20261025120200 +0000" stop="20261025141600 +0000" channel="MovieSphere.us@UK">
     <category lang="en">Action</category>
@@ -74983,16 +74864,6 @@ Don't just live, inherit life! Discover your amazing inheritance in Jesus and li
     <icon src="https://iptv-epg.org/images/xPdgBwszpME1OETCFYZnVp-qBpqOJv2syIhJxWAFdj_8g47ucPwG3exQ7K4tIt_2kTi6oMhsvdj3T3aS4gmZVddnKUTM1AvhSmFnhVnqRgk" />
     <title lang="en">Imaginary</title>
   </programme>
-  <programme channel="MrBeanLiveAction.uk@SD" start="20261025230226 +0000" stop="20261025233442 +0000">
-    <title>Mr Bean Live Action</title>
-    <desc>Mr Bean has a grand day at the hairdresser's.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_512925633_0_20241126T193426228Z_103_imageprocessorclient-tvplus-linear-7cd5d896cc-96cz9.jpeg" />
-  </programme>
-  <programme channel="MrBeanLiveAction.uk@SD" start="20261025233442 +0000" stop="20261026000359 +0000">
-    <title>Mr Bean Live Action</title>
-    <desc>Mr Bean rushes to his exam only to find out he's studied the wrong subject.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_512925626_0_20241126T193425822Z_99_imageprocessorclient-tvplus-linear-7cd5d896cc-96cz9.jpeg" />
-  </programme>
   <programme channel="MrBeanLiveAction.uk@SD" start="20261026000359 +0000" stop="20261026003512 +0000">
     <title>Mr Bean Live Action</title>
     <desc>Mr Bean wants to give a busker some money until he realises he has no change.</desc>
@@ -75048,13 +74919,15 @@ Don't just live, inherit life! Discover your amazing inheritance in Jesus and li
     <desc>Mr Bean goes to the laundrette where he loses his trousers once more.</desc>
     <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_512925618_0_20241126T193425693Z_46_imageprocessorclient-tvplus-linear-7cd5d896cc-96cz9.jpeg" />
   </programme>
-  <programme channel="NatureTime.ca@UK" start="20261025225151 +0000" stop="20261025234424 +0000">
-    <title>Kgalagadi Transfrontier Park</title>
-    <desc>Kgalagadi Transfrontier Park's wildlife dig deep to find life-giving water.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1129970060_0_20250815T150444457Z_82_imageprocessorclient-tvplus-linear-5db7c6bc99-t7nzf.jpeg" />
-    <rating>
-      <value>8</value>
-    </rating>
+  <programme channel="MrBeanLiveAction.uk@SD" start="20261026053339 +0000" stop="20261026060347 +0000">
+    <title>Mr Bean Live Action</title>
+    <desc>Mr Bean has a hard time waiting his turn at the hospital.</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_512925634_0_20241126T193426080Z_67_imageprocessorclient-tvplus-linear-7cd5d896cc-96cz9.jpeg" />
+  </programme>
+  <programme channel="MrBeanLiveAction.uk@SD" start="20261026060347 +0000" stop="20261026063604 +0000">
+    <title>Mr Bean Live Action</title>
+    <desc>Mr Bean has a grand day at the hairdresser's.</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_512925633_0_20241126T193426228Z_103_imageprocessorclient-tvplus-linear-7cd5d896cc-96cz9.jpeg" />
   </programme>
   <programme channel="NatureTime.ca@UK" start="20261025234424 +0000" stop="20261026003705 +0000">
     <title>Chobe National Park: Land of Learning</title>
@@ -75108,6 +74981,22 @@ Don't just live, inherit life! Discover your amazing inheritance in Jesus and li
     <title>Rivers</title>
     <desc>Swim upstream with a school of shad returning to their spawning grounds.</desc>
     <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1076634578_0_20250723T120443546Z_111_imageprocessorclient-tvplus-linear-5db7c6bc99-grwzd.jpeg" />
+    <rating>
+      <value>8</value>
+    </rating>
+  </programme>
+  <programme channel="NatureTime.ca@UK" start="20261026053147 +0000" stop="20261026060000 +0000">
+    <title>Skies</title>
+    <desc>Reign supreme over the waters of Bras d'Or Lake with the majestic bald eagle.</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1076589513_2_20250723T120449734Z_100_imageprocessorclient-tvplus-linear-5db7c6bc99-wwvrl.jpeg" />
+    <rating>
+      <value>8</value>
+    </rating>
+  </programme>
+  <programme channel="NatureTime.ca@UK" start="20261026060000 +0000" stop="20261026065404 +0000">
+    <title>Crocs of Katuma</title>
+    <desc>Shadow a mother croc as she ruthlessly raises her young in this merciless river.</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1829684931_0_20260506T094326099Z_1_imageprocessorclient-tvplus-linear-74d4c47476-njwf2.jpeg" />
     <rating>
       <value>8</value>
     </rating>
@@ -86007,11 +85896,6 @@ The story of a case from Wigan that tested the limits of law and medicine in the
     <icon src="https://iptv-epg.org/images/vujsIitvqyQosNWU7BWJJcV_I43Ri_YAR0Gw-myPK3weKHFbDpgNTVsWPBrihRkj3CjDY2nLy8jp6bleebSZvwaGY3LJ695L716ZwAlHnbwSm9kUBAzZD6AeNTNGLUPhKGC90tccrIdwjhf0wk3B9IStGKI79TJw4FbEaEY8SbRWYv_EqYbuoowJINlyrPjRxxrlDYD73gB_upyLO7Sk3P600cY5BV4R88oE2W_qqG7MqB7ome0wRDen5qAjiCgpw3CAxySGU4-bpHeauZ1QWHRkjEogvdbNEHhV8PAQe4d8ifi9_62U0khDMtaj1u6Vy6pR4BhA" />
     <title lang="en">Donal MacIntyre's Killer Evidence</title>
   </programme>
-  <programme channel="WaterBear.ch@SD" start="20261025230842 +0000" stop="20261026000752 +0000">
-    <title>Wild Moments</title>
-    <desc>All over the world, men and women fight for the protection of nature reserves and endangered species.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_1846891396_0_20260513T054044114Z_145_imageprocessorclient-tvplus-linear-665b769d5c-897w9.png" />
-  </programme>
   <programme channel="WaterBear.ch@SD" start="20261026000752 +0000" stop="20261026010554 +0000">
     <title>Wild Moments</title>
     <desc>Wildlife filmmakers experience many emotionally touching moments on their expeditions.</desc>
@@ -86064,6 +85948,16 @@ The story of a case from Wigan that tested the limits of law and medicine in the
     <title>Top Dive Sites</title>
     <desc>Thailand is one of the biggest countries in Southeast Asia, filled with islands, including Phuket</desc>
     <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_2049278788_0_20260726T061054313Z_99_imageprocessorclient-tvplus-linear-648598f6b5-4bx8m.jpeg" />
+  </programme>
+  <programme channel="WaterBear.ch@SD" start="20261026052924 +0000" stop="20261026055940 +0000">
+    <title>Top Dive Sites</title>
+    <desc>The port city of Portobello holds vast archaeological remains in its waters from pirate sieges</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_2049305833_0_20260726T061053433Z_135_imageprocessorclient-tvplus-linear-648598f6b5-4bx8m.jpeg" />
+  </programme>
+  <programme channel="WaterBear.ch@SD" start="20261026055940 +0000" stop="20261026062840 +0000">
+    <title>Top Dive Sites</title>
+    <desc>Malta is situated in a narrow passage of the Mediterranean Sea which separates Africa from Europe</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQO570425A_947306064_3_20250604T142244980Z_24_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg" />
   </programme>
   <programme start="20261025110000 +0000" stop="20261025130200 +0000" channel="WorldPokerTour.us@UK">
     <category lang="en">Card games</category>
@@ -94274,16 +94168,6 @@ Resenha com jogadores e ex-jogadores de futebol em um ambiente descontraído e c
     <icon src="https://iptv-epg.org/images/g_ZOpm6K8uQddvxkGxCGAcsxr3hgQ36rs9H-Pb09RrU31Jje8hlGFOcDP6NBsS1Obz9GoY_CvcDgGoh2xzXcRnMKtMURSnvXOFjqGW-5Gj7HV15BTw--G5nYtEgio5_g7NkhO5fOZSXB8yowYfA3N6n_8qtnEMcapCQVr-E5snPLrVxD_fQ" />
     <title lang="en">Fútbol Argentino Primera División : San Lorenzo vs. Newell's</title>
   </programme>
-  <programme start="20261025110900 +0000" stop="20261025120700 +0000" channel="ESPN8TheOcho.us@ESPN8TheOchoHD">
-    <category lang="en">Outdoors</category>
-    <category lang="en">Series</category>
-    <category>Sports</category>
-    <desc lang="en">Bouldering Open National Championships
-The nation's best meet in Redmond, Ore. for the national championships.</desc>
-    <icon src="https://iptv-epg.org/images/x92XWytmj6Bf8OgKTCOQnrBUFDmiNpk4IHNnE5JxiVbdALhuNR4oe4DQ3sh0_R_yutfiw3Fc-x0LW8_I_tuXDR79yth6xTpuh0R0HPQhwhQ" />
-    <previously-shown />
-    <title lang="en">USA Climbing</title>
-  </programme>
   <programme start="20261025120700 +0000" stop="20261025130500 +0000" channel="ESPN8TheOcho.us@ESPN8TheOchoHD">
     <category lang="en">Outdoors</category>
     <category lang="en">Series</category>
@@ -95775,6 +95659,98 @@ The event selected athletes who will represent the USA at IFSC World Cup and Wor
     <icon src="https://iptv-epg.org/images/x92XWytmj6Bf8OgKTCOQnrBUFDmiNpk4IHNnE5JxiVbdALhuNR4oe4DQ3sh0_R_yutfiw3Fc-x0LW8_I_tuXDR79yth6xTpuh0R0HPQhwhQ" />
     <previously-shown />
     <title lang="en">USA Climbing</title>
+  </programme>
+  <programme start="20261025120200 +0000" stop="20261025130900 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Kick off BKFC 14 with a Preshow!  Watch: Alan Arzeno  vs Fred Pierce and Kenmon Evans  vs  Sedric Johnson.</desc>
+    <title lang="en">World Bare Knuckle Fighting Federation 14: Prelim Fights</title>
+  </programme>
+  <programme start="20261025130900 +0000" stop="20261025140300 +0000" channel="FITE247.us@SD">
+    <desc lang="en">ROH gives you a match for the Television Title between Silas Young and Kenny King! Kunlun will take you into the fast paced world of Muay Thai!</desc>
+    <title lang="en">Buakaw Banchamek collides with Nayanesh Ayman!</title>
+  </programme>
+  <programme start="20261025140300 +0000" stop="20261025155100 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Grapplefest 13 pt1.</desc>
+    <title lang="en">Grapplefest 13 pt1</title>
+  </programme>
+  <programme start="20261025155100 +0000" stop="20261025155600 +0000" channel="FITE247.us@SD">
+    <desc lang="en">TWOFASTS500HSpanish.</desc>
+    <title lang="en">TWOFASTS500HSpanish</title>
+  </programme>
+  <programme start="20261025155600 +0000" stop="20261025173800 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Grapplefest 13 pt2.</desc>
+    <title lang="en">Grapplefest 13 pt2</title>
+  </programme>
+  <programme start="20261025173800 +0000" stop="20261025185200 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Grapplefest 13 pt3.</desc>
+    <title lang="en">Grapplefest 13 pt3</title>
+  </programme>
+  <programme start="20261025185200 +0000" stop="20261025201200 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Grapplefest 13 pt4.</desc>
+    <title lang="en">Grapplefest 13 pt4</title>
+  </programme>
+  <programme start="20261025201200 +0000" stop="20261025212400 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Fiery battles: Bercier vs Maxwell, Lopez vs Moreira, Highpine vs Greenwood - Unleashing raw intensity!</desc>
+    <title lang="en">BKFC 29 Montana 2: Prelims</title>
+  </programme>
+  <programme start="20261025212400 +0000" stop="20261025221800 +0000" channel="FITE247.us@SD">
+    <desc lang="en">ROH gives you a match for the Television Title between Silas Young and Kenny King! Kunlun will take you into the fast paced world of Muay Thai!</desc>
+    <title lang="en">Buakaw Banchamek collides with Nayanesh Ayman!</title>
+  </programme>
+  <programme start="20261025221800 +0000" stop="20261025231400 +0000" channel="FITE247.us@SD">
+    <desc lang="en">UCMMA is back - this time with a championship match! Expect a well rounded, tough fight! This time two of the best wrestlers on the face of the earth will clash inside the ring.</desc>
+    <title lang="en">Jay Lethal or Will Ospay? Watch and see!</title>
+  </programme>
+  <programme start="20261025231400 +0000" stop="20261025231900 +0000" channel="FITE247.us@SD">
+    <desc lang="en">TWOFASTS500HSpanish.</desc>
+    <title lang="en">TWOFASTS500HSpanish</title>
+  </programme>
+  <programme start="20261025231900 +0000" stop="20261026001900 +0000" channel="FITE247.us@SD">
+    <desc lang="en">The newly crowned two-time Diamonds Champion Ivory Robyn defends her title against Hyan. And Why is Stevie Ray so interested in the bout between Rob Barnes and Connor Hollomon?</desc>
+    <title lang="en">Reality of Wrestling: Episode 180</title>
+  </programme>
+  <programme start="20261026001900 +0000" stop="20261026013600 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Senshi 9 Part 1.</desc>
+    <title lang="en">Senshi 9 Part 1</title>
+  </programme>
+  <programme start="20261026013600 +0000" stop="20261026032600 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Senshi 9 Part 2.</desc>
+    <title lang="en">Senshi 9 Part 2</title>
+  </programme>
+  <programme start="20261026032600 +0000" stop="20261026041800 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Tune in for our three prelim matches and get a feel for the big night ahead!</desc>
+    <title lang="en">BKFC 23 Prelims</title>
+  </programme>
+  <programme start="20261026041800 +0000" stop="20261026054800 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Senshi 9 Part 3.</desc>
+    <title lang="en">Senshi 9 Part 3</title>
+  </programme>
+  <programme start="20261026054800 +0000" stop="20261026070300 +0000" channel="FITE247.us@SD">
+    <desc lang="en">BKKickboxing Part 1.</desc>
+    <title lang="en">BKKickboxing Part 1</title>
+  </programme>
+  <programme start="20261026070300 +0000" stop="20261026080100 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Senshi 9 Part 4.</desc>
+    <title lang="en">Senshi 9 Part 4</title>
+  </programme>
+  <programme start="20261026080100 +0000" stop="20261026091100 +0000" channel="FITE247.us@SD">
+    <desc lang="en">BKKickboxing Part 2.</desc>
+    <title lang="en">BKKickboxing Part 2</title>
+  </programme>
+  <programme start="20261026091100 +0000" stop="20261026101800 +0000" channel="FITE247.us@SD">
+    <desc lang="en">Kick off BKFC 14 with a Preshow!  Watch: Alan Arzeno  vs Fred Pierce and Kenmon Evans  vs  Sedric Johnson.</desc>
+    <title lang="en">World Bare Knuckle Fighting Federation 14: Prelim Fights</title>
+  </programme>
+  <programme start="20261026101800 +0000" stop="20261026113800 +0000" channel="FITE247.us@SD">
+    <desc lang="en">BKKickboxing Part 3.</desc>
+    <title lang="en">BKKickboxing Part 3</title>
+  </programme>
+  <programme start="20261026113800 +0000" stop="20261026122100 +0000" channel="FITE247.us@SD">
+    <desc lang="en">BKKickboxing Part 4.</desc>
+    <title lang="en">BKKickboxing Part 4</title>
+  </programme>
+  <programme start="20261026122100 +0000" stop="20261026131000 +0000" channel="FITE247.us@SD">
+    <desc lang="en">The prelims fight card is already stacked with three matches to get a feel for the big night ahead!</desc>
+    <title lang="en">BKFC 24 Prelims</title>
   </programme>
   <programme start="20261025105400 +0000" stop="20261025125400 +0000" channel="FloHockey.us@HD">
     <category lang="en">Sports</category>
@@ -99273,16 +99249,6 @@ From Nov. 16, 2025.</desc>
     <previously-shown />
     <title lang="en">FIFA World Cup Qualifiers in 60</title>
   </programme>
-  <programme start="20261025120000 +0000" stop="20261025121500 +0000" channel="FUELTV.pt@EMEA">
-    <category lang="pt">Radical</category>
-    <category lang="pt">Desporto</category>
-    <category lang="pt">Sports</category>
-    <desc lang="pt">S1 E4 — Quivers: Jaleesa Vincent
-Tanner Gudauskas revela o quiver: do novo CI G Skate a pranchas raras e vintage.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/6SeqZvnPVX6e3zn5nmCM8OSo3CWn5pHA1SpL0C5E2a8-AVeTZHWuHXiIBm7beb3W585RLc2jQPt9j1Lqb-EFsn1PLldirtA6ldHuNG0i1PBsjPylu8lnHj4fDyeFw0zauKIU3sa3r3WWTUcLL_CKEA1dOfygwEuYeChC629a-GJQs572LAo5oBfH7SLpZ0h2fONOL7beUXGPc0N_yo3HBTBO9H1SHsSDLc_8olHPZhy3DZY0Sw" />
-    <title lang="pt">Quivers</title>
-  </programme>
   <programme start="20261025121500 +0000" stop="20261025123000 +0000" channel="FUELTV.pt@EMEA">
     <category lang="pt">Radical</category>
     <category lang="pt">Desporto</category>
@@ -102209,16 +102175,6 @@ O miúdo maravilha do snowboard, Travis Rice, viaja até ao Japão, Mammoth Moun
     <icon src="https://iptv-epg.org/images/hXlH3pQk-1G2r3o10etNAawKh7lVN5K51ewRnBWAeG1CWmd4ooorMiGK4zhKShPpOzhMZ6wKZ5dihxoyHlbZ_A4AYTYXswRc0x-uBew8AUkIKRrsOV_bzjtHqc0jNIVkhEn0Kb9GAqUnxmf7H3JVZBAT66KZV8xBbLD2PbrckC2ieZnidqnTEdQF-73v13JRE5H0o6Zb70SWz3O8CWRsE2F3zbEZeXSY3nYLZbVb0wT4kWhDdA" />
     <title lang="pt">Firsthand</title>
   </programme>
-  <programme start="20261025120000 +0000" stop="20261025121500 +0000" channel="FUELTV.pt@AU">
-    <category lang="pt">Radical</category>
-    <category lang="pt">Desporto</category>
-    <category lang="pt">Sports</category>
-    <desc lang="pt">S1 E4 — Quivers: Jaleesa Vincent
-Tanner Gudauskas revela o quiver: do novo CI G Skate a pranchas raras e vintage.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/6SeqZvnPVX6e3zn5nmCM8OSo3CWn5pHA1SpL0C5E2a8-AVeTZHWuHXiIBm7beb3W585RLc2jQPt9j1Lqb-EFsn1PLldirtA6ldHuNG0i1PBsjPylu8lnHj4fDyeFw0zauKIU3sa3r3WWTUcLL_CKEA1dOfygwEuYeChC629a-GJQs572LAo5oBfH7SLpZ0h2fONOL7beUXGPc0N_yo3HBTBO9H1SHsSDLc_8olHPZhy3DZY0Sw" />
-    <title lang="pt">Quivers</title>
-  </programme>
   <programme start="20261025121500 +0000" stop="20261025123000 +0000" channel="FUELTV.pt@AU">
     <category lang="pt">Radical</category>
     <category lang="pt">Desporto</category>
@@ -105144,16 +105100,6 @@ O miúdo maravilha do snowboard, Travis Rice, viaja até ao Japão, Mammoth Moun
     <episode-num>S1 E13</episode-num>
     <icon src="https://iptv-epg.org/images/hXlH3pQk-1G2r3o10etNAawKh7lVN5K51ewRnBWAeG1CWmd4ooorMiGK4zhKShPpOzhMZ6wKZ5dihxoyHlbZ_A4AYTYXswRc0x-uBew8AUkIKRrsOV_bzjtHqc0jNIVkhEn0Kb9GAqUnxmf7H3JVZBAT66KZV8xBbLD2PbrckC2ieZnidqnTEdQF-73v13JRE5H0o6Zb70SWz3O8CWRsE2F3zbEZeXSY3nYLZbVb0wT4kWhDdA" />
     <title lang="pt">Firsthand</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025121500 +0000" channel="FUELTV.pt@US">
-    <category lang="pt">Radical</category>
-    <category lang="pt">Desporto</category>
-    <category lang="pt">Sports</category>
-    <desc lang="pt">S1 E4 — Quivers: Jaleesa Vincent
-Tanner Gudauskas revela o quiver: do novo CI G Skate a pranchas raras e vintage.</desc>
-    <episode-num>S1 E4</episode-num>
-    <icon src="https://iptv-epg.org/images/6SeqZvnPVX6e3zn5nmCM8OSo3CWn5pHA1SpL0C5E2a8-AVeTZHWuHXiIBm7beb3W585RLc2jQPt9j1Lqb-EFsn1PLldirtA6ldHuNG0i1PBsjPylu8lnHj4fDyeFw0zauKIU3sa3r3WWTUcLL_CKEA1dOfygwEuYeChC629a-GJQs572LAo5oBfH7SLpZ0h2fONOL7beUXGPc0N_yo3HBTBO9H1SHsSDLc_8olHPZhy3DZY0Sw" />
-    <title lang="pt">Quivers</title>
   </programme>
   <programme start="20261025121500 +0000" stop="20261025123000 +0000" channel="FUELTV.pt@US">
     <category lang="pt">Radical</category>
@@ -111313,14 +111259,6 @@ Gary Beck, Frank Hawley and Lee Shepherd shine as the best of 1983.</desc>
     <icon src="https://iptv-epg.org/images/286KwqFZvIPxIBaQpldourmnR2f0DKqy2gSI4DguKLAX2AR3VkJcmwfK18zOlJoKPs-PXeLE7tuuZHDb3IASWw7xsHgL9AWXa05DyVosAuI" />
     <previously-shown />
     <title lang="en">NHRA Roadblock</title>
-  </programme>
-  <programme channel="Overtime.us@SD" start="20261025183300 +0000" stop="20261025234300 +0000">
-    <title>Best Ever 7V7 Tournament With Deestroying</title>
-    <desc>Overtime</desc>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/US_USQT620324A_2124674952_0_20251106T142512840Z_102_imageprocessorclient-tvplus-linear-76c46fff7-cp4x6.jpeg" />
-    <rating>
-      <value>TV-14</value>
-    </rating>
   </programme>
   <programme channel="Overtime.us@SD" start="20261025234300 +0000" stop="20261026012900 +0000">
     <title>Shocking End to OT7 Championships</title>
@@ -117994,14 +117932,6 @@ Coverage from ATP, WTA and other events from around the world.</desc>
     <title lang="en">Tennis Today Live</title>
     <live />
   </programme>
-  <programme start="20261025113100 +0000" stop="20261025120200 +0000" channel="TSNTheOcho.ca@SD">
-    <category lang="en">Sports</category>
-    <date>2026</date>
-    <desc lang="en">The World Arm Wrestling League, operating out of Chicago, hosts a number of events and tournaments around the country.</desc>
-    <icon src="https://iptv-epg.org/images/ajSWrJypfA0GW8a2su3hqmXlCn0yAcK82C-hqN5J40Z838zheUmKgkOWkcbbLL2UNfG3oQ-5TQ_GLkPBr6QGnTaZMWJ-o96D2StOqHTDVSrGrUjYDKvLe-uajRY2On3cU7jL-OzugXXYvzrkX-2EraSqVzuYPhWB1m8c627zpM1j15aptdr6Qq9lExa90HCS5UqemomouDPLyjHPn3UYYn7Sd9mp" />
-    <title lang="en">Professional Arm Wrestling Championship</title>
-    <live />
-  </programme>
   <programme start="20261025120200 +0000" stop="20261025130000 +0000" channel="TSNTheOcho.ca@SD">
     <category lang="en">Sports</category>
     <date>2026</date>
@@ -122881,108 +122811,6 @@ World Poker Tour</desc>
     <previously-shown />
     <title lang="en">World Poker Tour</title>
   </programme>
-  <programme start="20261025105000 +0000" stop="20261025120200 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Fiery battles: Bercier vs Maxwell, Lopez vs Moreira, Highpine vs Greenwood - Unleashing raw intensity!</desc>
-    <title lang="en">BKFC 29 Montana 2: Prelims</title>
-  </programme>
-  <programme start="20261025120200 +0000" stop="20261025130900 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Kick off BKFC 14 with a Preshow!  Watch: Alan Arzeno  vs Fred Pierce and Kenmon Evans  vs  Sedric Johnson.</desc>
-    <title lang="en">World Bare Knuckle Fighting Federation 14: Prelim Fights</title>
-  </programme>
-  <programme start="20261025130900 +0000" stop="20261025140300 +0000" channel="FITE247.us@SD">
-    <desc lang="en">ROH gives you a match for the Television Title between Silas Young and Kenny King! Kunlun will take you into the fast paced world of Muay Thai!</desc>
-    <title lang="en">Buakaw Banchamek collides with Nayanesh Ayman!</title>
-  </programme>
-  <programme start="20261025140300 +0000" stop="20261025155100 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Grapplefest 13 pt1.</desc>
-    <title lang="en">Grapplefest 13 pt1</title>
-  </programme>
-  <programme start="20261025155100 +0000" stop="20261025155600 +0000" channel="FITE247.us@SD">
-    <desc lang="en">TWOFASTS500HSpanish.</desc>
-    <title lang="en">TWOFASTS500HSpanish</title>
-  </programme>
-  <programme start="20261025155600 +0000" stop="20261025173800 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Grapplefest 13 pt2.</desc>
-    <title lang="en">Grapplefest 13 pt2</title>
-  </programme>
-  <programme start="20261025173800 +0000" stop="20261025185200 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Grapplefest 13 pt3.</desc>
-    <title lang="en">Grapplefest 13 pt3</title>
-  </programme>
-  <programme start="20261025185200 +0000" stop="20261025201200 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Grapplefest 13 pt4.</desc>
-    <title lang="en">Grapplefest 13 pt4</title>
-  </programme>
-  <programme start="20261025201200 +0000" stop="20261025212400 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Fiery battles: Bercier vs Maxwell, Lopez vs Moreira, Highpine vs Greenwood - Unleashing raw intensity!</desc>
-    <title lang="en">BKFC 29 Montana 2: Prelims</title>
-  </programme>
-  <programme start="20261025212400 +0000" stop="20261025221800 +0000" channel="FITE247.us@SD">
-    <desc lang="en">ROH gives you a match for the Television Title between Silas Young and Kenny King! Kunlun will take you into the fast paced world of Muay Thai!</desc>
-    <title lang="en">Buakaw Banchamek collides with Nayanesh Ayman!</title>
-  </programme>
-  <programme start="20261025221800 +0000" stop="20261025231400 +0000" channel="FITE247.us@SD">
-    <desc lang="en">UCMMA is back - this time with a championship match! Expect a well rounded, tough fight! This time two of the best wrestlers on the face of the earth will clash inside the ring.</desc>
-    <title lang="en">Jay Lethal or Will Ospay? Watch and see!</title>
-  </programme>
-  <programme start="20261025231400 +0000" stop="20261025231900 +0000" channel="FITE247.us@SD">
-    <desc lang="en">TWOFASTS500HSpanish.</desc>
-    <title lang="en">TWOFASTS500HSpanish</title>
-  </programme>
-  <programme start="20261025231900 +0000" stop="20261026001900 +0000" channel="FITE247.us@SD">
-    <desc lang="en">The newly crowned two-time Diamonds Champion Ivory Robyn defends her title against Hyan. And Why is Stevie Ray so interested in the bout between Rob Barnes and Connor Hollomon?</desc>
-    <title lang="en">Reality of Wrestling: Episode 180</title>
-  </programme>
-  <programme start="20261026001900 +0000" stop="20261026013600 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Senshi 9 Part 1.</desc>
-    <title lang="en">Senshi 9 Part 1</title>
-  </programme>
-  <programme start="20261026013600 +0000" stop="20261026032600 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Senshi 9 Part 2.</desc>
-    <title lang="en">Senshi 9 Part 2</title>
-  </programme>
-  <programme start="20261026032600 +0000" stop="20261026041800 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Tune in for our three prelim matches and get a feel for the big night ahead!</desc>
-    <title lang="en">BKFC 23 Prelims</title>
-  </programme>
-  <programme start="20261026041800 +0000" stop="20261026054800 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Senshi 9 Part 3.</desc>
-    <title lang="en">Senshi 9 Part 3</title>
-  </programme>
-  <programme start="20261026054800 +0000" stop="20261026070300 +0000" channel="FITE247.us@SD">
-    <desc lang="en">BKKickboxing Part 1.</desc>
-    <title lang="en">BKKickboxing Part 1</title>
-  </programme>
-  <programme start="20261026070300 +0000" stop="20261026080100 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Senshi 9 Part 4.</desc>
-    <title lang="en">Senshi 9 Part 4</title>
-  </programme>
-  <programme start="20261026080100 +0000" stop="20261026091100 +0000" channel="FITE247.us@SD">
-    <desc lang="en">BKKickboxing Part 2.</desc>
-    <title lang="en">BKKickboxing Part 2</title>
-  </programme>
-  <programme start="20261026091100 +0000" stop="20261026101800 +0000" channel="FITE247.us@SD">
-    <desc lang="en">Kick off BKFC 14 with a Preshow!  Watch: Alan Arzeno  vs Fred Pierce and Kenmon Evans  vs  Sedric Johnson.</desc>
-    <title lang="en">World Bare Knuckle Fighting Federation 14: Prelim Fights</title>
-  </programme>
-  <programme start="20261026101800 +0000" stop="20261026113800 +0000" channel="FITE247.us@SD">
-    <desc lang="en">BKKickboxing Part 3.</desc>
-    <title lang="en">BKKickboxing Part 3</title>
-  </programme>
-  <programme start="20261026113800 +0000" stop="20261026122100 +0000" channel="FITE247.us@SD">
-    <desc lang="en">BKKickboxing Part 4.</desc>
-    <title lang="en">BKKickboxing Part 4</title>
-  </programme>
-  <programme start="20261026122100 +0000" stop="20261026131000 +0000" channel="FITE247.us@SD">
-    <desc lang="en">The prelims fight card is already stacked with three matches to get a feel for the big night ahead!</desc>
-    <title lang="en">BKFC 24 Prelims</title>
-  </programme>
-  <programme start="20261025113500 +0000" stop="20261025121500 +0000" channel="Sport1Baltic.ua@SD">
-    <category lang="uk">Спорт</category>
-    <category lang="uk">спорт,бокс</category>
-    <desc lang="uk">Александр Дмитренко - Росс Пьюритти.</desc>
-    <title lang="uk">Александр Дмитренко - Росс Пьюритти</title>
-  </programme>
   <programme start="20261025121500 +0000" stop="20261025131000 +0000" channel="Sport1Baltic.ua@SD">
     <category lang="uk">Спорт</category>
     <category lang="uk">спорт,бокс</category>
@@ -126594,14 +126422,6 @@ Best of the football match in 60 minutes.</desc>
       <value>TV-G</value>
     </rating>
   </programme>
-  <programme channel="FIFAPlusWomen.uk@English" start="20261025222327 +0000" stop="20261026001650 +0000">
-    <title>Brazil v Germany | Semi-finals | 2014 FIFA World Cup Brazil™ | Full Match Replay</title>
-    <desc>Watch the full match replay from the match between Brazil and Germany played at Estádio Mineirão, Belo Horizonte on Tuesday, 08 July 2014.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQU352137A_573044347_1_20250112T203708341Z_1_imageprocessorclient-tvplus-linear-7cd5d896cc-wgww2.jpeg" />
-    <rating>
-      <value>12</value>
-    </rating>
-  </programme>
   <programme channel="FIFAPlusWomen.uk@English" start="20261026001650 +0000" stop="20261026022211 +0000">
     <title>Australia v England | Semi-finals | FIFA Women's World Cup Australia &amp; New Zealand 2023™ | Full Match Replay</title>
     <desc>Watch the full match replay between Australia and England played at Stadium Australia, Sydney / Wangal on Wednesday, August 16, 2023 at 8:00 PM (local time).</desc>
@@ -126625,15 +126445,6 @@ Best of the football match in 60 minutes.</desc>
     <rating>
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025121500 +0000" channel="MUTV.uk@SD">
-    <category lang="en">Sports</category>
-    <category lang="en">Football</category>
-    <date>2025</date>
-    <desc lang="en">2022/23: Manchester United v Bournemouth
-The Reds look to move level with third-place Newcastle as they welcome Bournemouth to Old Trafford.</desc>
-    <icon src="https://iptv-epg.org/images/A-_0Inrsmp3GDLtxsCEHqxvdUJhviMnT4mGNBIBka4fQfqE0SIIRwZntjDoU-nV7VHnRwIRcCH9ETphtKP6AXvgWWOSqgdfq94Z6gl14xQZcr4M2BFOBkxWc2EiUdm9rjGDIU9FvWU1749GewJ2Xon-nU9BcAbWmuyGfG9meqOPJCTYJQOYKG2LY1Td050wQYIwn_ameOQ18lh9DfKJplVTY9aUja4XLpK6VFC36WFolo3G54qVDjuE9zY3ff6l43d7wNnwcZFK_RLUBO8W_a4kCE6HaUtfc0bWt7-t0h7waNUkosy4gnxi5E4RjnOgrbZCQLwp2" />
-    <title lang="en">The United Archives</title>
   </programme>
   <programme start="20261025121500 +0000" stop="20261025123000 +0000" channel="MUTV.uk@SD">
     <category lang="en">Sports</category>
@@ -128825,17 +128636,6 @@ We sit down with Phallon Tullis-Joyce to discuss her love for her hometown of Ne
     <episode-num>E18</episode-num>
     <icon src="https://iptv-epg.org/images/hNwuX1HgCCfVJHZcs6q6kWaAn98-dWxGH6iErWKvLB8lxBBPlN5_a-nWAfqUrWhEz4TMTXe60VZt7i3rS5FDZJTuQWkcqnWIcCtIX4hxr-xwwrCrOEXCDXuN8QCqaLtSQdE6HiqJ1LuWryeEbUXKNmgAQ1YHi_rtndz-dTC21np2x3WvKk80S2ICU6J4k_PRZOcV_akw0ZKKxx6Q6WVkneO1U1ZZiBnyWNeuEPZxxjmhaPEcqYVJ84YCAcSuwWscUFC-nbUwJmHeQqMehbGvrjiIU8wH-_Pj-Iyk3z_W3GHCoVF5C5proL5576s41sWMh6UTYcbM" />
     <title lang="en">Player Spotlight</title>
-  </programme>
-  <programme start="20261025114300 +0000" stop="20261025121400 +0000" channel="FailArmy.us@UK">
-    <category lang="en">Comedy</category>
-    <category lang="en">Documentary</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S02 E07 — Humans VS. Grooming
-Grooming gone wrong! Witness humans face unexpected mishaps while trying to look their best!</desc>
-    <episode-num>S02 E07</episode-num>
-    <icon src="https://iptv-epg.org/images/AMCPToyLIHihu0aX7x5iccMGJECuPEsS1YGvDvHWcB7AKsCTms71ArhB18RCi6aWZqrfFETVhEkvJBAZIcWV5gVOPEl4Nda6aGmvHgsZvLw" />
-    <previously-shown />
-    <title lang="en">Humans Vs. Everything</title>
   </programme>
   <programme start="20261025121400 +0000" stop="20261025124500 +0000" channel="FailArmy.us@UK">
     <category lang="en">Comedy</category>
@@ -135144,24 +134944,6 @@ Renovations spiral out of control as humans attempt to fix it all.</desc>
     <icon src="https://iptv-epg.org/images/_mRsyTP3pUDATQtsDVlUNW9oTPwU0dvN7R0hCI-9-eK750H3IxfYChcHXubfdUiUpihNoJNbynH7aHSQ877eYrQcK-b4ICty6qUF7EODXCnlV9bqDGTMgnsKDWJJ0ggSQH74CZIkegloxg25IIiXFhIBD9Lm4Q0vtjFk08r6R6F86aaMlHBaz1VB39lQqfDYjZsWzsbVk-b9AIFwuB1vBl1B80i-vPo-KoiisLxqAAy86h1KlKzHvVSJRUOw4akEy3jH8k_-odQE_8hgvjOuh74glHlSHUpOMW9aobUCnbE4UEUJoSLgMhG-Kjruopdz_u3znhzyu69jP82_zQ16elc" />
     <title lang="en">Sensational 70s!</title>
   </programme>
-  <programme channel="SoReal.us@UK" start="20261025222604 +0000" stop="20261025232016 +0000">
-    <title>Ramsay's Kitchen Nightmares</title>
-    <sub-title>S2 E08</sub-title>
-    <desc>Gordon visits La Gondola. It has naff 70's cuisine, net curtains and no customers.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQU352137A_1559549300_0_20260118T221755841Z_3_imageprocessorclient-tvplus-linear-85d7d49859-pkn4t.jpeg" />
-    <rating>
-      <value>3</value>
-    </rating>
-  </programme>
-  <programme channel="SoReal.us@UK" start="20261025232016 +0000" stop="20261026001518 +0000">
-    <title>Ramsay's Kitchen Nightmares</title>
-    <sub-title>S3 E01</sub-title>
-    <desc>For the first time ever on Kitchen Nightmares, Gordon takes on a nightmare restaurant abroad.</desc>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQU352137A_1513867956_0_20260104T002628309Z_74_imageprocessorclient-tvplus-linear-85d7d49859-mrmsk.jpeg" />
-    <rating>
-      <value>3</value>
-    </rating>
-  </programme>
   <programme channel="SoReal.us@UK" start="20261026001518 +0000" stop="20261026011004 +0000">
     <title>Ramsay's Kitchen Nightmares</title>
     <sub-title>S1 E01</sub-title>
@@ -135212,6 +134994,15 @@ Renovations spiral out of control as humans attempt to fix it all.</desc>
     <sub-title>Revisited - S1 E02</sub-title>
     <desc>Has Francesco managed to follow Ramsays advice and stop meddling in the kitchen?</desc>
     <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQU352137A_2302708940_0_20261020T220824745Z_68_imageprocessorclient-tvplus-linear-b5879c6c6-pjh7n.jpeg" />
+    <rating>
+      <value>3</value>
+    </rating>
+  </programme>
+  <programme channel="SoReal.us@UK" start="20261026054500 +0000" stop="20261026064044 +0000">
+    <title>Ramsay's Kitchen Nightmares</title>
+    <sub-title>Revisited - S1 E03</sub-title>
+    <desc>Has Ramsay helped these brewery whiz-kids transform their failing Inn into a profitable business?</desc>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQU352137A_2302726424_0_20261020T220824745Z_124_imageprocessorclient-tvplus-linear-b5879c6c6-pjh7n.jpeg" />
     <rating>
       <value>3</value>
     </rating>
@@ -135743,16 +135534,6 @@ Renovations spiral out of control as humans attempt to fix it all.</desc>
   <programme start="20261030230000 +0000" stop="20261031000000 +0000" channel="TakbeerTV.uk@SD">
     <desc lang="en">A program featuring the Nasheed &amp; Naat Artists, focused on loving and praising Beloved Rasool ALLAH PBUH.</desc>
     <title lang="en">Warafana Laka Zikrak</title>
-  </programme>
-  <programme start="20261025113700 +0000" stop="20261025120900 +0000" channel="ThePetCollective.us@UK">
-    <category lang="en">Animals</category>
-    <category lang="en">Series</category>
-    <desc lang="en">S01 E04 — Workaholics
-It's been a hard day's night, and they've been working like a dog.</desc>
-    <episode-num>S01 E04</episode-num>
-    <icon src="https://iptv-epg.org/images/KLTDDjvR_LFM_yBuxJ1j7FL77OOb8UjcX-k5sjeRB6trI0w1XaGiEcQomofA6ftPqamNWxfoxrCofMBlylrHpUIt3NatZSAsQXchWIrtCC0" />
-    <previously-shown />
-    <title lang="en">Pet Obsessed</title>
   </programme>
   <programme start="20261025120900 +0000" stop="20261025124100 +0000" channel="ThePetCollective.us@UK">
     <category lang="en">Animals</category>
@@ -181029,11 +180810,6 @@ El resumen informativo de la mano de prestigiosos periodistas sobre el fútbol n
 Vive la previa de los partidos de la 25º edición de la CONMEBOL Sudamericana, el segundo torneo continental más importante organizado por la CONMEBOL, que reúne a equipos de 10 países.</desc>
     <icon src="https://iptv-epg.org/images/fBsEJ2elxAf4f5eYVDjhekFvv6iiWcAHataUgcITJy4JIoX3jhSgQThUmRyZhya-M7aLJFZrRI4aWDbrVsQZA6ebefzjq4Puo7q0-duDpCfxI3c12fXsix4aqjjbj9sVUGDrEAWFwQHBr44a410" />
     <title lang="es">Previa - CONMEBOL Sudamericana</title>
-  </programme>
-  <programme start="20261025120000 +0000" stop="20261025121000 +0000" channel="TVRSport.ro@SD">
-    <category lang="ro">Sport</category>
-    <category>Sports</category>
-    <title lang="ro">JURNAL SPORT</title>
   </programme>
   <programme start="20261025121000 +0000" stop="20261025140000 +0000" channel="TVRSport.ro@SD">
     <category lang="ro">Sport</category>
