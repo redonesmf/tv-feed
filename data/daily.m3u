@@ -1,0 +1,61 @@
+#EXTM3U x-tvg-url="https://redonesmf.github.io/tv-feed/g.xml"
+#EXTINF:-1 tvg-id="BBCOne.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4104_BBCOne.uk.png" group-title="UK TV",BBC One (SD)
+http://85.195.238.31:4022/udp/233.50.230.155:5000
+#EXTINF:-1 tvg-id="BBCTwo.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4108_BBCTwo.uk.png" group-title="UK TV",BBC Two (HD)
+http://85.195.238.31:4022/udp/233.50.230.156:5000
+#EXTINF:-1 tvg-id="ITV1.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4116_ITV1.uk.png" group-title="UK TV",ITV1 (HD)
+http://85.195.238.31:4022/udp/233.50.230.158:5000
+#EXTINF:-1 tvg-id="Channel4.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4120_Channel4.uk.png" group-title="UK TV",Channel 4 (HD)
+http://85.195.238.31:4022/udp/233.50.230.159:5000
+#EXTINF:-1 tvg-id="Channel5.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4124_Channel5.uk.png" group-title="UK TV",Channel 5 (HD)
+http://85.195.238.31:4022/udp/233.50.230.160:5000
+#EXTINF:-1 tvg-id="ITV2.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4132_ITV2.uk.png" group-title="UK TV",ITV 2 (HD)
+http://85.195.238.31:4022/udp/233.50.230.162:5000
+#EXTINF:-1 tvg-id="ITV3.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4136_ITV3.uk.png" group-title="UK TV",ITV 3 (HD)
+http://85.195.238.31:4022/udp/233.50.230.163:5000
+#EXTINF:-1 tvg-id="ITV4.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4140_ITV4.uk.png" group-title="UK TV",ITV 4 (HD)
+http://85.195.238.31:4022/udp/233.50.230.164:5000
+#EXTINF:-1 tvg-id="E4.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4148_E4.uk.png" group-title="UK TV",E4 (SD)
+http://85.195.238.31:4022/udp/233.50.230.166:5000
+#EXTINF:-1 tvg-id="Film4.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4152_Film4.uk.png" group-title="UK TV",Film4 (SD)
+http://85.195.238.31:4022/udp/233.50.230.167:5000
+#EXTINF:-1 tvg-id="5STAR.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4156_5STAR.uk.png" group-title="UK TV",5STAR (SD)
+http://85.195.238.31:4022/udp/233.50.230.179:5000
+#EXTINF:-1 tvg-id="5USA.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4160_5USA.uk.png" group-title="UK TV",5USA (SD)
+http://85.195.238.31:4022/udp/233.50.230.178:5000
+#EXTINF:-1 tvg-id="BBCNewsChannel.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4308_BBCNews.uk.png" group-title="UK TV",BBC News UK (HD)
+http://85.195.238.31:4022/udp/233.50.230.169:5000
+#EXTINF:-1 tvg-id="BBCThree_CBBC.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4504_CBBC.uk.png" group-title="UK TV",BBC Three / CBBC (HD)
+http://85.195.238.31:4022/udp/233.50.230.180:5000
+#EXTINF:-1 tvg-id="BBCFour_CBeebies.uk@HD" tvg-logo="https://api.tv.init7.net/media/logos/4508_CBeebies.uk.png" group-title="UK TV",BBC Four / CBeebies (HD)
+http://85.195.238.31:4022/udp/233.50.230.181:5000
+#EXTINF:-1 tvg-id="More4+1.uk@SD" tvg-logo="https://api.tv.init7.net/media/logos/4608_More4.uk.png" group-title="UK TV",More4 +1 (SD)
+http://85.195.238.31:4022/udp/233.50.230.184:5000
+#EXTINF:-1 tvg-id="SkySportsPremierLeague.uk@SD" tvg-logo="https://tv.assets.pressassociation.io/eb561577-2d54-5d1f-aaf4-1c856e4952ff.png" group-title="Football",Sky Sports Premier League (576p)
+http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Football",beIN SPORTS XTRA (1080p)
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="Football",CBS Sports Golazo Network (720p)
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Football",FIFA+ (720p)
+https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8
+#EXTINF:-1 tvg-id="SkySportsAction.uk@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-action-icon-uk.png" group-title="NFL",Sky Sports Action/NFL (HD)
+http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" group-title="NFL",ESPN (United States) HD (720p)
+http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us@AlternateHD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" group-title="NFL",ESPN alternate (HD)
+http://212.5.144.156:8080/espn/index.m3u8
+#EXTINF:-1 tvg-id="ESPN2.us@HD" tvg-logo="https://i.imgur.com/00tsvjE.png" group-title="NFL",ESPN 2 (United States) HD (720p)
+http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="NFL",NFL Network (HD)
+http://198.58.104.90:8989/nfl/index.m3u8
+#EXTINF:-1 tvg-id="NFLChannel.us@SD" tvg-logo="https://i.imgur.com/mPGtwAP.png" group-title="NFL",NFL Channel - shows, scores and replays
+https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
+#EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Other Sports",CBS Sports HQ - news and analysis
+https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="Other Sports",Fubo Sports Network (1080p)
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="Stadium.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png" group-title="Other Sports",Stadium (720p)
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel2.us@SD" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png" group-title="Other Sports",Tennis Channel 2 (1080p)
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8

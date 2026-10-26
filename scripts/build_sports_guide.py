@@ -2,6 +2,7 @@ import argparse, collections, copy, datetime as dt, gzip, json, pathlib, re, url
 import xml.etree.ElementTree as ET
 from audit_sports import ROOT, CACHE, OUT, entries,load_sources
 from supplement_guide import reviewed_mappings, mapping_for, add_supplements, normalize
+from daily_view import render_daily
 
 NOW=dt.datetime.now(dt.timezone.utc)
 START=NOW-dt.timedelta(hours=12)
@@ -189,11 +190,15 @@ def build(snapshot=False,reuse_audit=False):
     (OUT/'UK-Main.m3u').write_text(playlist([e for e in ordered if e['id'] in uk_main]),encoding='utf-8')
     by_id={e['id']:e for e in checked}
     (OUT/'NFL-Watch.m3u').write_text(playlist([by_id[e['id']] for e in nfl_rows if e['id'] in by_id],nfl_only=True),encoding='utf-8')
+    full_text=(OUT/'Sports-Checked.m3u').read_text(encoding='utf-8')
+    daily_text,daily_ids,daily_omitted=render_daily(entries(full_text),upcoming,full_text.splitlines()[0])
+    (OUT/'Daily-TV.m3u').write_text(daily_text,encoding='utf-8')
     (OUT/'coverage.json').write_text(json.dumps({'built_at':NOW.isoformat(),'channels':coverage},ensure_ascii=False,indent=2),encoding='utf-8')
     cloud_verified=None if snapshot or reuse_audit else sum(status.get((e['id'],e['url']),{}).get('status')=='media_responded' for e in checked)
     previous=json.loads((ROOT.parent/'data/status.json').read_text(encoding='utf-8'))
     last_check=previous.get('last_media_check_at',previous['built_at']) if snapshot or reuse_audit else NOW.isoformat()
     summary={'built_at':NOW.isoformat(),'source_candidates':len(all_entries),'playlist_channels':len(checked),'media_audit_performed':not (snapshot or reuse_audit),'last_media_check_at':last_check,'media_responding_from_updater':cloud_verified,'retained_without_current_cloud_verification':None if snapshot or reuse_audit else len(checked)-cloud_verified,'uk_channels':sum('UK' in e['sources'] or e['id'] in uk_main for e in checked),'nfl_watchlist_channels':len(nfl_view),'nfl_watchlist_with_upcoming_listings':len(set(nfl_view)&upcoming),'uk_main_channels':len(uk_main),'uk_main_with_upcoming_listings':len(uk_main & upcoming),'duplicates_removed':len(candidates)-len(checked),'channels_with_programmes':sum(n>0 for n in programmes.values()),'channels_with_current_programme':len(current),'channels_with_listings_next_24h':len(upcoming),'supplemented_channels':sum(v.get('source') in {'pluto','samsung','roku'} for v in provenance.values()),'programme_count':sum(programmes.values()),'guide_countries':countries,'guide_errors':errors,'guide_coverage':[{'id':e['id'],'name':e['name'],'sources':e['sources'],'programmes':programmes[e['id']]} for e in ordered]}
+    summary.update(daily_channels=len(daily_ids),daily_omitted_without_upcoming_guide=daily_omitted)
     (OUT/'guide-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='guide_coverage'},ensure_ascii=False),flush=True)
 

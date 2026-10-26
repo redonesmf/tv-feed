@@ -1,6 +1,7 @@
 import collections,datetime as dt,json,pathlib,sys,xml.etree.ElementTree as ET
 from audit_sports import entries,public_url
 from supplement_guide import xmltime
+from daily_view import render_daily
 
 DATA=pathlib.Path(__file__).resolve().parents[1]/'data'
 
@@ -69,7 +70,13 @@ def validate(folder=DATA,playlist_name='p.m3u',guide_name='g.xml'):
  for spec,channel in zip(nfl_config,nfl_rows):
   expected='NFL game broadcasters' if spec['role']=='game broadcaster' else 'NFL news and replays'
   assert channel['attrs'].get('group-title')==expected, 'NFL news/replays incorrectly labelled as game coverage'
- result={'channels':len(channels),'channels_with_guide':len(covered),'programmes':len(programmes),'groups':sorted({e['attrs']['group-title'] for e in channels}),'validation':'passed'}
+ daily_name='Daily-TV.m3u' if playlist_name=='Sports-Checked.m3u' else 'daily.m3u'
+ expected_daily,daily_ids,omitted=render_daily(channels,upcoming,text.splitlines()[0])
+ daily_text=(folder/daily_name).read_text(encoding='utf-8')
+ assert daily_text==expected_daily, 'Daily TV changed configured order, labels, stream URLs, options or guide eligibility'
+ assert 25<=len(daily_ids)<=40, 'Daily TV must remain a useful 25-40 channel view'
+ assert {'BBCOne.uk@SD','BBCTwo.uk@HD','ITV1.uk@HD','Channel4.uk@HD','Channel5.uk@HD'}.issubset(daily_ids), 'Daily TV is missing a main UK channel'
+ result={'channels':len(channels),'channels_with_guide':len(covered),'programmes':len(programmes),'daily_channels':len(daily_ids),'daily_omitted_without_upcoming_guide':omitted,'groups':sorted({e['attrs']['group-title'] for e in channels}),'validation':'passed'}
  return result
 
 if __name__=='__main__':

@@ -18,7 +18,8 @@ def refresh(reuse_audit=False,guide_only=False):
  summary=json.loads((OUT/'guide-summary.json').read_text(encoding='utf-8'))
  status={k:v for k,v in summary.items() if k!='guide_coverage'}
  status.update(playlist_url='https://redonesmf.github.io/tv-feed/p.m3u',guide_url='https://redonesmf.github.io/tv-feed/g.xml',guide_only_playlist_url='https://redonesmf.github.io/tv-feed/guide.m3u',coverage_url='https://redonesmf.github.io/tv-feed/coverage.json',uk_playlist_url='https://redonesmf.github.io/tv-feed/uk.m3u',nfl_playlist_url='https://redonesmf.github.io/tv-feed/nfl.m3u',validation=result['validation'],source='iptv-org Sports and UK; manually decoded BBC/Sky and UK main-channel additions')
- for old,new in [('Sports-Checked.m3u','p.m3u'),('guide.xml','g.xml'),('Guide-Only.m3u','guide.m3u'),('coverage.json','coverage.json'),('UK-Main.m3u','uk.m3u'),('NFL-Watch.m3u','nfl.m3u')]:
+ status['daily_playlist_url']='https://redonesmf.github.io/tv-feed/daily.m3u'
+ for old,new in [('Sports-Checked.m3u','p.m3u'),('guide.xml','g.xml'),('Guide-Only.m3u','guide.m3u'),('coverage.json','coverage.json'),('UK-Main.m3u','uk.m3u'),('NFL-Watch.m3u','nfl.m3u'),('Daily-TV.m3u','daily.m3u')]:
   shutil.copyfile(OUT/old,DATA/(new+'.tmp'))
   (DATA/(new+'.tmp')).replace(DATA/new)
  (DATA/'status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')

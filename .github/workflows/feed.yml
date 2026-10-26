@@ -58,7 +58,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add data/p.m3u data/g.xml data/status.json data/guide.m3u data/coverage.json data/uk.m3u data/nfl.m3u
+          git add data/p.m3u data/g.xml data/status.json data/guide.m3u data/coverage.json data/uk.m3u data/nfl.m3u data/daily.m3u
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

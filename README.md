@@ -7,6 +7,7 @@ and developer debugging can remain disabled.
 - Playlist: https://redonesmf.github.io/tv-feed/p.m3u
 - Programme guide: https://redonesmf.github.io/tv-feed/g.xml
 - Status: https://redonesmf.github.io/tv-feed/status.json
+- Daily TV (smaller alternative): https://redonesmf.github.io/tv-feed/daily.m3u
 
 The playlist advertises its guide URL for automatic discovery. These URLs and
 the repository contents are publicly readable. No personal photos, account
@@ -106,6 +107,28 @@ the same g.xml EPG. It is an alternative import, not a required second playlist.
 Channel additions and group changes require a playlist reimport in free TiviMate.
 
 ## Maintenance
+
+### Daily TV
+
+`daily.m3u` selects up to 30 channels in four groups: UK TV (16), Football (4),
+NFL (6), Other Sports (4). The main five UK channels appear first. Channel 5
+stays in UK TV and can also carry NFL according to its guide. NFL Channel FAST
+retains its shows/scores/replays label; CBS Sports HQ retains its news label.
+Shared BBC feeds, More4 +1 and HD/SD names remain explicit.
+
+`config/daily-view.json` controls the stable order. Each refresh, including
+guide-only runs, generates this view from the full playlist's exact IDs, labels,
+URLs and HTTP options. Only selected channels with upcoming listings at build
+time appear; omissions are reported in `status.json`. Validation stops a publish
+if fewer than 25 remain or any main-five UK channel is missing. Last-good listings
+can still expire if updates stop; a playlist does not guarantee continuous media.
+
+The full `p.m3u` remains the complete backup, unchanged by Daily TV selection.
+Both use `g.xml`. On free TiviMate, switching to Daily TV requires replacing the
+current imported playlist with `daily.m3u`, not just updating the EPG. Record
+the current playlist URL and any local customizations first. To return to the
+full collection, import `p.m3u` again. No app-data clearing, factory reset,
+additional subscription or network-isolation change is required.
 
 Edit the extra-channel configuration only with public, verified source links.
 Run the Actions workflow to rebuild and publish. Channel-list changes require
