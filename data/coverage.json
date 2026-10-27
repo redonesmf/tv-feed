@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-27T13:23:22.740217+00:00",
+  "built_at": "2026-10-27T19:29:33.682655+00:00",
   "channels": [
     {
       "id": "BBCNews.uk@NorthAmerica",
@@ -8,7 +8,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 289,
+      "programmes": 273,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
@@ -22,7 +22,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 202,
+      "programmes": 192,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -34,7 +34,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 222,
+      "programmes": 209,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -46,7 +46,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 151,
+      "programmes": 147,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -58,7 +58,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 135,
+      "programmes": 131,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
@@ -72,7 +72,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 187,
+      "programmes": 180,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -84,7 +84,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 255,
+      "programmes": 239,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -96,7 +96,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 174,
+      "programmes": 168,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -108,7 +108,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 117,
+      "programmes": 112,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -120,7 +120,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 131,
+      "programmes": 125,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -132,7 +132,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 203,
+      "programmes": 193,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -144,7 +144,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 65,
+      "programmes": 63,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -156,7 +156,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 153,
+      "programmes": 147,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -168,7 +168,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 132,
+      "programmes": 127,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -180,7 +180,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 287,
+      "programmes": 272,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -192,7 +192,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 334,
+      "programmes": 326,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -204,7 +204,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 516,
+      "programmes": 501,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -216,7 +216,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 166,
+      "programmes": 162,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -228,7 +228,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 153,
+      "programmes": 146,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -240,7 +240,7 @@
         "Retained",
         "Extra"
       ],
-      "programmes": 102,
+      "programmes": 97,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -264,7 +264,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 141,
+      "programmes": 131,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -276,7 +276,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 102,
+      "programmes": 100,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -288,7 +288,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 240,
+      "programmes": 232,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
@@ -302,7 +302,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 149,
+      "programmes": 143,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -314,7 +314,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 283,
+      "programmes": 271,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -326,7 +326,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 236,
+      "programmes": 226,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -338,7 +338,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 71,
+      "programmes": 68,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -350,7 +350,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 134,
+      "programmes": 135,
       "on_now": true,
       "next_24h": true,
       "source": "roku",
@@ -364,7 +364,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 8,
+      "programmes": 10,
       "on_now": true,
       "next_24h": true,
       "source": "samsung",
@@ -378,7 +378,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 71,
+      "programmes": 68,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -404,7 +404,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 8,
+      "programmes": 9,
       "on_now": true,
       "next_24h": true,
       "source": "samsung",
@@ -418,7 +418,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 135,
+      "programmes": 127,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -430,7 +430,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 68,
+      "programmes": 62,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -442,7 +442,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 68,
+      "programmes": 64,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -454,7 +454,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 43,
+      "programmes": 42,
       "on_now": true,
       "next_24h": true,
       "source": "roku",
@@ -469,7 +469,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 47,
+      "programmes": 45,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -481,7 +481,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 242,
+      "programmes": 230,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -493,7 +493,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 205,
+      "programmes": 194,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
@@ -507,7 +507,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -519,7 +519,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 214,
+      "programmes": 208,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -531,7 +531,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 8,
+      "programmes": 26,
       "on_now": true,
       "next_24h": true,
       "source": "samsung",
@@ -546,7 +546,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 111,
+      "programmes": 105,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -558,7 +558,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 94,
+      "programmes": 91,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -570,7 +570,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 65,
+      "programmes": 63,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -582,7 +582,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 76,
+      "programmes": 72,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -594,7 +594,31 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 80,
+      "programmes": 76,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "DDSports.in@SD",
+      "name": "DD Sports (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 52,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "DDSports.in@HD",
+      "name": "DD Sports HD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 52,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -606,7 +630,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 100,
+      "programmes": 96,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -618,7 +642,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 115,
+      "programmes": 110,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -630,7 +654,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 140,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -642,7 +666,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 130,
+      "programmes": 125,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -654,7 +678,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 90,
+      "programmes": 84,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -666,7 +690,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 96,
+      "programmes": 91,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -678,7 +702,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 102,
+      "programmes": 99,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -690,7 +714,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 65,
+      "programmes": 61,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -702,7 +726,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 155,
+      "programmes": 147,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -714,7 +738,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 22,
+      "programmes": 18,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -726,7 +750,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 74,
+      "programmes": 71,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -738,7 +762,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 137,
+      "programmes": 131,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -750,7 +774,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 107,
+      "programmes": 101,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -762,7 +786,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 271,
+      "programmes": 260,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -774,7 +798,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 271,
+      "programmes": 260,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -786,7 +810,19 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 271,
+      "programmes": 260,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "InterTV.it@SD",
+      "name": "Inter TV (Italy) (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 90,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -798,7 +834,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 117,
+      "programmes": 113,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -810,7 +846,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 156,
+      "programmes": 147,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -822,7 +858,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 77,
+      "programmes": 73,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -834,7 +870,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 4,
+      "programmes": 3,
       "on_now": true,
       "next_24h": true,
       "source": "samsung",
@@ -848,7 +884,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 158,
+      "programmes": 152,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -860,7 +896,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 202,
+      "programmes": 196,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -872,7 +908,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 90,
+      "programmes": 82,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -884,7 +920,19 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 96,
+      "programmes": 92,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "StarSportsSelect1.in@HD",
+      "name": "Star Sports Select 1 HD (1080p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 128,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -896,7 +944,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 96,
+      "programmes": 94,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -908,7 +956,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 40,
+      "programmes": 37,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -920,7 +968,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 57,
+      "programmes": 55,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -932,7 +980,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 126,
+      "programmes": 117,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -944,7 +992,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 20,
+      "programmes": 14,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -956,7 +1004,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 125,
+      "programmes": 119,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -968,7 +1016,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 9,
+      "programmes": 8,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -980,7 +1028,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 111,
+      "programmes": 105,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -992,7 +1040,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 111,
+      "programmes": 105,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -1767,30 +1815,6 @@
       "source": null
     },
     {
-      "id": "DDSports.in@SD",
-      "name": "DD Sports (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 59,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "DDSports.in@HD",
-      "name": "DD Sports HD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 59,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
       "id": "DeporTV.ar@SD",
       "name": "DeporTV (1080p)",
       "source_labels": [
@@ -1969,18 +1993,6 @@
       "on_now": false,
       "next_24h": false,
       "source": null
-    },
-    {
-      "id": "InterTV.it@SD",
-      "name": "Inter TV (Italy) (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 93,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
     },
     {
       "id": "InTrouble.nl@SD",
@@ -2391,18 +2403,6 @@
       "source": null
     },
     {
-      "id": "StarSportsSelect1.in@HD",
-      "name": "Star Sports Select 1 HD (1080p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 150,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
       "id": "SuspilneSport.ua@SD",
       "name": "Suspilne. Sport (1080p)",
       "source_labels": [
@@ -2505,7 +2505,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 39,
+      "programmes": 35,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2517,7 +2517,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 102,
+      "programmes": 97,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2529,7 +2529,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 106,
+      "programmes": 101,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2541,7 +2541,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 84,
+      "programmes": 78,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2554,7 +2554,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 15,
+      "programmes": 12,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -2598,7 +2598,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 203,
+      "programmes": 197,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2610,7 +2610,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 267,
+      "programmes": 255,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2622,7 +2622,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2634,7 +2634,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 105,
+      "programmes": 99,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2646,7 +2646,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2658,7 +2658,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 109,
+      "programmes": 105,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2670,7 +2670,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 139,
+      "programmes": 133,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2682,7 +2682,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 49,
+      "programmes": 46,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2694,7 +2694,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 8,
+      "programmes": 7,
       "on_now": true,
       "next_24h": true,
       "source": "samsung",
@@ -2708,7 +2708,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2720,7 +2720,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 203,
+      "programmes": 198,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2732,7 +2732,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 213,
+      "programmes": 207,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2744,7 +2744,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 270,
+      "programmes": 258,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2756,7 +2756,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 77,
+      "programmes": 74,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2768,7 +2768,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 158,
+      "programmes": 151,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2780,7 +2780,19 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 100,
+      "programmes": 96,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "Eurosport.in@SD",
+      "name": "Eurosport (720p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 71,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2792,7 +2804,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 86,
+      "programmes": 82,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2804,7 +2816,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 221,
+      "programmes": 216,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2816,7 +2828,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 30,
+      "programmes": 28,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2828,7 +2840,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 167,
+      "programmes": 158,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2840,7 +2852,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 12,
+      "programmes": 11,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -2854,7 +2866,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 40,
+      "programmes": 38,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2880,7 +2892,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 181,
+      "programmes": 172,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2892,7 +2904,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 13,
+      "programmes": 14,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -2906,7 +2918,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 10,
+      "programmes": 11,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -2920,7 +2932,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 6,
+      "programmes": 7,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -2934,7 +2946,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 6,
+      "programmes": 7,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -2948,7 +2960,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 35,
+      "programmes": 34,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -2960,7 +2972,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 68,
+      "programmes": 66,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3389,18 +3401,6 @@
       "source": null
     },
     {
-      "id": "Eurosport.in@SD",
-      "name": "Eurosport (720p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 76,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
       "id": "FTFSports.us@SD",
       "name": "FTF Sports (720p)",
       "source_labels": [
@@ -3710,7 +3710,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 185,
+      "programmes": 180,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3722,7 +3722,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 286,
+      "programmes": 274,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
@@ -3736,7 +3736,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 197,
+      "programmes": 190,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3748,12 +3748,48 @@
         "UK",
         "Retained"
       ],
-      "programmes": 213,
+      "programmes": 207,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org",
       "guide_id": "UtsavBharat.uk",
       "reason": "Stream explicitly identifies UK Utsav Bharat"
+    },
+    {
+      "id": "SonySportsTen1.in@SD",
+      "name": "Sony Sports Ten 1 (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 167,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "SonySportsTen2.in@SD",
+      "name": "Sony Sports Ten 2 (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 135,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
+    },
+    {
+      "id": "StarSports2.in@SD",
+      "name": "Star Sports 2 (576p)",
+      "source_labels": [
+        "Sports",
+        "Retained"
+      ],
+      "programmes": 153,
+      "on_now": true,
+      "next_24h": true,
+      "source": "IPTV-EPG.org"
     },
     {
       "id": "OkkoFutbol.ru@SD",
@@ -3864,30 +3900,6 @@
       "source": null
     },
     {
-      "id": "SonySportsTen1.in@SD",
-      "name": "Sony Sports Ten 1 (576p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 173,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
-      "id": "SonySportsTen2.in@SD",
-      "name": "Sony Sports Ten 2 (576p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 141,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
       "id": "SonySportsTen3Hindi.in@SD",
       "name": "Sony Sports Ten 3 Hindi (576p)",
       "source_labels": [
@@ -3924,18 +3936,6 @@
       "source": null
     },
     {
-      "id": "StarSports2.in@SD",
-      "name": "Star Sports 2 (576p)",
-      "source_labels": [
-        "Sports",
-        "Retained"
-      ],
-      "programmes": 173,
-      "on_now": true,
-      "next_24h": true,
-      "source": "IPTV-EPG.org"
-    },
-    {
       "id": "vijuPlusSport.ru@SD",
       "name": "viju+ Sport (576p)",
       "source_labels": [
@@ -3954,7 +3954,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 136,
+      "programmes": 130,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3966,7 +3966,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3978,7 +3978,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 143,
+      "programmes": 137,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -3990,7 +3990,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 142,
+      "programmes": 136,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4038,7 +4038,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 157,
+      "programmes": 153,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4134,7 +4134,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 78,
+      "programmes": 75,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4146,7 +4146,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 22,
+      "programmes": 18,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4216,7 +4216,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 21,
+      "programmes": 20,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4230,7 +4230,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 15,
+      "programmes": 14,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4244,7 +4244,7 @@
         "UK",
         "Retained"
       ],
-      "programmes": 19,
+      "programmes": 18,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4286,7 +4286,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 34,
+      "programmes": 31,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4314,7 +4314,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 17,
+      "programmes": 21,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4328,7 +4328,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 130,
+      "programmes": 125,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4340,7 +4340,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 200,
+      "programmes": 194,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4352,7 +4352,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 14,
+      "programmes": 11,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4366,7 +4366,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 31,
+      "programmes": 28,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4378,7 +4378,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 59,
+      "programmes": 58,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4390,7 +4390,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 17,
+      "programmes": 21,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4404,7 +4404,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 10,
+      "programmes": 9,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4418,7 +4418,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 30,
+      "programmes": 23,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4432,7 +4432,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 20,
+      "programmes": 16,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4446,7 +4446,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 32,
+      "programmes": 36,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4516,7 +4516,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 6,
+      "programmes": 7,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4530,7 +4530,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 14,
+      "programmes": 13,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4558,7 +4558,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 20,
+      "programmes": 22,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4586,7 +4586,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 5,
+      "programmes": 8,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
@@ -4600,7 +4600,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 38,
+      "programmes": 35,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4612,7 +4612,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 12,
+      "programmes": 10,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4624,7 +4624,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 175,
+      "programmes": 168,
       "on_now": true,
       "next_24h": true,
       "source": "IPTV-EPG.org"
@@ -4636,7 +4636,7 @@
         "Sports",
         "Retained"
       ],
-      "programmes": 19,
+      "programmes": 18,
       "on_now": true,
       "next_24h": true,
       "source": "pluto",
