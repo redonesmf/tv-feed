@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-29T16:59:04.142356+00:00",
+  "built_at": "2026-10-29T21:52:50.089629+00:00",
   "source_candidates": 401,
   "playlist_channels": 401,
   "media_audit_performed": false,
@@ -13,10 +13,10 @@
   "uk_main_with_upcoming_listings": 16,
   "duplicates_removed": 0,
   "channels_with_programmes": 173,
-  "channels_with_current_programme": 173,
-  "channels_with_listings_next_24h": 173,
+  "channels_with_current_programme": 172,
+  "channels_with_listings_next_24h": 172,
   "supplemented_channels": 49,
-  "programme_count": 19025,
+  "programme_count": 18323,
   "guide_countries": [
     "gb",
     "us",
@@ -55,8 +55,8 @@
     "do",
     "bo",
     "rs",
-    "th",
-    "py"
+    "py",
+    "th"
   ],
   "guide_errors": [],
   "daily_channels": 30,
